@@ -1,0 +1,1527 @@
+format-version: 1.2
+date: 08:02:2011 08:45
+saved-by: mshimoyama
+auto-generated-by: OBO-Edit 2.0
+default-namespace: Measurement Methods Ontology
+data-version: 1.1
+
+[Term]
+id: MMO:0000000
+name: measurement method
+
+[Term]
+id: MMO:0000001
+name: electrical potential recording method
+def: "A method using the work per unit charge necessary to move a charge body in an electric field from a reference point to make or calculate the measurement of interest." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000002
+name: transthoracic echocardiography
+def: "Method of graphically recording position and motion of walls and internal structures of the heart and neighboring tissue through the echo obtained from beams of ultrasonic waves directed through the chest wall." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: " echocardiography " RELATED []
+synonym: "TTE" RELATED []
+synonym: "ultrasonic cardiography" RELATED []
+is_a: MMO:0000024 ! ultrasound method
+
+[Term]
+id: MMO:0000003
+name: electrocardiography
+def: "Non-invasive procedure for making graphic records of the variations in electrical potential caused by electrical activity of the heart muscle and detected at the body surface used to study the action of the heart muscle." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000001 ! electrical potential recording method
+
+[Term]
+id: MMO:0000004
+name: isolated body part method
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-06-29T08:03:34Z
+
+[Term]
+id: MMO:0000005
+name: weight measurement, post excision
+is_a: MMO:0000004 ! isolated body part method
+created_by: mshimoyama
+creation_date: 2010-06-29T08:03:50Z
+
+[Term]
+id: MMO:0000006
+name: post excision weight measurement, Shimadzu electronic balance AX-200
+is_a: MMO:0000005 ! weight measurement, post excision
+created_by: mshimoyama
+creation_date: 2010-06-29T03:39:00Z
+
+[Term]
+id: MMO:0000007
+name: tail cuff
+is_obsolete: true
+
+[Term]
+id: MMO:0000008
+name: photoplethysmography
+def: "A technique for assessing blood flow by placing an infrared emitting diode along with a sensor, on the surface of the skin over a blood vessel with the amount of light reflected back to the sensor being inversely proportional to the number of red blood cells flowing through the vessel." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000076 ! plethysmography
+
+[Term]
+id: MMO:0000009
+name: piezoplethysmography
+def: "A technique that utilizes piezoelectric ceramic crystals with a sensor for assessing blood flow by placing the apparatus on the skin above a blood vessel." [Kent:<new www.kentscientific.com]
+is_a: MMO:0000076 ! plethysmography
+
+[Term]
+id: MMO:0000010
+name: volume pressure recording
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000011
+name: indwelling catheter, vascular
+def: "A thin tube communicating to the body surface, inserted into the vascular system and positioned to permit measurements of blood flow, pressure or blood sampling over a period of time." [MedicalGlossary:www.medicalglossary.org]
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000012
+name: balloon tipped catheter, vascular
+def: "A catheter whose tip is provided with an inflatable balloon that holds the catheter in place or is used to dilate the lumen of a vessel." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000013 ! fluid filled catheter, vascular
+
+[Term]
+id: MMO:0000013
+name: fluid filled catheter, vascular
+def: "An intravascular catheter connected by a saline-filled tube to an external pressure transducer, often used to measure intravascular pressure." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000011 ! indwelling catheter, vascular
+
+[Term]
+id: MMO:0000014
+name: transducer tipped catheter, vascular
+is_a: MMO:0000011 ! indwelling catheter, vascular
+
+[Term]
+id: MMO:0000015
+name: radiotelemetry
+def: "A method in which a measurement is made at a distance from the organism or part of the organism with the measurable evidence being transmitted by radio signals from the organism to the recording apparatus." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000016
+name: body weighing method
+is_a: MMO:0000119 ! body measuring method
+
+[Term]
+id: MMO:0000017
+name: digital scale, whole body
+is_a: MMO:0000016 ! body weighing method
+
+[Term]
+id: MMO:0000018
+name: fluoroimmunoassay
+def: "A method for quantitative determination of chemical substances using a fluorochrome-labeled antibody or antigen." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000098 ! immunoassay
+created_by: mshimoyama
+creation_date: 2010-07-27T03:10:14Z
+
+[Term]
+id: MMO:0000019
+name: magnetic resonance imaging (MRI)
+def: "A method of visualizing soft tissues of the body by applying an external magnetic field that makes it possible to distinguish between hydrogen atoms in different environments." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "nuclear magnetic resonance imaging" RELATED []
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000020
+name: intravascular electromagnetic flow sensor
+is_a: MMO:0000011 ! indwelling catheter, vascular
+
+[Term]
+id: MMO:0000021
+name: laser Doppler flowmetry
+def: "A method to measure the rate of flow of liquids or gases using a laser beam in which the light is shifted by moving objects in the fluid in accordance with the Doppler effect and the scattered light is detected with a photodetector." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000022
+name: imaging method
+is_obsolete: true
+
+[Term]
+id: MMO:0000023
+name: electroencephalography (EEG)
+def: "A procedure that measures electrical potentials on the scalp generating a record of the electrical activity of the brain." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000001 ! electrical potential recording method
+
+[Term]
+id: MMO:0000024
+name: ultrasound method
+def: "A technique which uses the visualization of deep structures of the body by recording the reflections of pulses of ultrasonic waves directed into the tissues." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+
+[Term]
+id: MMO:0000025
+name: ultrasonic flowmeter with doppler
+def: "An ultrasound in which shifts in frequency between emitted ultrasonic waves and their echoes are used to measure the velocities of moving objects, primarily blood flow within vessels." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000024 ! ultrasound method
+
+[Term]
+id: MMO:0000026
+name: in vivo method
+is_a: MMO:0000000 ! measurement method
+
+[Term]
+id: MMO:0000027
+name: ex vivo method
+is_a: MMO:0000000 ! measurement method
+
+[Term]
+id: MMO:0000028
+name: isolated perfused heart method
+def: "In this method, the aorta is cannulated and the heart is perfused in a retrograde fashion." [AD instruments:<new dhttp\://www.adinstruments.com]
+synonym: "Langendorf" RELATED []
+is_a: MMO:0000082 ! isolated organ perfusion method
+
+[Term]
+id: MMO:0000029
+name: isolated perfused heart, balloon tipped catheter
+synonym: "Langendorf, balloon tipped catheter" RELATED []
+is_a: MMO:0000028 ! isolated perfused heart method
+
+[Term]
+id: MMO:0000030
+name: blood analysis
+def: "Determination of the component parts or elements of blood and their quantity or quality." [Dorlands:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+
+[Term]
+id: MMO:0000031
+name: standard blood chemistry panel
+is_obsolete: true
+
+[Term]
+id: MMO:0000032
+name: standard complete blood count (CBC) test, automated
+is_a: MMO:0000146 ! automated blood cell counter
+
+[Term]
+id: MMO:0000033
+name: arterial puncture
+def: "Extraction of blood from an artery using a needle.  In human the brachial and radial arteries are most commonly used." [Mosby:Mosby's Manual of Diagnostic and Laboratory Tests]
+is_a: MMO:0000097 ! blood draw method
+created_by: mshimoyama
+creation_date: 2010-06-25T11:23:35Z
+
+[Term]
+id: MMO:0000034
+name: rectal thermometer, digital
+def: "A thermometer that is inserted into the rectum of an organism to determine body temperature and which has a digital readout." [Dorland:Dorlands Illustrated Medical Dictionary]
+is_a: MMO:0000193 ! thermometer
+
+[Term]
+id: MMO:0000035
+name: basic metabolic panel (BMP)
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2010-01-05T03:50:37Z
+
+[Term]
+id: MMO:0000036
+name: comprehensive metabolic panel (CMP)
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2010-01-05T03:51:03Z
+
+[Term]
+id: MMO:0000037
+name: automated blood electrolyte analysis
+def: "Automated analysis of one or more electrolytes, substances which dissociate into ions, in the blood." [Dorland:Dorland Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000179 ! automated blood analysis
+created_by: mshimoyama
+creation_date: 2010-01-05T03:51:21Z
+
+[Term]
+id: MMO:0000038
+name: blood lipid analysis
+def: "A method to determine the level of one or more lipids, water insoluble fats and fat-like substances, in blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-01-05T03:51:38Z
+
+[Term]
+id: MMO:0000039
+name: liver panel
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2010-01-05T03:51:52Z
+
+[Term]
+id: MMO:0000040
+name: dynamometer
+def: "A method to measure the degree of force used in the contraction of a group of muscles." [MMD:Mosbys Medical Dictionary\, 8th Ed]
+synonym: "ergometer" RELATED []
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-01-05T03:52:16Z
+
+[Term]
+id: MMO:0000041
+name: electrocardiography, 12 lead
+def: "Non-invasive procedure for making graphic records of the variations in electrical potential caused by electrical activity of the heart using 3 bipolar limb leads, 3 augmented unipolar limb leads and 6 standard precordial leads. Primarily used with humans." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000003 ! electrocardiography
+created_by: mshimoyama
+creation_date: 2010-01-05T03:52:49Z
+
+[Term]
+id: MMO:0000042
+name: electrocardiography CM-5 lead
+is_a: MMO:0000003 ! electrocardiography
+created_by: mshimoyama
+creation_date: 2010-01-05T03:53:04Z
+
+[Term]
+id: MMO:0000043
+name: sphygmomanometer, oscillometric
+def: "A method for recording the movements, form and force of the arterial pulse in which the disappearance and reappearance of the pulse are indicated by an oscillating needle." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000201 ! sphygmomanometer
+created_by: mshimoyama
+creation_date: 2010-01-05T03:55:04Z
+
+[Term]
+id: MMO:0000044
+name: Colin STBP-780 automated blood pressure monitor
+is_a: MMO:0000043 ! sphygmomanometer, oscillometric
+created_by: mshimoyama
+creation_date: 2010-01-05T03:55:21Z
+
+[Term]
+id: MMO:0000045
+name: Colin STBP-780 automated blood pressure monitor, large adult cuff
+is_a: MMO:0000044 ! Colin STBP-780 automated blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:55:44Z
+
+[Term]
+id: MMO:0000046
+name: Colin STBP-780 automated blood pressure monitor, adult cuff
+is_a: MMO:0000044 ! Colin STBP-780 automated blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:56:09Z
+
+[Term]
+id: MMO:0000047
+name: Colin STBP-780 automated blood pressure monitor, child cuff
+is_a: MMO:0000044 ! Colin STBP-780 automated blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:56:37Z
+
+[Term]
+id: MMO:0000048
+name: Dinamap 1846 SX/P blood pressure monitor
+is_a: MMO:0000043 ! sphygmomanometer, oscillometric
+created_by: mshimoyama
+creation_date: 2010-01-05T03:57:09Z
+
+[Term]
+id: MMO:0000049
+name: Dinamap 1846 SX/P blood pressure monitor, large adult cuff
+is_a: MMO:0000048 ! Dinamap 1846 SX/P blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:57:48Z
+
+[Term]
+id: MMO:0000050
+name: Dinamap 1846 SX/P blood pressure monitor, adult cuff
+is_a: MMO:0000048 ! Dinamap 1846 SX/P blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:58:13Z
+
+[Term]
+id: MMO:0000051
+name: Dinamap 1846 SX/P blood pressure monitor, child cuff
+is_a: MMO:0000048 ! Dinamap 1846 SX/P blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-01-05T03:58:44Z
+
+[Term]
+id: MMO:0000052
+name: photoplethysmography, tail cuff
+def: "A technique for assessing blood flow by placing a diode that is part of a cuff that is placed on the skin over a blood vessel in the tail of a vertebrate with the amount of light reflected back to the sensor being inversely proportional to the number of red blood cells flowing through the vessel." [Dorland:Dorlands Illustrated Medical Dictionary]
+is_a: MMO:0000008 ! photoplethysmography
+created_by: mshimoyama
+creation_date: 2010-01-05T04:00:14Z
+
+[Term]
+id: MMO:0000053
+name: piezoplethysmography, tail cuff
+def: "A technique using piezoelectric crystals with a sensor to assess blood flow by placing it above a blood vessel in the tail of a vertebrate." [Kent:www.kentscientifc.com]
+is_a: MMO:0000009 ! piezoplethysmography
+created_by: mshimoyama
+creation_date: 2010-01-05T04:00:35Z
+
+[Term]
+id: MMO:0000054
+name: volume pressure recording, tail cuff
+is_a: MMO:0000010 ! volume pressure recording
+created_by: mshimoyama
+creation_date: 2010-01-05T04:01:07Z
+
+[Term]
+id: MMO:0000055
+name: sphygmomanometer, auscultatory
+def: "An instrument for indirect measurement of blood pressure consisting of an inflatable cuff that fits around a limb or tail and a bulb for controlling air pressure within the cuff and a mercury or aneroid manometer with assessment based on sounds heard through a stethoscope." [Mosby:Mosbys medical Dictionary 8th Ed]
+is_a: MMO:0000201 ! sphygmomanometer
+created_by: mshimoyama
+creation_date: 2010-01-05T04:01:42Z
+
+[Term]
+id: MMO:0000056
+name: sphygmomanometer, auscultatory, large adult cuff
+is_a: MMO:0000055 ! sphygmomanometer, auscultatory
+created_by: mshimoyama
+creation_date: 2010-01-05T04:02:01Z
+
+[Term]
+id: MMO:0000057
+name: sphygmomanometer, auscultatory, adult cuff
+is_a: MMO:0000055 ! sphygmomanometer, auscultatory
+created_by: mshimoyama
+creation_date: 2010-01-05T04:02:19Z
+
+[Term]
+id: MMO:0000058
+name: sphygmomanometer, auscultatory, child cuff
+is_a: MMO:0000055 ! sphygmomanometer, auscultatory
+created_by: mshimoyama
+creation_date: 2010-01-05T04:02:36Z
+
+[Term]
+id: MMO:0000059
+name: Dinamap 1846 SX/P blood pressure monitor, small adult cuff
+is_a: MMO:0000048 ! Dinamap 1846 SX/P blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-03-04T08:26:26Z
+
+[Term]
+id: MMO:0000060
+name: Dinamap 1846 SX/P blood pressure monitor, thigh cuff
+is_a: MMO:0000048 ! Dinamap 1846 SX/P blood pressure monitor
+created_by: mshimoyama
+creation_date: 2010-03-04T08:26:54Z
+
+[Term]
+id: MMO:0000061
+name: sphygmomanometer, auscultatory, small adult cuff
+is_a: MMO:0000055 ! sphygmomanometer, auscultatory
+created_by: mshimoyama
+creation_date: 2010-03-04T01:36:02Z
+
+[Term]
+id: MMO:0000062
+name: sphygmomanometer, auscultatory, thigh cuff
+is_a: MMO:0000055 ! sphygmomanometer, auscultatory
+created_by: mshimoyama
+creation_date: 2010-03-04T01:36:40Z
+
+[Term]
+id: MMO:0000063
+name: random zero sphygmomanometer
+is_a: MMO:0000201 ! sphygmomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:41:21Z
+
+[Term]
+id: MMO:0000064
+name: Hawksley random zero sphygomomanometer
+is_a: MMO:0000063 ! random zero sphygmomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:41:50Z
+
+[Term]
+id: MMO:0000065
+name: Hawksley random zero sphygomomanometer, adult cuff
+is_a: MMO:0000064 ! Hawksley random zero sphygomomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:42:19Z
+
+[Term]
+id: MMO:0000066
+name: Hawksley random zero sphygomomanometer, large adult cuff
+is_a: MMO:0000064 ! Hawksley random zero sphygomomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:42:41Z
+
+[Term]
+id: MMO:0000067
+name: Hawksley random zero sphygomomanometer, child cuff
+is_a: MMO:0000064 ! Hawksley random zero sphygomomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:43:05Z
+
+[Term]
+id: MMO:0000068
+name: Hawksley random zero sphygomomanometer, small adult cuff
+is_a: MMO:0000064 ! Hawksley random zero sphygomomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:43:28Z
+
+[Term]
+id: MMO:0000069
+name: Hawksley random zero sphygomomanometer, thigh cuff
+is_a: MMO:0000064 ! Hawksley random zero sphygomomanometer
+created_by: mshimoyama
+creation_date: 2010-03-04T01:43:59Z
+
+[Term]
+id: MMO:0000070
+name: intra-aortic abdominal radiotelemetric implant
+def: "An  measurement device implanted in the aorta or nearby region which transmits radio signals to a recording device." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000015 ! radiotelemetry
+created_by: mshimoyama
+creation_date: 2010-06-15T10:14:27Z
+
+[Term]
+id: MMO:0000071
+name: tonometry
+def: "Method to measure tension or pressure, often for intraocular pressure." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-06-15T10:22:33Z
+
+[Term]
+id: MMO:0000072
+name: bioimpedance method
+def: "Measurement of the opposition to the flow of an electrical current through a segment of tissue." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-06-15T10:23:06Z
+
+[Term]
+id: MMO:0000073
+name: radioimmunoassay
+def: "An assay that uses competition between radiolabeled and unlabeled substances in an antigen-antibody reaction to determine concentrations of a specific substance." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000098 ! immunoassay
+created_by: mshimoyama
+creation_date: 2010-07-27T03:10:57Z
+
+[Term]
+id: MMO:0000074
+name: thoracic electrical bioimpedance (TEB)
+def: "Measures the electrical resistance of the thorax to a high frequency, very low magnitude current" [Regence:blue.regence.com]
+synonym: "ICG" RELATED []
+synonym: "Impedance cardiography" RELATED []
+is_a: MMO:0000072 ! bioimpedance method
+is_a: MMO:0000076 ! plethysmography
+created_by: mshimoyama
+creation_date: 2010-06-15T12:12:45Z
+
+[Term]
+id: MMO:0000075
+name: enzyme linked immunosorbent assay (ELISA)
+def: "An enzyme immunoassay using enzyme labeled immunoreactant  (antigen or antibody) and an immunosorbent (antigen or antibody bound to a solid support." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "ELISA" RELATED [XX:<new dbxref> "Dorland's Illustrated Medical Dictionary"]
+is_a: MMO:0000098 ! immunoassay
+created_by: mshimoyama
+creation_date: 2010-07-27T03:12:27Z
+
+[Term]
+id: MMO:0000076
+name: plethysmography
+def: "A method for measuring and recording changes in the size and volume of organs and parts of the body by measuring changes in their blood volume or air volume." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-06-15T01:30:58Z
+
+[Term]
+id: MMO:0000077
+name: applanation tonometry
+def: "Method that infers intraocular pressure from force needed to flatten a constant area. In opthamology it measures the pressure from force needed to flatten an area of the cornea. In cardiac studies, it measures the changes in the elasticity of arteries." [APC:www.apccardiovascular.co.uk, wikipedia:en.wikipedia.org]
+is_a: MMO:0000071 ! tonometry
+created_by: mshimoyama
+creation_date: 2010-06-15T01:37:08Z
+
+[Term]
+id: MMO:0000078
+name: dynamic contour tonometry
+def: "A method that uses the principle of contour matching. In opthamology, miniature pressure sensor inside a tonometer tip which rests on the cornea with a constant force. Also used to measure variation in pressure during the cardiac cycle." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000071 ! tonometry
+created_by: mshimoyama
+creation_date: 2010-06-15T01:37:37Z
+
+[Term]
+id: MMO:0000079
+name: impression tonometry
+def: "Measures the depth of the impression produced by a small plunger carrying a known weight." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000071 ! tonometry
+created_by: mshimoyama
+creation_date: 2010-06-15T01:38:20Z
+
+[Term]
+id: MMO:0000080
+name: skin fold caliper method
+def: "A fold of skin is pinched raising a double layer of skin and the underlying adipose tissue with a caliper or compass with curved legs applied at right angles to the pinch for a measurement of thickness." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed, topendsports:<new dbxrwww.topendsports.com]
+is_a: MMO:0000159 ! caliper method
+created_by: mshimoyama
+creation_date: 2010-06-17T12:21:42Z
+
+[Term]
+id: MMO:0000081
+name: refractometry
+def: "Measures the concentration of a solution by computing the refractive index, the ratio of the speed of light in a vacuum relative to that speed through a given medium." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed, Encarta:Encarta World English Dictionary, ms:<new dbxref>]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-06-17T12:27:53Z
+
+[Term]
+id: MMO:0000082
+name: isolated organ perfusion method
+is_a: MMO:0000004 ! isolated body part method
+created_by: mshimoyama
+creation_date: 2010-06-23T08:33:49Z
+
+[Term]
+id: MMO:0000083
+name: isolated perfused lung method
+def: "The lung is placed in an artificial thoracic chamber and ventilated at negative pressure.  It is connected through a tracheal cannula to a pneumotachometer for measurement of respiratory flow." [Harvard Apparatus:http\://www.harvardapparatus.com]
+is_a: MMO:0000082 ! isolated organ perfusion method
+created_by: mshimoyama
+creation_date: 2010-06-23T08:35:43Z
+
+[Term]
+id: MMO:0000084
+name: isolated perfused liver method
+is_a: MMO:0000082 ! isolated organ perfusion method
+created_by: mshimoyama
+creation_date: 2010-06-23T08:44:58Z
+
+[Term]
+id: MMO:0000085
+name: isolated perfused kidney method
+is_a: MMO:0000082 ! isolated organ perfusion method
+created_by: mshimoyama
+creation_date: 2010-06-23T08:45:20Z
+
+[Term]
+id: MMO:0000086
+name: balance beam platform medical scale
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-23T09:22:23Z
+
+[Term]
+id: MMO:0000087
+name: sliding weight scale
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-23T09:23:25Z
+
+[Term]
+id: MMO:0000088
+name: digital column scale
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-23T09:23:42Z
+
+[Term]
+id: MMO:0000089
+name: height scale
+is_a: MMO:0000119 ! body measuring method
+created_by: mshimoyama
+creation_date: 2010-06-23T09:26:22Z
+
+[Term]
+id: MMO:0000090
+name: venipuncture
+def: "Extraction of blood from a vein using a needle. In human, the basilic, cephalic and median cubital veins are most commonly used as well as the femoral vein." [Mosby:<new dMosby's Manual of Daignostic and Laboratory Tests]
+is_a: MMO:0000097 ! blood draw method
+created_by: mshimoyama
+creation_date: 2010-06-25T11:23:47Z
+
+[Term]
+id: MMO:0000091
+name: hydrostatic weighing method
+def: "A method in which the subject's weight is measured in air and underwater to determine density of the body and from that calculate percentage body fat. In general the subject sits in a specialized weighing chair and is lowered into a tank of water after expelling all air from the lungs and once all body parts are submerged, the weight is taken. The general formula is the density of the body divided by the density of the water is equal to the weight of the body in air divided by the weight of the body in air minus the weight of the immersed body." [wikipedia:http\://en.wikipedia.org/wiki/Hydrostatic_weighing]
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-23T09:55:48Z
+
+[Term]
+id: MMO:0000092
+name: ultrasonic flowmeter with pulsed wave doppler
+def: "Doppler ultrasonography in which a single trnasducer alternately transmits and records ultrasonic waves, primarily used to assess blood flow within vessels." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000025 ! ultrasonic flowmeter with doppler
+created_by: mshimoyama
+creation_date: 2010-07-27T03:40:43Z
+
+[Term]
+id: MMO:0000093
+name: skin puncture
+def: "Extraction of blood from skin. In human, fingertips, earlobes and heels are common sites." [Mosby:Mosby's Manual of Diagnostic and Laboratory Tests]
+synonym: "capillary puncture" RELATED []
+is_a: MMO:0000097 ! blood draw method
+created_by: mshimoyama
+creation_date: 2010-06-25T11:24:00Z
+
+[Term]
+id: MMO:0000094
+name: spirometry
+def: "Use of a precision differential pressure transducer for measuring the volume of air inspired and expired by the lungs." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-06-23T10:42:40Z
+
+[Term]
+id: MMO:0000095
+name: hand dynamometer
+def: "Measures the grip strength of the hand muscles." [MMD:Mosbys Medical Dictionary\, 8th Edition]
+synonym: "squeeze dynamometer" RELATED []
+is_a: MMO:0000040 ! dynamometer
+created_by: mshimoyama
+creation_date: 2010-06-23T10:47:36Z
+
+[Term]
+id: MMO:0000096
+name: stationary bicycle dynamometer
+def: "Apparatus for measuring the muscular, metabolic , and respiratory effects of exercise." [DMD:Dorlands Medical Dictionary\, 2007]
+synonym: "bicycle ergometer" RELATED []
+is_a: MMO:0000040 ! dynamometer
+created_by: mshimoyama
+creation_date: 2010-06-23T10:50:47Z
+
+[Term]
+id: MMO:0000097
+name: blood draw method
+def: "Method for withdrawing blood from an organism." [MS:ms]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-06-25T11:22:39Z
+
+[Term]
+id: MMO:0000098
+name: immunoassay
+def: "A method for  quantitative determination of chemical substances using specific binding between antigen or hapten and homologous antibodies." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-06-25T12:09:56Z
+
+[Term]
+id: MMO:0000099
+name: thrombelastometry
+def: "A pin is suspended in a blood sample and oscillates creating a signal transmitted through an optical detector system which graphs changes in elasticity of the development and resolution of a blood clot." [wikipedia:http\://en.wikipedia.org/wiki/Thromboelastometry]
+synonym: "rotational thrombelastography" RELATED []
+synonym: "TEM" RELATED []
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-06-25T12:49:15Z
+
+[Term]
+id: MMO:0000100
+name: gel electrophoresis
+def: "Separation of ionic solutes based on differences in rate of migration in an applied electric field using gel as the support medium" [Dorland:Dorlands illustrated Medical Dictionary]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-06-25T01:04:03Z
+
+[Term]
+id: MMO:0000101
+name: baby weighing scale, pan type
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-25T02:01:54Z
+
+[Term]
+id: MMO:0000102
+name: baby weighing scale, spring type
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-25T02:02:24Z
+
+[Term]
+id: MMO:0000103
+name: baby weighing scale, beam type
+is_a: MMO:0000016 ! body weighing method
+created_by: mshimoyama
+creation_date: 2010-06-25T02:02:39Z
+
+[Term]
+id: MMO:0000104
+name: digital stadiometer
+def: "A device for measuring height with a digital readout." [MS:ms]
+is_a: MMO:0000089 ! height scale
+created_by: mshimoyama
+creation_date: 2010-06-25T02:05:53Z
+
+[Term]
+id: MMO:0000105
+name: mechanical stadiometer
+def: "A device for measuring height consisting of a vertical ruler with sliding horizontal rod." [Merriam-Webster:www.merriam_webster.com]
+is_a: MMO:0000089 ! height scale
+created_by: mshimoyama
+creation_date: 2010-06-25T02:06:54Z
+
+[Term]
+id: MMO:0000106
+name: ultrasonic flowmeter with continuous wave doppler
+def: "Doppler ultrasonography using two transducers, with one continually transmitting and the other continually recording the ultrasonic waves, primarily used to assess blood flow within vessels." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000025 ! ultrasonic flowmeter with doppler
+created_by: mshimoyama
+creation_date: 2010-07-27T03:41:02Z
+
+[Term]
+id: MMO:0000107
+name: HP Sonos 5500 echo ultrasound
+is_a: MMO:0000002 ! transthoracic echocardiography
+created_by: mshimoyama
+creation_date: 2010-07-27T04:03:03Z
+
+[Term]
+id: MMO:0000108
+name: transesophageal echocardiography
+def: "Echocariography using a fiberoptic endoscope in the esophagus to provide two dimensional images" [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000024 ! ultrasound method
+created_by: mshimoyama
+creation_date: 2010-07-27T04:05:57Z
+
+[Term]
+id: MMO:0000109
+name: microscopy
+def: "Examination or observation of material using a microscope." [Dorland:Dorland's Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-07-27T04:26:49Z
+
+[Term]
+id: MMO:0000110
+name: electron microscopy
+def: "Examination or observation of material through a microscope using beams of electrons to produce magnified images." [Answers.com:<new dAnswers\,com]
+is_a: MMO:0000109 ! microscopy
+created_by: mshimoyama
+creation_date: 2010-07-27T04:28:48Z
+
+[Term]
+id: MMO:0000111
+name: light microscopy
+def: "Examination or observation of material through a microscope using light to produce magnified images." [Answers.com:Answers.com]
+is_a: MMO:0000109 ! microscopy
+created_by: mshimoyama
+creation_date: 2010-07-27T04:33:09Z
+
+[Term]
+id: MMO:0000112
+name: blood glucose analysis
+def: "A method to determine the level of glucose, the end product of carbohydrate metabolism, in the blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-08-05T01:55:51Z
+
+[Term]
+id: MMO:0000113
+name: oral glucose tolerance test (OGTT)
+def: "A test in which glucose is given orally, often in solution, and blood samples taken afterward at specific time interval(s) to determine how quickly it is cleared from the blood." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000204 ! glucose tolerance test
+created_by: mshimoyama
+creation_date: 2010-08-05T01:56:02Z
+
+[Term]
+id: MMO:0000114
+name: fasting blood glucose test (FBG)
+def: "Measures blood glucose levels after individual has fasted for specified period of time." [Keogh:Nursing Lab and Diagnostic Tests Demystified 2010]
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2010-08-05T01:59:07Z
+
+[Term]
+id: MMO:0000115
+name: random blood glucose test (RBG)
+def: "Measures blood glucose level one or more times a day regardless of food intake." [Keogh:Nursing Lab and Diagnostic Tests Demystified]
+synonym: "non-fasting blood glucose test" RELATED []
+is_a: MMO:0000112 ! blood glucose analysis
+created_by: mshimoyama
+creation_date: 2010-08-05T02:00:39Z
+
+[Term]
+id: MMO:0000116
+name: Health-O-Meter balance beam Scale
+is_a: MMO:0000086 ! balance beam platform medical scale
+created_by: mshimoyama
+creation_date: 2010-08-05T02:04:58Z
+
+[Term]
+id: MMO:0000117
+name: Detecto balance beam scale
+is_a: MMO:0000086 ! balance beam platform medical scale
+created_by: mshimoyama
+creation_date: 2010-08-05T02:07:21Z
+
+[Term]
+id: MMO:0000118
+name: Harpenden skin fold caliper
+def: "A caliper with a dial gauge for measuring skin folds or girth measurements of small joints manufactured by Baty." [skinfold:skinfold-caliper.com]
+is_a: MMO:0000191 ! dial caliper method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:08:15Z
+
+[Term]
+id: MMO:0000119
+name: body measuring method
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:08:38Z
+
+[Term]
+id: MMO:0000120
+name: anthropometric tape
+def: "A tape of cloth, paper, metal or other materials marked off in a linear scale for taking measurements." [Merriam-Webster:www.merriam-webster.com]
+is_a: MMO:0000119 ! body measuring method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:09:03Z
+
+[Term]
+id: MMO:0000121
+name: fiberglass anthropometric tape, Grafco
+is_a: MMO:0000120 ! anthropometric tape
+created_by: mshimoyama
+creation_date: 2010-08-05T02:09:22Z
+
+[Term]
+id: MMO:0000122
+name: Lange skin fold caliper
+def: "A caliper with a dial for measuring the thickness of skin folds, manufactured by Beta." [Beta:www.beta-technology.com]
+is_a: MMO:0000191 ! dial caliper method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:10:07Z
+
+[Term]
+id: MMO:0000123
+name: Lafayette small anthropometer
+def: "An instrument for measuring dimensions of a body often consisting of a calibrated, vertical rod to which one fixed and one movable horizontal arms are attached." [Infoplease:http\://dictionary.infoplease.com]
+is_a: MMO:0000119 ! body measuring method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:11:34Z
+
+[Term]
+id: MMO:0000124
+name: radiography
+def: "Using X-rays or gamma rays to create records of the internal structures of a body." [Dorland:Dorlands Illustrated Medical Dictionary]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-08-05T02:16:01Z
+
+[Term]
+id: MMO:0000125
+name: serial radiography
+def: "Radiographic method involving multiple records of selected area at intervals." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000124 ! radiography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:16:57Z
+
+[Term]
+id: MMO:0000126
+name: electron radiography
+def: "Technique in which a latent electron image is produce on clear plastic by passing X-ray photons through a gas with a high atomic number." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000124 ! radiography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:18:57Z
+
+[Term]
+id: MMO:0000127
+name: tomography
+def: "Recording of internal body images at a predetermined plane using an apparatus for moving an X-ray source in one direction as the film is moved in the opposite direction." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000124 ! radiography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:20:57Z
+
+[Term]
+id: MMO:0000128
+name: computerized axial tomography (CAT)
+def: "Tomography in which the emergent S-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section on a cathode ray tube." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "CAT scan" RELATED []
+synonym: "CT scan" RELATED []
+is_a: MMO:0000127 ! tomography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:24:12Z
+
+[Term]
+id: MMO:0000129
+name: positron emission tomography (PET)
+def: "Detection of gamma rays emitted from tissues after administration of natural biochemical substance into which positron emitting isotopes have been incorporated. The paths of the gamma rays resulting from collision of positrons and electrons are interpreted by a computer to form a representation of local concentrations of the isotope-containing substance." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "PET scan" RELATED []
+is_a: MMO:0000127 ! tomography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:27:10Z
+
+[Term]
+id: MMO:0000130
+name: air displacement plethysmography
+def: "Fiberglass chamber incorporating an electronic scale and air volume measurement device to record air volume when the chamber is empty and when an individual is seated inside." [Life Measurement:www.bodpod.com]
+synonym: "BodPod" RELATED []
+is_a: MMO:0000076 ! plethysmography
+created_by: mshimoyama
+creation_date: 2010-08-05T02:31:44Z
+
+[Term]
+id: MMO:0000131
+name: Seritex stadiometer
+is_a: MMO:0000105 ! mechanical stadiometer
+created_by: mshimoyama
+creation_date: 2010-08-05T02:35:08Z
+
+[Term]
+id: MMO:0000132
+name: serum total cholesterol measurement test
+def: "Determines total amount of low-density lipoprotein and high-density lipoprotein in volume of serum drawn from a vein." [Mosby:Mosby's Manual of Diagnostic and Laboratory Tests]
+is_a: MMO:0000167 ! blood lipoprotein test
+created_by: mshimoyama
+creation_date: 2010-09-01T08:35:54Z
+
+[Term]
+id: MMO:0000133
+name: serum high-density cholesterol measurement test
+is_a: MMO:0000167 ! blood lipoprotein test
+created_by: mshimoyama
+creation_date: 2010-09-01T08:42:25Z
+
+[Term]
+id: MMO:0000134
+name: serum low-density cholesterol measurement test
+is_a: MMO:0000167 ! blood lipoprotein test
+created_by: mshimoyama
+creation_date: 2010-09-01T09:08:58Z
+
+[Term]
+id: MMO:0000135
+name: serum very low-density cholesterol measurement test
+is_a: MMO:0000167 ! blood lipoprotein test
+created_by: mshimoyama
+creation_date: 2010-09-01T09:09:19Z
+
+[Term]
+id: MMO:0000136
+name: serum triglyceride measurement test
+is_a: MMO:0000038 ! blood lipid analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:10:19Z
+
+[Term]
+id: MMO:0000137
+name: serum ionized calcium test, automated
+def: "Automated determination of the level of ionized calcium in serum." [MS:ms]
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:13:33Z
+
+[Term]
+id: MMO:0000138
+name: serum non-ionized calcium test, automated
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:13:53Z
+
+[Term]
+id: MMO:0000139
+name: serum magnesium test, automated
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:14:47Z
+
+[Term]
+id: MMO:0000140
+name: serum phosphate test, automated
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:15:50Z
+
+[Term]
+id: MMO:0000141
+name: serum potassium test, automated
+def: "Automated analysis to determine the level of potassium ions in serum." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:16:34Z
+
+[Term]
+id: MMO:0000142
+name: serum sodium test, automated
+def: "Automated analysis to determine the level of sodium ions in serum." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:17:26Z
+
+[Term]
+id: MMO:0000143
+name: serum chloride test, automated
+def: "An automated analysis to determine the level of chloride ions in serum." [Dorland:Dorlands Illustrated Medical Dictionary]
+is_a: MMO:0000037 ! automated blood electrolyte analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T09:17:36Z
+
+[Term]
+id: MMO:0000144
+name: total white blood cell count test, automated
+is_a: MMO:0000146 ! automated blood cell counter
+created_by: mshimoyama
+creation_date: 2010-09-01T09:32:59Z
+
+[Term]
+id: MMO:0000145
+name: differential white blood cell count test, automated
+is_a: MMO:0000146 ! automated blood cell counter
+created_by: mshimoyama
+creation_date: 2010-09-01T09:33:13Z
+
+[Term]
+id: MMO:0000146
+name: automated blood cell counter
+def: "An examination of one or more of the cell types in blood to determine quantitative  properties using an automated analyzer." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000174 ! automated hematology analyzer
+created_by: mshimoyama
+creation_date: 2010-09-01T09:38:02Z
+
+[Term]
+id: MMO:0000147
+name: urine analysis
+def: "Determination of the component parts or elments of urine and their quantity or quality." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-09-01T09:58:30Z
+
+[Term]
+id: MMO:0000148
+name: urine amylase test strip, manually read
+def: "A reagent test strip which measures the quantity of amylase, an enzyme produced primarily in the pancreas, in urine and visually matched against a score chart." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T09:59:53Z
+
+[Term]
+id: MMO:0000149
+name: urine cortisol test strip, manually read
+def: "A reagent test strip which measures the amount of cortisol, the major natural glucocorticoid synthesized in the adrenal cortex, in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:00:19Z
+
+[Term]
+id: MMO:0000150
+name: urine glucose test strip, manually read
+def: "A reagent strip that measures the amount of glucose in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:00:57Z
+
+[Term]
+id: MMO:0000151
+name: urine microalbumin test strip, manually read
+def: "A reagent strip which measures the amount of microalbumin in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:01:23Z
+
+[Term]
+id: MMO:0000152
+name: urine osmolality test
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2010-09-01T10:02:23Z
+
+[Term]
+id: MMO:0000153
+name: urine potassium test strip, manually read
+def: "A reagent strip which measures the amount of potassium in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:02:43Z
+
+[Term]
+id: MMO:0000154
+name: urine sodium test strip, manually read
+def: "A reagent strip which measures the amount of sodium in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:03:07Z
+
+[Term]
+id: MMO:0000155
+name: blood uric acid test
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-09-01T10:03:46Z
+
+[Term]
+id: MMO:0000156
+name: urine uric acid test strip, manually read
+def: "A reagent strip that measures the amount of uric acid, the end product of purine catabolism, in urine and visually matched against a score chart." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000181 ! urine test strip, manually read
+created_by: mshimoyama
+creation_date: 2010-09-01T10:05:52Z
+
+[Term]
+id: MMO:0000157
+name: post excision weight measurement, digital scale
+is_a: MMO:0000005 ! weight measurement, post excision
+created_by: mshimoyama
+creation_date: 2010-10-08T02:08:28Z
+
+[Term]
+id: MMO:0000158
+name: manual palpitation method
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-11-01T11:21:03Z
+
+[Term]
+id: MMO:0000159
+name: caliper method
+def: "A method to measure the thickness or diameter of a solid using a compass with bent or curved legs." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-11-01T11:22:45Z
+
+[Term]
+id: MMO:0000160
+name: unspecified method
+def: "Method was not specified in source of data." [ms:ms]
+is_a: MMO:0000000 ! measurement method
+created_by: mshimoyama
+creation_date: 2010-11-01T11:26:15Z
+
+[Term]
+id: MMO:0000161
+name: isolated tissue method
+is_a: MMO:0000004 ! isolated body part method
+created_by: mshimoyama
+creation_date: 2010-11-01T12:38:01Z
+
+[Term]
+id: MMO:0000162
+name: visual assessment, ex vivo
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2010-11-01T12:39:05Z
+
+[Term]
+id: MMO:0000163
+name: visual assessment, in vivo
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2010-11-01T12:39:26Z
+
+[Term]
+id: MMO:0000164
+name: intraperitoneal glucose tolerance test (IPGTT)
+def: "A test in which glucose is injected into the peritoneal cavity and blood samples taken afterward at specified interval(s) to determine how quickly it is cleared from the blood." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000204 ! glucose tolerance test
+created_by: mshimoyama
+creation_date: 2010-11-08T09:32:54Z
+
+[Term]
+id: MMO:0000165
+name: electro-chemical glucometer
+def: "An automated device that calculates glucose levels in blood." [American Heritage:<newAmerican Heritage Medical Dictionary]
+is_a: MMO:0000112 ! blood glucose analysis
+created_by: mshimoyama
+creation_date: 2010-11-10T02:37:57Z
+
+[Term]
+id: MMO:0000166
+name: blood protein analysis
+def: "A method to determine the level of one or more proteins, complex organic compounds, in blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-11-12T09:50:34Z
+
+[Term]
+id: MMO:0000167
+name: blood lipoprotein test
+is_a: MMO:0000166 ! blood protein analysis
+created_by: mshimoyama
+creation_date: 2010-11-12T09:51:09Z
+
+[Term]
+id: MMO:0000168
+name: automated creatinine autoanalyzer
+is_a: MMO:0000179 ! automated blood analysis
+created_by: mshimoyama
+creation_date: 2010-11-15T08:10:07Z
+
+[Term]
+id: MMO:0000169
+name: standard blood chemistry panel
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2010-11-15T08:32:38Z
+
+[Term]
+id: MMO:0000170
+name: osmometery
+def: "Method for measuring the osmolality or concentration of particles in a solution." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2011-01-31T03:41:08Z
+
+[Term]
+id: MMO:0000171
+name: urine test strip
+def: "A strip or dipstick commonly made up of plastic foil with paper impregnated with reagents which will react with elements of the urine to provide data on levels of these elements." [Chronolab:www.diagnosticsample.com]
+is_a: MMO:0000147 ! urine analysis
+created_by: mshimoyama
+creation_date: 2011-01-31T03:47:01Z
+
+[Term]
+id: MMO:0000172
+name: spectrometry
+def: "Method for measuring the index of refraction by measuring the external angle of a prism of a substance." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000081 ! refractometry
+created_by: mshimoyama
+creation_date: 2011-01-31T04:01:15Z
+
+[Term]
+id: MMO:0000173
+name: spectrophotometry
+def: "Method for estimating the quantity of coloring matter in solution by the quantity of light absorbed in passing through the solution." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000027 ! ex vivo method
+created_by: mshimoyama
+creation_date: 2011-01-31T04:03:07Z
+
+[Term]
+id: MMO:0000174
+name: automated hematology analyzer
+def: "An automated device used to analyze the physical or chemical characteristics of a sample of blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000179 ! automated blood analysis
+created_by: mshimoyama
+creation_date: 2011-02-01T08:09:57Z
+
+[Term]
+id: MMO:0000175
+name: automated blood gas autoanalyzer
+def: "Automated device for measuring levels of oxygen, carbon dioxide, carbon monoxide and nitrogen in blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000179 ! automated blood analysis
+created_by: mshimoyama
+creation_date: 2011-02-01T08:15:28Z
+
+[Term]
+id: MMO:0000176
+name: blood glucose test strip, manually read
+def: "A test strip or dipstick which contains a reagent that reacts with glucose in blood and which is manually read." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000189 ! blood glucose test strip
+created_by: mshimoyama
+creation_date: 2011-02-01T08:31:53Z
+
+[Term]
+id: MMO:0000177
+name: automated urine analysis
+def: "Use of an automated device for measuring the physical and chemical characteristics of urine." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000147 ! urine analysis
+created_by: mshimoyama
+creation_date: 2011-02-01T08:34:34Z
+
+[Term]
+id: MMO:0000178
+name: automated coagulometer
+def: "An automated device that measures the ability of blood to clot by performing any of several tests." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000174 ! automated hematology analyzer
+created_by: mshimoyama
+creation_date: 2011-02-01T08:43:39Z
+
+[Term]
+id: MMO:0000179
+name: automated blood analysis
+def: "Method using automated device  to measure the physical or chemical characteristics of blood." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000030 ! blood analysis
+created_by: mshimoyama
+creation_date: 2011-02-01T09:02:57Z
+
+[Term]
+id: MMO:0000180
+name: urine test strip, machine read
+def: "A test strip or dipstick containing reagents in various areas which will react with elements in urine and read by an automated analyzer to determine the levels of these elements." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000171 ! urine test strip
+created_by: mshimoyama
+creation_date: 2011-02-01T09:28:00Z
+
+[Term]
+id: MMO:0000181
+name: urine test strip, manually read
+def: "A test strip or dipstick containing reagents in various areas which will react with elements in urine to determine levels of these elements and visually matched against a score chart." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000171 ! urine test strip
+created_by: mshimoyama
+creation_date: 2011-02-01T09:28:26Z
+
+[Term]
+id: MMO:0000182
+name: urine amylase test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:46:42Z
+
+[Term]
+id: MMO:0000183
+name: urine glucose test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:47:05Z
+
+[Term]
+id: MMO:0000184
+name: urine cortisol test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:47:37Z
+
+[Term]
+id: MMO:0000185
+name: urine microalbumin test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:47:55Z
+
+[Term]
+id: MMO:0000186
+name: urine sodium test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:48:14Z
+
+[Term]
+id: MMO:0000187
+name: urine potassium test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:48:28Z
+
+[Term]
+id: MMO:0000188
+name: urine uric acid test strip, machine read
+is_a: MMO:0000180 ! urine test strip, machine read
+created_by: mshimoyama
+creation_date: 2011-02-01T09:48:46Z
+
+[Term]
+id: MMO:0000189
+name: blood glucose test strip
+def: "A test strip or dipstick containing a reagent which reacts with glucose in blood." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000112 ! blood glucose analysis
+created_by: mshimoyama
+creation_date: 2011-02-01T01:51:37Z
+
+[Term]
+id: MMO:0000190
+name: blood glucose test strip, machine read
+def: "A strip or dipstick containing a reagent which reacts with glucose in blood and is read by an automated analyzer." [Mosby:Mosbys Manual of Diagnostic and Laboratory Tests 4th Ed]
+is_a: MMO:0000189 ! blood glucose test strip
+created_by: mshimoyama
+creation_date: 2011-02-01T01:52:01Z
+
+[Term]
+id: MMO:0000191
+name: dial caliper method
+def: "Method to measure thickness using a caliper with dial and arrow that points to the reading." [skinfold:skinfold-caliper.com]
+is_a: MMO:0000080 ! skin fold caliper method
+created_by: mshimoyama
+creation_date: 2011-02-03T08:44:11Z
+
+[Term]
+id: MMO:0000192
+name: digital caliper method
+def: "A caliper for measuring skin fold thickness with a digital readout and computation of percent body fat." [formulamedical:www.formulamedical.com]
+is_a: MMO:0000080 ! skin fold caliper method
+created_by: mshimoyama
+creation_date: 2011-02-03T08:46:54Z
+
+[Term]
+id: MMO:0000193
+name: thermometer
+def: "An instrument with a defined scale for determining temperature, degree of heat or cold, of an object or individual or portion of an individual's body." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2011-02-03T08:51:50Z
+
+[Term]
+id: MMO:0000194
+name: rectal thermometer, manual
+def: "A thermometer which is inserted into the rectum of an organism in order to measure body temperature and which is manually read." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000193 ! thermometer
+created_by: mshimoyama
+creation_date: 2011-02-03T08:57:06Z
+
+[Term]
+id: MMO:0000195
+name: oral thermometer, manual
+def: "A thermometer which is inserted into the mouth of an organism, most commonly under the tongue, used to measure body temperature and which is manually read." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000193 ! thermometer
+created_by: mshimoyama
+creation_date: 2011-02-03T08:58:41Z
+
+[Term]
+id: MMO:0000196
+name: oral thermometer, digital
+def: "A thermometer which is placed in the mouth of an organism, most commonly under the tongue, to measure body temperature and which has a digital readout." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000193 ! thermometer
+created_by: mshimoyama
+creation_date: 2011-02-03T08:59:53Z
+
+[Term]
+id: MMO:0000197
+name: 
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2011-02-03T02:53:13Z
+
+[Term]
+id: MMO:0000198
+name: doppler ultrasound
+def: "Technique using visualization of deep structures of the body by recording the reflections of pulses of ultrasonic waves directed into the tissues. It uses the shifts in frequency between emitted ultrasonic waves and their echoes to measure the velocities of moving objects." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000024 ! ultrasound method
+created_by: mshimoyama
+creation_date: 2011-02-03T04:26:58Z
+
+[Term]
+id: MMO:0000199
+name: doppler ultrasound, continuous wave
+def: "Doppler ultrasonography using two transducers, with one continuously transmitting and the other continuously recording the ultrasonic waves." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000198 ! doppler ultrasound
+created_by: mshimoyama
+creation_date: 2011-02-04T08:14:56Z
+
+[Term]
+id: MMO:0000200
+name: doppler ultrasound, pulsed wave
+def: "Doppler ultrasonography in which a single transducer alternately transmits and records ultrasonic waves." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: MMO:0000198 ! doppler ultrasound
+created_by: mshimoyama
+creation_date: 2011-02-04T08:17:22Z
+
+[Term]
+id: MMO:0000201
+name: sphygmomanometer
+is_a: MMO:0000026 ! in vivo method
+created_by: mshimoyama
+creation_date: 2011-02-04T10:23:09Z
+
+[Term]
+id: MMO:0000202
+name: encephalography
+def: "Radiography demonstrating the intracranial fluid-containing spaces after the withdrawal of cerebrospinal fluid and the introduction of air or other gas." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "air encephalography" RELATED []
+is_a: MMO:0000124 ! radiography
+created_by: mshimoyama
+creation_date: 2011-02-04T02:41:46Z
+
+[Term]
+id: MMO:0000203
+name: pneumoencephalography (PEG)
+def: "Radiographic visualization of the fluid containing structure of the brain after cerebrospinal fluid is intermittently withdrawn by lumbar puncture and replaced by" []
+is_obsolete: true
+created_by: mshimoyama
+creation_date: 2011-02-04T02:44:37Z
+
+[Term]
+id: MMO:0000204
+name: glucose tolerance test
+def: "A test in which glucose is given and blood samples taken afterward at specific time interval(s) to determine how quickly it is cleared from the blood." [wikipedia:en.wikipedia.org]
+is_a: MMO:0000112 ! blood glucose analysis
+created_by: mshimoyama
+creation_date: 2011-02-04T03:19:03Z
+
+[Typedef]
+id: OBO_REL:part_of
+name: part_of
+created_by: mshimoyama
+creation_date: 2010-08-05T01:45:43Z
+
