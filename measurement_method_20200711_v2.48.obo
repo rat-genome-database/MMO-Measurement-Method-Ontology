@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.49
-date: 18:07:2020 20:13
+data-version: 2.48
+date: 11:07:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -6349,47 +6349,19 @@ created_by: slaulede
 creation_date: 2020-06-30T13:44:52Z
 
 [Term]
+id: MMO:0000724
+name: null
+def: "Passive avoidance describes experiments in which the animal learns to avoid an aversive event by suppressing a particular behavior. To learn to do so, the aversive stimulus must be clearly associated with the active behavioral component. The passive avoidance task is be carried out in a shuttle box with a light chamber and a dark chamber separated by a doorway (the step-through version of the task). Given that illuminated environments are unpleasant to rodents, when placed in the light chamber, they are led into the preferred dark compartment by its innate photophobia. During habituation, theyre allowed to do so, but in the conditioning phase of the passive avoidance test, the animal will receive a foot shock when he crosses to the dark chamber. His innate behavior of seeking a darker environment will thereby become associated with an aversive stimulus. When placed again in the light chamber, the animal will avoid entering the dark, shock-associated chamber." []
+created_by: slaulede
+creation_date: 2020-07-07T15:34:23Z
+
+[Term]
 id: MMO:0000725
 name: passive avoidance test using a two-way shuttle box apparatus
 def: "Passive avoidance describes experiments in which the animal learns to avoid an aversive event by suppressing a particular behavior. To learn to do so, the aversive stimulus must be clearly associated with the active behavioral component. The passive avoidance task is be carried out in a shuttle box with a light chamber and a dark chamber separated by a doorway (the step-through version of the task). Given that illuminated environments are unpleasant to rodents, when placed in the light chamber, they are led into the preferred dark compartment by its innate photophobia. During habituation, theyre allowed to do so, but in the conditioning phase of the passive avoidance test, the animal will receive a foot shock when he crosses to the dark chamber. His innate behavior of seeking a darker environment will thereby become associated with an aversive stimulus. When placed again in the light chamber, the animal will avoid entering the dark, shock-associated chamber." [https://conductscience.com/maze/portfolio/active-passive-avoidance-shuttle-box/ "Website"]
 is_a: MMO:0000301 ! two way shuttlebox apparatus method
 created_by: slaulede
 creation_date: 2020-07-07T15:36:49Z
-
-[Term]
-id: MMO:0000726
-name: blood p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of blood. The rate of formation of the colored oxidation product is proportional to the concentration of serum ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "blood PPD oxidase activity assay" EXACT []
-is_a: MMO:0000429 ! blood enzyme activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:28:09Z
-
-[Term]
-id: MMO:0000727
-name: plasma p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of plasma. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "plasma PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:33:41Z
-
-[Term]
-id: MMO:0000728
-name: serum p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of serum. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "serum PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:35:48Z
-
-[Term]
-id: MMO:0000729
-name: flame photometry
-def: "This is a controlled flame test with the intensity of the flame color quantified by photoelectric circuitry. The intensity of the color will depend on the energy that had been absorbed by the atoms that was sufficient to vaporize them. Filters select which colors the photometer detects and exclude the influence of other ions." [https://en.wikipedia.org/wiki/Photoelectric_flame_photometer "Wikipedia"]
-is_a: MMO:0000704 ! photometry
-created_by: slaulede
-creation_date: 2020-07-16T10:29:04Z
 
 [Typedef]
 id: OBO_REL:part_of

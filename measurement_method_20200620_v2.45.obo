@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 2.49
-date: 18:07:2020 20:13
+data-version: 2.45
+date: 20:06:2020 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-04-07 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: measurement_method_ontology
 ontology: mmo
@@ -592,7 +592,7 @@ creation_date: 2010-06-15T01:38:20Z
 [Term]
 id: MMO:0000080
 name: skin fold caliper method
-def: "A fold of skin is pinched raising a double layer of skin and the underlying adipose tissue with a caliper or compass with curved legs applied at right angles to the pinch for a measurement of thickness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.topendsports.com "TopEndSports", ISBN:978-1416049982]
+def: "A fold of skin is pinched raising a double layer of skin and the underlying adipose tissue with a caliper or compass with curved legs applied at right angles to the pinch for a measurement of thickness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.topendsports.com "TopEndSports"]
 is_a: MMO:0000159 ! in vivo caliper method
 created_by: mshimoyama
 creation_date: 2010-06-17T12:21:42Z
@@ -651,7 +651,7 @@ creation_date: 2010-06-23T09:23:25Z
 [Term]
 id: MMO:0000088
 name: digital column scale
-def: "A digital scale, that is, one which uses one or more load cells with a strain gauge to quantify the weight or mass of the object being measured, made up of a platform at floor level with an electronic display mounted on a column or pedestal." [http://www.livestrong.com "Website", RGD:JRS]
+def: "A digital scale, that is, one which uses one or more load cells with a strain gauge to quantify the weight or mass of the object being measured, made up of a platform at floor level with an electronic display mounted on a column or pedestal." [RGD:JRS, http://www.livestrong.com "Website"]
 is_a: MMO:0000017 ! whole body digital scale
 created_by: mshimoyama
 creation_date: 2010-06-23T09:23:42Z
@@ -833,7 +833,7 @@ creation_date: 2010-07-27T04:26:49Z
 [Term]
 id: MMO:0000110
 name: ex vivo electron microscopy
-def: "Examination or observation of material performed outside the living body through a microscope using beams of electrons, negatively charged elementary particles, to produce magnified images. A microscope is an instrument used to obtain an enlarged image of small objects and reveal details of structure not otherwise distinguishable." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.answers.com/ "Website", ISBN:978-1416049982]
+def: "Examination or observation of material performed outside the living body through a microscope using beams of electrons, negatively charged elementary particles, to produce magnified images. A microscope is an instrument used to obtain an enlarged image of small objects and reveal details of structure not otherwise distinguishable." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com/ "Website"]
 is_a: MMO:0000109 ! ex vivo microscopy
 created_by: mshimoyama
 creation_date: 2010-07-27T04:28:48Z
@@ -841,7 +841,7 @@ creation_date: 2010-07-27T04:28:48Z
 [Term]
 id: MMO:0000111
 name: ex vivo light microscopy
-def: "Examination or observation of material performed outside the living body through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.answers.com/ "Website", ISBN:978-1416049982]
+def: "Examination or observation of material performed outside the living body through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com/ "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000109 ! ex vivo microscopy
 created_by: mshimoyama
 creation_date: 2010-07-27T04:33:09Z
@@ -1238,7 +1238,7 @@ creation_date: 2010-11-01T11:21:03Z
 [Term]
 id: MMO:0000159
 name: in vivo caliper method
-def: "A procedure or technique performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, to measure the thickness or diameter of a solid using a compass with bent or curved legs or a device comprised of a calibrated scale with a fixed jaw, and another jaw, with a pointer, that slides along the scale from which the distance between the two pieces can be read." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Caliper "Wikipedia", ISBN:978-1416049982]
+def: "A procedure or technique performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, to measure the thickness or diameter of a solid using a compass with bent or curved legs or a device comprised of a calibrated scale with a fixed jaw, and another jaw, with a pointer, that slides along the scale from which the distance between the two pieces can be read." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Caliper "Wikipedia"]
 is_a: MMO:0000492 ! in vivo linear measurement method
 created_by: mshimoyama
 creation_date: 2010-11-01T11:22:45Z
@@ -1357,7 +1357,7 @@ creation_date: 2011-01-31T04:01:15Z
 [Term]
 id: MMO:0000173
 name: spectrophotometry
-def: "A method to evaluate a chemical substance for a molecule of interest, based on the molecule's ability to alter the transmittance or reflectance of solutions, transparent or opaque solids, such as polished glass, or gases." [https://en.wikipedia.org/wiki/Spectrophotometry "Wikipedia", McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to evaluate a chemical substance for a molecule of interest, based on the molecule's ability to alter the transmittance or reflectance of solutions, transparent or opaque solids, such as polished glass, or gases." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Mosby:Mosbys_Medical_Dictionary--8th_Ed, https://en.wikipedia.org/wiki/Spectrophotometry "Wikipedia"]
 is_a: MMO:0000172 ! spectrometry
 created_by: mshimoyama
 creation_date: 2011-01-31T04:03:07Z
@@ -1461,7 +1461,7 @@ creation_date: 2011-02-01T09:47:55Z
 [Term]
 id: MMO:0000186
 name: machine read urine sodium test strip
-def: "A solid phase colorimetric assay utilizing a strip of paper, or of plastic with one or more attached pads of paper, impregnated with a reagent that specifically reacts with sodium ions. The strip is dipped into the urine sample, allowed to react for a specified period of time and the results assessed by an automated analyzer, that is, a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Collins:Collins_Online_English_Dictionary, http://en.wikipedia.org/wiki/Urine_test_strip "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A solid phase colorimetric assay utilizing a strip of paper, or of plastic with one or more attached pads of paper, impregnated with a reagent that specifically reacts with sodium ions. The strip is dipped into the urine sample, allowed to react for a specified period of time and the results assessed by an automated analyzer, that is, a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Urine_test_strip "Wikipedia"]
 synonym: "machine read urine Na+ test strip" RELATED []
 is_a: MMO:0000180 ! machine read urine test strip
 is_a: MMO:0000464 ! urine sodium test strip
@@ -1471,7 +1471,7 @@ creation_date: 2011-02-01T09:48:14Z
 [Term]
 id: MMO:0000187
 name: machine read urine potassium test strip
-def: "A solid phase colorimetric assay utilizing a strip of paper, or of plastic with one or more attached pads of paper, impregnated with a reagent that specifically reacts with potassium ions. The strip is dipped into the urine sample, allowed to react for a specified period of time and the results assessed by an automated analyzer, that is, a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Collins:Collins_Online_English_Dictionary, http://en.wikipedia.org/wiki/Urine_test_strip "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A solid phase colorimetric assay utilizing a strip of paper, or of plastic with one or more attached pads of paper, impregnated with a reagent that specifically reacts with potassium ions. The strip is dipped into the urine sample, allowed to react for a specified period of time and the results assessed by an automated analyzer, that is, a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Urine_test_strip "Wikipedia"]
 synonym: "machine read urine K+ test strip" RELATED []
 is_a: MMO:0000180 ! machine read urine test strip
 is_a: MMO:0000463 ! urine potassium test strip
@@ -1659,7 +1659,7 @@ creation_date: 2012-03-20T02:58:14Z
 [Term]
 id: MMO:0000210
 name: in vivo measuring stick method
-def: "An experimental procedure performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which employs a measuring instrument having a sequence of marks at regular intervals; used as a reference in making measurements of length." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.vocabulary.com/dictionary/measuring_stick#word=measuring%20stick "Website", ISBN:978-1416049982]
+def: "An experimental procedure performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which employs a measuring instrument having a sequence of marks at regular intervals; used as a reference in making measurements of length." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.vocabulary.com/dictionary/measuring_stick#word=measuring%20stick "Website"]
 is_a: MMO:0000492 ! in vivo linear measurement method
 created_by: JSmith
 creation_date: 2012-03-20T02:58:53Z
@@ -1740,7 +1740,7 @@ creation_date: 2012-07-03T02:56:44Z
 [Term]
 id: MMO:0000220
 name: ex vivo light microscopy with digital image analysis
-def: "A method performed outside the living body which incorporates use of light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.answers.com/ "Website", ISBN:978-1416049982]
+def: "A method performed outside the living body which incorporates use of light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com/ "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000111 ! ex vivo light microscopy
 is_a: MMO:0000219 ! ex vivo microscopy with digital image analysis
 created_by: JSmith
@@ -1749,7 +1749,7 @@ creation_date: 2012-07-03T03:05:11Z
 [Term]
 id: MMO:0000221
 name: ex vivo electron microscopy with digital image analysis
-def: "A method which incorporates use of electron microscopy, that is, examination or observation of material performed outside the living body through a microscope using beams of electrons, negatively charged elementary particles, to produce magnified images, followed by use of computer software to analyze the resulting microscopic images." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.answers.com/ "Website", ISBN:978-1416049982]
+def: "A method which incorporates use of electron microscopy, that is, examination or observation of material performed outside the living body through a microscope using beams of electrons, negatively charged elementary particles, to produce magnified images, followed by use of computer software to analyze the resulting microscopic images." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com/ "Website"]
 is_a: MMO:0000110 ! ex vivo electron microscopy
 is_a: MMO:0000219 ! ex vivo microscopy with digital image analysis
 created_by: JSmith
@@ -1793,7 +1793,7 @@ creation_date: 2012-07-09T11:54:25Z
 [Term]
 id: MMO:0000226
 name: Coulter Multisizer automated cell/particle size/count analysis method
-def: "A method that utilizes a laboratory instrument produced by Beckman Coulter, Incorporated which measures the size (i.e. volume and surface area) and/or number of cells or particles in a sample in an automated fashion." [https://www.beckmancoulter.com/ "Website", RGD:JRS]
+def: "A method that utilizes a laboratory instrument produced by Beckman Coulter, Incorporated which measures the size (i.e. volume and surface area) and/or number of cells or particles in a sample in an automated fashion." [RGD:JRS, https://www.beckmancoulter.com/ "Website"]
 synonym: "Coulter Multisizer automated cell/particle size/count analyzer" RELATED []
 synonym: "Multisizer COULTER COUNTER" RELATED []
 is_a: MMO:0000227 ! Coulter counter cell/particle size/count analysis method
@@ -1841,7 +1841,7 @@ creation_date: 2012-07-10T03:44:38Z
 [Term]
 id: MMO:0000231
 name: inductively coupled plasma-atomic emission spectrometry
-def: "A type of atomic spectroscopy in which the light emitted by atoms and ions in an inductively coupled plasma is observed. An inductively coupled plasma (ICP) is a type of plasma source in which the energy is supplied by electrical currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields." [http://en.wikipedia.org/wiki/Inductively_coupled_plasma "Wikipedia", McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms]
+def: "A type of atomic spectroscopy in which the light emitted by atoms and ions in an inductively coupled plasma is observed. An inductively coupled plasma (ICP) is a type of plasma source in which the energy is supplied by electrical currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields." [McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms, http://en.wikipedia.org/wiki/Inductively_coupled_plasma "Wikipedia"]
 synonym: "ICP-AES" RELATED []
 synonym: "ICP-OES" RELATED []
 synonym: "inductively coupled plasma-atomic emission spectroscopy" EXACT []
@@ -1905,7 +1905,7 @@ creation_date: 2012-07-10T05:17:09Z
 [Term]
 id: MMO:0000238
 name: liquid scintillation counting
-def: "A method for measuring radiation emitted from radioactive isotopes suspended in a solvent containing a fluor or scintillant which converts the isotope's emissions into pulses of light which are in turn detected by a photomultiplier." [http://en.wikipedia.org/wiki/Liquid_scintillation_counting "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method for measuring radiation emitted from radioactive isotopes suspended in a solvent containing a fluor or scintillant which converts the isotope's emissions into pulses of light which are in turn detected by a photomultiplier." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Liquid_scintillation_counting "Wikipedia"]
 synonym: "liquid scintillation counter" RELATED []
 is_a: MMO:0000237 ! radioactivity measurement method
 created_by: JSmith
@@ -2338,7 +2338,7 @@ creation_date: 2012-08-08T05:18:27Z
 [Term]
 id: MMO:0000289
 name: thin layer chromatography
-def: "A method of separating and identifying the components of a complex mixture by differential movement through a two-phase system, in which the movement is effected by a flow of a liquid, mobile phase over a stationary phase composed of a thin layer of adsorbent such as silica gel, alumina, or cellulose on a flat, inert substrate." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Chromatography#Thin_layer_chromatography "Wikipedia", ISBN:978-1416049982]
+def: "A method of separating and identifying the components of a complex mixture by differential movement through a two-phase system, in which the movement is effected by a flow of a liquid, mobile phase over a stationary phase composed of a thin layer of adsorbent such as silica gel, alumina, or cellulose on a flat, inert substrate." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Chromatography#Thin_layer_chromatography "Wikipedia"]
 is_a: MMO:0000288 ! chromatography
 created_by: JSmith
 creation_date: 2012-08-08T05:22:48Z
@@ -2362,7 +2362,7 @@ creation_date: 2012-08-09T01:03:13Z
 [Term]
 id: MMO:0000292
 name: patch clamp technique
-def: "An electrophysiological technique that uses a microelectrode to record current flow across a cell membrane or a piece of a cell membrane, thus permitting the study of a single or multiple ion channels in a cell." [http://en.wikipedia.org/wiki/Patch_clamp "Wikipedia", http://www.dddmag.com/content/glossary-drug-discovery-and-development-terms#p "Website"]
+def: "An electrophysiological technique that uses a microelectrode to record current flow across a cell membrane or a piece of a cell membrane, thus permitting the study of a single or multiple ion channels in a cell." [http://www.dddmag.com/content/glossary-drug-discovery-and-development-terms#p "Website", http://en.wikipedia.org/wiki/Patch_clamp "Wikipedia"]
 synonym: "patch clamp recording" RELATED []
 synonym: "patch-clamp technique" EXACT []
 is_a: MMO:0000291 ! cell-based electrophysiological assay
@@ -2443,7 +2443,7 @@ creation_date: 2012-08-27T12:25:46Z
 [Term]
 id: MMO:0000301
 name: two way shuttlebox apparatus method
-def: "A test using a box divided into two halves in which an experimental animal must move from one compartment to the other in order to gain their reward or to avoid an adverse stimulus. The shuttlebox is considered two way because the reward or adverse stimulus can be administered in either or both sides of the apparatus." [http://psychology.wikia.com/wiki/Shuttle_boxes "Website", http://www.springerlink.com/content/j8r4800u137n37gw/ "Web_article"]
+def: "A test using a box divided into two halves in which an experimental animal must move from one compartment to the other in order to gain their reward or to avoid an adverse stimulus. The shuttlebox is considered two way because the reward or adverse stimulus can be administered in either or both sides of the apparatus." [http://www.springerlink.com/content/j8r4800u137n37gw/ "Web_article", http://psychology.wikia.com/wiki/Shuttle_boxes "Website"]
 synonym: "two way shuttle box apparatus method" EXACT []
 synonym: "two way shuttlebox test" RELATED []
 is_a: MMO:0000256 ! movement/behavior test enclosure method
@@ -2452,8 +2452,8 @@ creation_date: 2012-08-27T01:02:04Z
 
 [Term]
 id: MMO:0000302
-name: active avoidance test using a two-way shuttle box apparatus
-def: "Active avoidance requires performing a specific behavior in order to escape or avoid the aversive stimulus. It is a conditioning paradigm in which the animal learns to control the application of an unconditioned stimulus (US), in this case, a foot shock, by appropriately reacting to a conditioned stimulus (CS) preceding the US, such as a light cue. The first stage of avoidance learning is usually to escape from the US. With continued training, anticipatory reactions appear which enable the animal to avoid the US altogether. In the active avoidance test, the rodent is placed into a shuttle box and is trained to move to the opposite side of the box in response to a cue that signals an incoming foot shock. Movement to the opposite side of the chamber in response to the presentation of the shock-predictive cue alone is regarded as active avoidance, whereas movement to the opposite side of the chamber only after receiving foot shock is regarded as an escape response." [https://conductscience.com/maze/portfolio/active-passive-avoidance-shuttle-box/ "Website"]
+name: active avoidance test using two way shuttlebox apparatus
+def: "A test measuring movements made in response to adverse stimuli, such as loud noises, bright lights or foot shocks, administered in a two-sided box in which an experimental animal must move from one compartment to the other in order to avoid such stimuli." [http://users.ipfw.edu/abbott/314/Avoidance.html "Website"]
 is_a: MMO:0000301 ! two way shuttlebox apparatus method
 created_by: jsmith
 creation_date: 2012-08-27T04:31:31Z
@@ -2676,7 +2676,7 @@ creation_date: 2013-02-12T14:44:05Z
 [Term]
 id: MMO:0000328
 name: solid phase colorimetry
-def: "A technique by which the color of a sample following a reaction carried out in or on a material characterized by structural rigidity and resistance to changes of shape or volume, such as a sheet of paper or plastic strip, is evaluated in terms of standard colors." [http://en.wikipedia.org/wiki/Solid_%28state_of_matter%29 "Wikipedia", McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "A technique by which the color of a sample following a reaction carried out in or on a material characterized by structural rigidity and resistance to changes of shape or volume, such as a sheet of paper or plastic strip, is evaluated in terms of standard colors." [McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, http://en.wikipedia.org/wiki/Solid_%28state_of_matter%29 "Wikipedia"]
 is_a: MMO:0000327 ! colorimetry
 created_by: JSmith
 creation_date: 2013-02-12T14:57:02Z
@@ -2760,7 +2760,7 @@ creation_date: 2013-02-12T21:19:37Z
 [Term]
 id: MMO:0000338
 name: western blot
-def: "A multistep process in which a mixture of proteins is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane, usually composed of nitrocellulose, nylon or polyvinylidene difluoride (PVDF) and detection of specific proteins by binding of tagged or labelled antibodies." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Western_blot "Wikipedia", ISBN:978-1416049982]
+def: "A multistep process in which a mixture of proteins is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane, usually composed of nitrocellulose, nylon or polyvinylidene difluoride (PVDF) and detection of specific proteins by binding of tagged or labelled antibodies." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Western_blot "Wikipedia"]
 comment: term merged into 'western blot assay' (MMO:0000669)
 is_obsolete: true
 created_by: JSmith
@@ -2769,7 +2769,7 @@ creation_date: 2013-02-13T17:47:29Z
 [Term]
 id: MMO:0000340
 name: Southern blot
-def: "A multistep process in which a mixture of DNA (deoxyribonucleic acid) is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane such as nitrocellulose or nylon and detection of specific RNAs by hybridization of a tagged or labelled polynucleotide, usually a single DNA fragment with a specific, known sequence." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Southern_blot "Wikipedia", ISBN:978-1416049982]
+def: "A multistep process in which a mixture of DNA (deoxyribonucleic acid) is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane such as nitrocellulose or nylon and detection of specific RNAs by hybridization of a tagged or labelled polynucleotide, usually a single DNA fragment with a specific, known sequence." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Southern_blot "Wikipedia"]
 is_a: MMO:0000100 ! gel electrophoresis
 created_by: JSmith
 creation_date: 2013-02-13T17:59:29Z
@@ -2878,7 +2878,7 @@ creation_date: 2013-02-20T17:30:44Z
 [Term]
 id: MMO:0000353
 name: automated serum creatinine analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed, http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: MMO:0000168 ! automated blood creatinine analysis
 is_a: MMO:0000271 ! serum creatinine analysis
 is_a: MMO:0000554 ! automated serum analysis
@@ -2888,7 +2888,7 @@ creation_date: 2013-02-20T17:40:54Z
 [Term]
 id: MMO:0000354
 name: automated plasma creatinine analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, in plasma, the fluid portion of the blood in which the particulate components are suspended." [http://www.thefreedictionary.com/--8th_Ed "Multiple_Dictionaries", ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, in plasma, the fluid portion of the blood in which the particulate components are suspended." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed, http://www.thefreedictionary.com/--8th_Ed "Multiple_Dictionaries"]
 is_a: MMO:0000168 ! automated blood creatinine analysis
 is_a: MMO:0000306 ! plasma creatinine analysis
 is_a: MMO:0000553 ! automated plasma analysis
@@ -2980,7 +2980,7 @@ creation_date: 2013-02-21T15:38:30Z
 [Term]
 id: MMO:0000364
 name: quantitative computed tomography
-def: "A computed tomography (CT) technique that measures bone mineral density (BMD) in either the axial or appendicular skeleton using a calibration standard to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6\:323 "Springer_Protocols", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A computed tomography (CT) technique that measures bone mineral density (BMD) in either the axial or appendicular skeleton using a calibration standard to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6:323 "Springer_Protocols", http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia"]
 is_a: MMO:0000128 ! computed tomography
 created_by: JSmith
 creation_date: 2013-02-21T16:00:07Z
@@ -2988,7 +2988,7 @@ creation_date: 2013-02-21T16:00:07Z
 [Term]
 id: MMO:0000365
 name: in vivo peripheral quantitative computed tomography
-def: "A computed tomography (CT) technique that uses a low radiation dose to measure bone mineral density (BMD) in the appendicular skeleton, utilizing a calibration standard ('phantoms') to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6\:323 "Springer_Protocols", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A computed tomography (CT) technique that uses a low radiation dose to measure bone mineral density (BMD) in the appendicular skeleton, utilizing a calibration standard ('phantoms') to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6:323 "Springer_Protocols", http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia"]
 comment: Peripheral quantitative computed tomography can be performed on excised bones as well as bones in vivo. This term, being in the "in vivo method" branch of the MMO, does not cover ex vivo usage of the technique. For that application please use the term "ex vivo peripheral quantitative computed tomography", MMO:0000367.
 synonym: "in vivo pQCT" RELATED []
 synonym: "pQCT" RELATED []
@@ -3007,7 +3007,7 @@ creation_date: 2013-02-21T17:04:22Z
 [Term]
 id: MMO:0000367
 name: ex vivo peripheral quantitative computed tomography
-def: "A computed tomography (CT) technique that uses a low radiation dose to measure bone mineral density (BMD) of a bone after removal from the body and possibly after removal of the surrounding tissues such as the muscle, utilizing a calibration standard ('phantoms') to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6\:323 "Springer_Protocols", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A computed tomography (CT) technique that uses a low radiation dose to measure bone mineral density (BMD) of a bone after removal from the body and possibly after removal of the surrounding tissues such as the muscle, utilizing a calibration standard ('phantoms') to convert the Hounsfield Units (HU) of the CT image to BMD values. CT is a method of producing images of single tissue planes in which the emergent X-ray beam is measured by a scintillation counter and the electronic impulses are recorded on a magnetic disk and processed by a mini-computer for reconstruction display of the body in cross-section." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", http://www.springerprotocols.com/Abstract/doi/10.1385/1-59259-366-6:323 "Springer_Protocols", http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia"]
 comment: Peripheral quantitative computed tomography can be performed on bones in vivo as well as excised bones. This term, being in the "ex vivo method" branch of the MMO, does not cover in vivo usage of the technique. For that application, please use the term "in vivo peripheral quantitative computed tomography", MMO:0000365.
 synonym: "ex vivo pQCT" RELATED []
 is_a: MMO:0000366 ! ex vivo radiography
@@ -3065,7 +3065,7 @@ creation_date: 2013-02-27T12:19:30Z
 [Term]
 id: MMO:0000373
 name: exudate nitrite analysis
-def: "Any method to assess nitrite, the nitrogen oxoanion chemical formula NO2(-), in exudate, a fluid, often resulting from inflammation and with a high content of protein, cells and/or cellular debris, which has escaped from blood vessels and has been deposited in tissues or on tissue surfaces. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI", ISBN:978-1416049982]
+def: "Any method to assess nitrite, the nitrogen oxoanion chemical formula NO2(-), in exudate, a fluid, often resulting from inflammation and with a high content of protein, cells and/or cellular debris, which has escaped from blood vessels and has been deposited in tissues or on tissue surfaces. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI"]
 synonym: "exudate nitritic oxide analysis" RELATED []
 is_a: MMO:0000372 ! exudate analysis
 created_by: JSmith
@@ -3083,7 +3083,7 @@ creation_date: 2013-02-27T12:27:49Z
 [Term]
 id: MMO:0000375
 name: blood nitrite analysis
-def: "Any method to assess nitrite, the nitrogen oxoanion chemical formula NO2(-), in blood the fluid circulating through the heart, arteries, capillaries, and veins, carrying nutrients and oxygen to body cells, and removing waste products and carbon dioxide. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI", ISBN:978-1416049982]
+def: "Any method to assess nitrite, the nitrogen oxoanion chemical formula NO2(-), in blood the fluid circulating through the heart, arteries, capillaries, and veins, carrying nutrients and oxygen to body cells, and removing waste products and carbon dioxide. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI"]
 synonym: "blood nitritic oxide analysis" RELATED []
 is_a: MMO:0000030 ! ex vivo blood analysis
 created_by: JSmith
@@ -3104,7 +3104,7 @@ creation_date: 2013-02-27T12:40:26Z
 [Term]
 id: MMO:0000377
 name: exudate nitrite analysis using the Griess reaction
-def: "Method of assessing the amount of nitrite, the nitrogen oxoanion chemical formula NO2(-), in exudate, a fluid, often resulting from inflammation and with a high content of protein, cells and/or cellular debris, which has escaped from blood vessels and has been deposited in tissues or on tissue surfaces, by treating a sample of exudate with a diazotizing reagent, e.g. sulfanilamide (SA), in acidic media to form a transient diazonium salt which is then allowed to react with a coupling reagent, N-naphthyl-ethylenediamine (NED), to form a stable azo compound with an intense purple color that absorbs light at 540 nm. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI", ISBN:978-1416049982]
+def: "Method of assessing the amount of nitrite, the nitrogen oxoanion chemical formula NO2(-), in exudate, a fluid, often resulting from inflammation and with a high content of protein, cells and/or cellular debris, which has escaped from blood vessels and has been deposited in tissues or on tissue surfaces, by treating a sample of exudate with a diazotizing reagent, e.g. sulfanilamide (SA), in acidic media to form a transient diazonium salt which is then allowed to react with a coupling reagent, N-naphthyl-ethylenediamine (NED), to form a stable azo compound with an intense purple color that absorbs light at 540 nm. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI"]
 synonym: "exudate nitrite Griess test" RELATED []
 synonym: "exudate nitritic oxide analysis using the Griess reaction" RELATED []
 synonym: "exudate nitritic oxide Griess test" RELATED []
@@ -3116,7 +3116,7 @@ creation_date: 2013-02-27T12:46:53Z
 [Term]
 id: MMO:0000378
 name: blood nitrite analysis using the Griess reaction
-def: "Method of assessing the amount of nitrite, the nitrogen oxoanion chemical formula NO2(-), in blood the fluid circulating through the heart, arteries, capillaries, and veins, carrying nutrients and oxygen to body cells, and removing waste products and carbon dioxide, by treating a sample of blood with a diazotizing reagent, e.g. sulfanilamide (SA), in acidic media to form a transient diazonium salt which is then allowed to react with a coupling reagent, N-naphthyl-ethylenediamine (NED), to form a stable azo compound with an intense purple color that absorbs light at 540 nm. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI", ISBN:978-1416049982]
+def: "Method of assessing the amount of nitrite, the nitrogen oxoanion chemical formula NO2(-), in blood the fluid circulating through the heart, arteries, capillaries, and veins, carrying nutrients and oxygen to body cells, and removing waste products and carbon dioxide, by treating a sample of blood with a diazotizing reagent, e.g. sulfanilamide (SA), in acidic media to form a transient diazonium salt which is then allowed to react with a coupling reagent, N-naphthyl-ethylenediamine (NED), to form a stable azo compound with an intense purple color that absorbs light at 540 nm. Measurement of nitrite is used to estimate nitric oxide (NO) production in biological systems." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.mdpi.com/1424-8220/3/8/276/pdf "MDPI"]
 synonym: "blood nitrite Griess test" RELATED []
 synonym: "blood nitritic oxide analysis using the Griess reaction" RELATED []
 synonym: "blood nitritic oxide Griess test" RELATED []
@@ -3128,7 +3128,7 @@ creation_date: 2013-02-27T12:52:24Z
 [Term]
 id: MMO:0000379
 name: flame atomic absorption spectrometry
-def: "A spectroanalytical procedure for the quantitative determination of chemical elements employing the absorption of optical radiation (light) by free atoms in the gaseous state, in this case generated by a flame atomizer, e.g. an air-acetylene slot-type burner at 2300 degrees C or a nitrous oxide (N2O)-acetylene slot-type burner at 2700 degrees C." [http://en.wikipedia.org/wiki/Atomic_absorption_spectroscopy "Wikipedia", http://www.files.chem.vt.edu/chem-ed/spec/atomic/aa.html "Website"]
+def: "A spectroanalytical procedure for the quantitative determination of chemical elements employing the absorption of optical radiation (light) by free atoms in the gaseous state, in this case generated by a flame atomizer, e.g. an air-acetylene slot-type burner at 2300 degrees C or a nitrous oxide (N2O)-acetylene slot-type burner at 2700 degrees C." [http://www.files.chem.vt.edu/chem-ed/spec/atomic/aa.html "Website", http://en.wikipedia.org/wiki/Atomic_absorption_spectroscopy "Wikipedia"]
 synonym: "flame AAS" RELATED []
 synonym: "flame atomic absorption spectroscopy" EXACT []
 is_a: MMO:0000232 ! atomic absorption spectrometry
@@ -3138,7 +3138,7 @@ creation_date: 2013-02-27T14:58:06Z
 [Term]
 id: MMO:0000380
 name: graphite furnace atomic absorption spectrometry
-def: "A spectroanalytical procedure for the quantitative determination of chemical elements employing the absorption of optical radiation (light) by free atoms in the gaseous state, in this case generated by vaporization of the sample in an electrically heated apparatus coated with graphite, a soft hexagonally-crystallized allotrope of carbon." [http://en.wikipedia.org/wiki/Graphite_furnace_atomic_absorption "Wikipedia", http://www.files.chem.vt.edu/chem-ed/spec/atomic/aa.html "Website"]
+def: "A spectroanalytical procedure for the quantitative determination of chemical elements employing the absorption of optical radiation (light) by free atoms in the gaseous state, in this case generated by vaporization of the sample in an electrically heated apparatus coated with graphite, a soft hexagonally-crystallized allotrope of carbon." [http://www.files.chem.vt.edu/chem-ed/spec/atomic/aa.html "Website", http://en.wikipedia.org/wiki/Graphite_furnace_atomic_absorption "Wikipedia"]
 synonym: "electrothermal atomic absorption spectrometry" RELATED []
 synonym: "ETAAS" RELATED []
 synonym: "GFAAS" RELATED []
@@ -3158,7 +3158,7 @@ creation_date: 2013-02-27T15:23:04Z
 [Term]
 id: MMO:0000382
 name: treadmill method with electric shock source and automated tracking
-def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and incorporating both an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt and a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and incorporating both an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt and a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website"]
 is_a: MMO:0000362 ! treadmill method with electric shock source
 is_a: MMO:0000381 ! treadmill method with automated tracking
 created_by: JSmith
@@ -3175,7 +3175,7 @@ creation_date: 2013-03-22T16:04:40Z
 [Term]
 id: MMO:0000384
 name: dual photon absorptiometry
-def: "A method used to measure, for instance, bone mineral content in the axial skeleton, particularly the lumbar spine, by comparing transmission of the two separate photoelectric energy peaks (gamma rays) emitted by gadolinium 153 through both soft and bone tissues. Because energy at the two peaks is dissipated differentially the soft-tissue component can be subtracted from the total to determine bone-specific absorption." [http://en.wikipedia.org/wiki/Gadolinium "Wikipedia", http://orthoinfo.aaos.org/topic.cfm?topic=a00413 "Website", Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A method used to measure, for instance, bone mineral content in the axial skeleton, particularly the lumbar spine, by comparing transmission of the two separate photoelectric energy peaks (gamma rays) emitted by gadolinium 153 through both soft and bone tissues. Because energy at the two peaks is dissipated differentially the soft-tissue component can be subtracted from the total to determine bone-specific absorption." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://orthoinfo.aaos.org/topic.cfm?topic=a00413 "Website", http://en.wikipedia.org/wiki/Gadolinium "Wikipedia"]
 synonym: "DPA" RELATED []
 is_a: MMO:0000383 ! absorptiometry
 created_by: JSmith
@@ -3184,7 +3184,7 @@ creation_date: 2013-03-22T16:13:55Z
 [Term]
 id: MMO:0000385
 name: single photon absorptiometry
-def: "A scanning technique in which a single-energy photon beam, that is, a beam of electromagnetic radiation of a single energy, is passed through a material such as bone in order to measure its density." [http://orthoinfo.aaos.org/topic.cfm?topic=a00413 "Website", Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A scanning technique in which a single-energy photon beam, that is, a beam of electromagnetic radiation of a single energy, is passed through a material such as bone in order to measure its density." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://orthoinfo.aaos.org/topic.cfm?topic=a00413 "Website"]
 synonym: "SPA" RELATED []
 is_a: MMO:0000383 ! absorptiometry
 created_by: JSmith
@@ -3262,7 +3262,7 @@ creation_date: 2013-06-10T14:34:20Z
 [Term]
 id: MMO:0000393
 name: calibrated Mohr pipette method
-def: "A procedure or technique by which the size of the three dimensional space occupied by a liquid substance is ascertained using a calibrated Mohr pipette, a glass or transparent plastic tube with a series of graduated markings on it indicating volumes which has been checked and/or adjusted by comparison with a standard to ensure the accuracy of the measurement." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Mohr_pipette "Wikipedia", ISBN:978-1416049982]
+def: "A procedure or technique by which the size of the three dimensional space occupied by a liquid substance is ascertained using a calibrated Mohr pipette, a glass or transparent plastic tube with a series of graduated markings on it indicating volumes which has been checked and/or adjusted by comparison with a standard to ensure the accuracy of the measurement." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Mohr_pipette "Wikipedia"]
 synonym: "calibrated graduated pipette method" EXACT []
 synonym: "calibrated Mohr pipet method" EXACT []
 is_a: MMO:0000392 ! pipette method
@@ -3272,7 +3272,7 @@ creation_date: 2013-06-10T14:47:37Z
 [Term]
 id: MMO:0000394
 name: high-performance liquid chromatography
-def: "A high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 400 atmospheres rather than being allowed to drip through the column under gravity. Liquid chomatography is a method of separating and identifying the components of a complex mixture by differential movement through a two-phase system, in which the movement is effected by a flow of a liquid (mobile phase) which percolates through an adsorbent (stationary phase)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.chemguide.co.uk/analysis/chromatography/hplc.html "Website", ISBN:978-1416049982]
+def: "A high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 400 atmospheres rather than being allowed to drip through the column under gravity. Liquid chomatography is a method of separating and identifying the components of a complex mixture by differential movement through a two-phase system, in which the movement is effected by a flow of a liquid (mobile phase) which percolates through an adsorbent (stationary phase)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.chemguide.co.uk/analysis/chromatography/hplc.html "Website"]
 synonym: "high-pressure liquid chromatography" EXACT []
 synonym: "HPLC" EXACT []
 is_a: MMO:0000404 ! liquid column chromatography
@@ -3282,7 +3282,7 @@ creation_date: 2013-06-20T16:54:33Z
 [Term]
 id: MMO:0000395
 name: Richter feeding tube
-def: "A capless, hollow, graduated cylinder designed to dispense liguid nourishment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.dyets.com/blender.html "Website", ISBN:978-1416049982]
+def: "A capless, hollow, graduated cylinder designed to dispense liguid nourishment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.dyets.com/blender.html "Website"]
 is_a: MMO:0000212 ! ex vivo volume measurement method
 created_by: JSmith
 creation_date: 2013-06-20T17:12:17Z
@@ -3298,7 +3298,7 @@ creation_date: 2013-07-09T11:05:20Z
 [Term]
 id: MMO:0000397
 name: bone three-point bending test
-def: "Isolated bone method in which the bone is held in a material testing apparatus consisting of three fittings (anvils or pins)--two supporting the bone from below and one positioned equidistant between them applying a specified force from above. The force, or load, is applied at a specified rate, usually until the bone breaks, and the displacement, i.e. the bending of the bone, resulting from the applied load is recorded." [http://www.instron.us/wa/acc_catalog/prod_list.aspx?cid=833&cname=3%20and%204%20Point%20Flexure%20Fixtures "Website", PMID:8274302]
+def: "Isolated bone method in which the bone is held in a material testing apparatus consisting of three fittings (anvils or pins)--two supporting the bone from below and one positioned equidistant between them applying a specified force from above. The force, or load, is applied at a specified rate, usually until the bone breaks, and the displacement, i.e. the bending of the bone, resulting from the applied load is recorded." [PMID:8274302, http://www.instron.us/wa/acc_catalog/prod_list.aspx?cid=833&cname=3%20and%204%20Point%20Flexure%20Fixtures "Website"]
 synonym: "three-point load test" EXACT []
 is_a: MMO:0000396 ! isolated bone method
 created_by: JSmith
@@ -3307,7 +3307,7 @@ creation_date: 2013-07-09T11:29:13Z
 [Term]
 id: MMO:0000398
 name: bone four-point bending test
-def: "Isolated bone method in which the bone is held in a material testing apparatus consisting of four fittings (anvils or pins)--two supporting the bone from below and two positioned at a defined distance either side of the center applying a specified force from above. The force, or load, is applied at a specified rate, usually until the bone breaks, and the displacement, i.e. the bending of the bone, resulting from the applied load is recorded." [http://www.instron.us/wa/acc_catalog/prod_list.aspx?cid=833&cname=3%20and%204%20Point%20Flexure%20Fixtures "Website", PMID:8274302]
+def: "Isolated bone method in which the bone is held in a material testing apparatus consisting of four fittings (anvils or pins)--two supporting the bone from below and two positioned at a defined distance either side of the center applying a specified force from above. The force, or load, is applied at a specified rate, usually until the bone breaks, and the displacement, i.e. the bending of the bone, resulting from the applied load is recorded." [PMID:8274302, http://www.instron.us/wa/acc_catalog/prod_list.aspx?cid=833&cname=3%20and%204%20Point%20Flexure%20Fixtures "Website"]
 synonym: "four-point load test" EXACT []
 is_a: MMO:0000396 ! isolated bone method
 created_by: JSmith
@@ -3316,7 +3316,7 @@ creation_date: 2013-07-09T12:01:04Z
 [Term]
 id: MMO:0000399
 name: bone compression test
-def: "Isolated bone method in which the bone is held in a material testing apparatus between two plates or platens and a force or load is applied which presses or squeezes the plates together at a specified rate, often until fracture." [http://www.instron.us/wa/applications/test_types/compression.aspx "Website", PMID:8274302]
+def: "Isolated bone method in which the bone is held in a material testing apparatus between two plates or platens and a force or load is applied which presses or squeezes the plates together at a specified rate, often until fracture." [PMID:8274302, http://www.instron.us/wa/applications/test_types/compression.aspx "Website"]
 synonym: "compressive test" EXACT []
 is_a: MMO:0000396 ! isolated bone method
 created_by: JSmith
@@ -3343,7 +3343,7 @@ creation_date: 2013-07-09T13:24:27Z
 [Term]
 id: MMO:0000402
 name: Morris water maze method
-def: "A method utilizing an experimental apparatus consisting of an open pool of water with a submerged escape platform, often with a set of visual cues such as colored shapes around the perimeter. An animal is placed in the water at a start location and must swim around the pool to find the platform." [http://en.wikipedia.org/wiki/Morris_water_maze "Wikipedia", PMID:17406317]
+def: "A method utilizing an experimental apparatus consisting of an open pool of water with a submerged escape platform, often with a set of visual cues such as colored shapes around the perimeter. An animal is placed in the water at a start location and must swim around the pool to find the platform." [PMID:17406317, http://en.wikipedia.org/wiki/Morris_water_maze "Wikipedia"]
 synonym: "Morris water maze procedure" RELATED []
 synonym: "Morris water maze task" RELATED []
 synonym: "Morris water navigation task" RELATED []
@@ -3472,7 +3472,7 @@ creation_date: 2013-09-30T14:15:30Z
 [Term]
 id: MMO:0000415
 name: in vivo light microscopy
-def: "A method performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, consisting of the examination or observation of material using a light microscope, an optical instrument that employs visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", ISBN:978-1416049982]
+def: "A method performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, consisting of the examination or observation of material using a light microscope, an optical instrument that employs visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000026 ! in vivo method
 created_by: JSmith
 creation_date: 2013-09-30T15:36:51Z
@@ -3488,7 +3488,7 @@ creation_date: 2013-09-30T16:35:50Z
 [Term]
 id: MMO:0000417
 name: in vivo stereo light microscopy
-def: "Examination or observation of material, performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the observer each eye or for a recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", ISBN:978-1416049982]
+def: "Examination or observation of material, performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the observer each eye or for a recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website"]
 is_a: MMO:0000415 ! in vivo light microscopy
 created_by: JSmith
 creation_date: 2013-09-30T16:51:11Z
@@ -3496,7 +3496,7 @@ creation_date: 2013-09-30T16:51:11Z
 [Term]
 id: MMO:0000418
 name: ex vivo stereo light microscopy
-def: "Examination or observation of material, performed outside the living body, which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the observer each eye or for a recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", ISBN:978-1416049982]
+def: "Examination or observation of material, performed outside the living body, which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the observer each eye or for a recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website"]
 is_a: MMO:0000111 ! ex vivo light microscopy
 created_by: JSmith
 creation_date: 2013-09-30T16:52:36Z
@@ -3504,7 +3504,7 @@ creation_date: 2013-09-30T16:52:36Z
 [Term]
 id: MMO:0000419
 name: ex vivo stereo light microscopy with digital image analysis
-def: "Examination or observation of material, performed outside the living body, which incorporates use of stereo light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Stereo light microscopy is a method which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", ISBN:978-1416049982]
+def: "Examination or observation of material, performed outside the living body, which incorporates use of stereo light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Stereo light microscopy is a method which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000220 ! ex vivo light microscopy with digital image analysis
 is_a: MMO:0000418 ! ex vivo stereo light microscopy
 created_by: JSmith
@@ -3513,7 +3513,7 @@ creation_date: 2013-11-12T14:08:54Z
 [Term]
 id: MMO:0000420
 name: in vivo stereo light microscopy with digital image analysis
-def: "Examination or observation of material, performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which incorporates use of stereo light microscopy to produce picture files stored digitally, that is, as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Stereo light microscopy is a method which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", ISBN:978-1416049982]
+def: "Examination or observation of material, performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which incorporates use of stereo light microscopy to produce picture files stored digitally, that is, as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Stereo light microscopy is a method which employs a stereo light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a dual lens system, arranged in such a way that for the recording device each optical input receives a magnified image from a separate lens, generating a three-dimensional view." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.dissectingmicroscope.com/what-is-a-dissecting-microscope.html "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000417 ! in vivo stereo light microscopy
 is_a: MMO:0000421 ! in vivo light microscopy with digital image analysis
 created_by: JSmith
@@ -3522,7 +3522,7 @@ creation_date: 2013-11-12T14:15:46Z
 [Term]
 id: MMO:0000421
 name: in vivo light microscopy with digital image analysis
-def: "A method performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which incorporates use of light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.answers.com "Website", ISBN:978-1416049982]
+def: "A method performed in or on a living body, for example, a procedure performed on an organ in situ or on the entire living organism, which incorporates use of light microscopy to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000415 ! in vivo light microscopy
 created_by: JSmith
 creation_date: 2013-11-12T14:23:04Z
@@ -3530,7 +3530,7 @@ creation_date: 2013-11-12T14:23:04Z
 [Term]
 id: MMO:0000422
 name: ex vivo light microscopy with immunohistochemistry and digital image analysis
-def: "A method performed outside the living body, e.g., on isolated tissue, which incorporates use of light microscopy and immunohistochemistry to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images. Immunohistochemistry is the microscopic localization of specific antigens in tissues by staining with antibodies labeled with fluorescent or pigmented material." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.answers.com "Website", ISBN:978-1416049982]
+def: "A method performed outside the living body, e.g., on isolated tissue, which incorporates use of light microscopy and immunohistochemistry to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images. Immunohistochemistry is the microscopic localization of specific antigens in tissues by staining with antibodies labeled with fluorescent or pigmented material." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://www.answers.com "Website", http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia"]
 is_a: MMO:0000538 ! ex vivo light microscopy with immunohistochemistry
 is_a: MMO:0000560 ! ex vivo light microscopy with histochemistry and digital image analysis
 created_by: JSmith
@@ -3547,7 +3547,7 @@ creation_date: 2013-11-12T15:56:12Z
 [Term]
 id: MMO:0000424
 name: bicinchoninic acid protein assay
-def: "The BCA protein assay combines the protein-induced biuret reaction in which peptide bonds in the protein reduce Cu2+ ions to Cu+ in a reaction proportional to the amount of protein present, followed by chelation of bicinchoninic acid molecules with Cu+ ions, forming a purple-colored product which can be quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Bicinchoninic_acid_assay "Wikipedia", http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "The BCA protein assay combines the protein-induced biuret reaction in which peptide bonds in the protein reduce Cu2+ ions to Cu+ in a reaction proportional to the amount of protein present, followed by chelation of bicinchoninic acid molecules with Cu+ ions, forming a purple-colored product which can be quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", http://en.wikipedia.org/wiki/Bicinchoninic_acid_assay "Wikipedia"]
 synonym: "BCA protein assay" RELATED []
 is_a: MMO:0000331 ! protein analysis by liquid phase colorimetry with spectrophotometric readout
 created_by: JSmith
@@ -3556,7 +3556,7 @@ creation_date: 2013-11-12T17:03:03Z
 [Term]
 id: MMO:0000425
 name: Lowry protein assay
-def: "The Lowry assay is an enhanced biuret test involving copper chelation chemistry to assess the amount of protein, any of a group of complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in a specified sample. Following the Folin-Ciocalteu reaction, the reduced Folin reagent is quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lowry_protein_assay "Wikipedia", http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "The Lowry assay is an enhanced biuret test involving copper chelation chemistry to assess the amount of protein, any of a group of complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in a specified sample. Following the Folin-Ciocalteu reaction, the reduced Folin reagent is quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", http://en.wikipedia.org/wiki/Lowry_protein_assay "Wikipedia"]
 is_a: MMO:0000331 ! protein analysis by liquid phase colorimetry with spectrophotometric readout
 created_by: JSmith
 creation_date: 2013-11-12T17:06:07Z
@@ -3564,7 +3564,7 @@ creation_date: 2013-11-12T17:06:07Z
 [Term]
 id: MMO:0000426
 name: Bradford protein assay
-def: "The Bradford assay of protein concentration is based on an absorbance shift of the dye Coomassie Brilliant Blue G-250. In the acidic environment of the assay, protein binds to the Coomassie dye, resulting in a shift from reddish/brown to blue in the color of the dye, which can be quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light. The binding of the dye to the protein stabilizes the blue anionic form and the increase of absorbance at 595 nm is proportional to the amount of bound dye, and thus to the amount (concentration) of protein present in the sample." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Bradford_protein_assay "Wikipedia", http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "The Bradford assay of protein concentration is based on an absorbance shift of the dye Coomassie Brilliant Blue G-250. In the acidic environment of the assay, protein binds to the Coomassie dye, resulting in a shift from reddish/brown to blue in the color of the dye, which can be quantitated by spectrophotometry, i.e., based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light. The binding of the dye to the protein stabilizes the blue anionic form and the increase of absorbance at 595 nm is proportional to the amount of bound dye, and thus to the amount (concentration) of protein present in the sample." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, http://www.piercenet.com/browse.cfm?fldID=876562B0-5056-8A76-4E0C-B764EAB3A339 "Website", http://en.wikipedia.org/wiki/Bradford_protein_assay "Wikipedia"]
 synonym: "Coomassie dye protein assay" EXACT []
 is_a: MMO:0000331 ! protein analysis by liquid phase colorimetry with spectrophotometric readout
 created_by: JSmith
@@ -3593,7 +3593,6 @@ def: "Any method which quantifies the catalytic effect exerted by an enzyme, a p
 synonym: "blood enzyme activity analysis" EXACT []
 synonym: "blood enzyme activity test" EXACT []
 is_a: MMO:0000030 ! ex vivo blood analysis
-is_a: MMO:0000444 ! enzyme activity assay
 created_by: JSmith
 creation_date: 2013-11-13T10:42:42Z
 
@@ -3658,7 +3657,7 @@ creation_date: 2013-11-13T11:19:49Z
 [Term]
 id: MMO:0000436
 name: bromocresol green-based urine albumin analysis with spectrophotometric readout
-def: "A method of assessing the amount of albumin, the major blood plasma protein which is responsible for much of the plasma colloidal osmotic pressure and which serves as a transport protein for large organic anions such as fatty acids and bilirubin, in a specified sample of urine, the fluid waste product excreted by the kidneys. This method uses a technique in which the dye bromocresol green is incubated with the sample and the resulting color change is evaluated based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light. Bromocresol green is a dye of the triphenylmethane family that forms a colored complex specifically with albumin. The intensity of the color is directly proportional to the albumin concentration in the sample." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Bromocresol_green "Wikipedia", http://www.usbio.net/item/A1309-50 "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "A method of assessing the amount of albumin, the major blood plasma protein which is responsible for much of the plasma colloidal osmotic pressure and which serves as a transport protein for large organic anions such as fatty acids and bilirubin, in a specified sample of urine, the fluid waste product excreted by the kidneys. This method uses a technique in which the dye bromocresol green is incubated with the sample and the resulting color change is evaluated based on the ability of the solution to alter the transmission of light at specific wavelengths in the visible spectrum, that is, to alter the transmission of a specific color of light. Bromocresol green is a dye of the triphenylmethane family that forms a colored complex specifically with albumin. The intensity of the color is directly proportional to the albumin concentration in the sample." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, http://www.usbio.net/item/A1309-50 "Website", http://en.wikipedia.org/wiki/Bromocresol_green "Wikipedia"]
 synonym: "BCG-based urine albumin analysis with spectrophotometric readout" RELATED []
 is_a: MMO:0000331 ! protein analysis by liquid phase colorimetry with spectrophotometric readout
 is_a: MMO:0000406 ! urine albumin analysis
@@ -3677,7 +3676,7 @@ creation_date: 2013-11-13T14:37:17Z
 [Term]
 id: MMO:0000438
 name: Ouchterlony double immunodiffusion assay
-def: "A technique for detecting antibody-antigen interactions, where antigens and antibodies are placed into separate wells cut into a gel matrix and allowed to diffuse towards each other. Where the diffusion fronts meet, if an antibody recognizes an antigen, they will bind, forming an immune complex. The immune complex precipitates in the gel to give a visible white line." [http://en.wikipedia.org/wiki/Ouchterlony_double_immunodiffusion "Wikipedia", http://www.piercenet.com/product/immunodiffusion-plates "Website"]
+def: "A technique for detecting antibody-antigen interactions, where antigens and antibodies are placed into separate wells cut into a gel matrix and allowed to diffuse towards each other. Where the diffusion fronts meet, if an antibody recognizes an antigen, they will bind, forming an immune complex. The immune complex precipitates in the gel to give a visible white line." [http://www.piercenet.com/product/immunodiffusion-plates "Website", http://en.wikipedia.org/wiki/Ouchterlony_double_immunodiffusion "Wikipedia"]
 synonym: "agar gel double immunodiffusion" RELATED []
 synonym: "passive double immunodiffusion" RELATED []
 is_a: MMO:0000437 ! immunodiffusion assay
@@ -3687,7 +3686,7 @@ creation_date: 2013-11-13T14:40:32Z
 [Term]
 id: MMO:0000439
 name: radial immunodiffusion assay
-def: "A technique used to determine the quantity of an antigen by measuring the diameters of circles of precipitin complexes surrounding samples of the antigen that mark the boundary between the antigen and an antibody suspended in a gel. Antigen diffuses into the gel matrix containing a specific antibody and a ring of precipitate is formed, the diameter of which is directly proportional to the concentration of the antigen. Precipitin is an antibody that has specifically aggregated a macromolecular antigen to give a visible precipitate." [http://en.wikipedia.org/wiki/Radial_immunodiffusion "Wikipedia", Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+def: "A technique used to determine the quantity of an antigen by measuring the diameters of circles of precipitin complexes surrounding samples of the antigen that mark the boundary between the antigen and an antibody suspended in a gel. Antigen diffuses into the gel matrix containing a specific antibody and a ring of precipitate is formed, the diameter of which is directly proportional to the concentration of the antigen. Precipitin is an antibody that has specifically aggregated a macromolecular antigen to give a visible precipitate." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed, http://en.wikipedia.org/wiki/Radial_immunodiffusion "Wikipedia"]
 synonym: "Mancini immunodiffusion" RELATED []
 synonym: "Mancini method" RELATED []
 synonym: "single radial immunodiffusion assay" EXACT []
@@ -3698,7 +3697,7 @@ creation_date: 2013-11-13T15:01:23Z
 [Term]
 id: MMO:0000440
 name: reverse radial immunodiffusion assay
-def: "A technique used to determine the quantity of an antibody in a sample by measuring the diameters of circles of precipitin complexes surrounding a well in a gel such as agar in which the sample is placed. Antibody diffuses into a gel matrix containing a specific antigen and a ring of precipitate is formed, the diameter of which is directly proportional to the concentration of the antibody in the sample. Precipitin is an antibody that has specifically aggregated a macromolecular antigen to give a visible precipitate." [http://en.wikipedia.org/wiki/Radial_immunodiffusion "Wikipedia", PMID:6797098, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+def: "A technique used to determine the quantity of an antibody in a sample by measuring the diameters of circles of precipitin complexes surrounding a well in a gel such as agar in which the sample is placed. Antibody diffuses into a gel matrix containing a specific antigen and a ring of precipitate is formed, the diameter of which is directly proportional to the concentration of the antibody in the sample. Precipitin is an antibody that has specifically aggregated a macromolecular antigen to give a visible precipitate." [PMID:6797098, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed, http://en.wikipedia.org/wiki/Radial_immunodiffusion "Wikipedia"]
 synonym: "reversed single radial immunodiffusion test" EXACT []
 is_a: MMO:0000437 ! immunodiffusion assay
 created_by: JSmith
@@ -3758,7 +3757,7 @@ creation_date: 2013-12-20T10:56:37Z
 [Term]
 id: MMO:0000447
 name: manual hemocytometer-based blood cell counting method
-def: "A method performed by which a human uses a hemocytometer to assess the number of cells in a sample of blood and assign a value. A hemocytometer is an instrument used for manual, microscopic counting of cells in suspension and consisting of a glass microscope slide with a rectangular indentation that creates a chamber. The chamber is engraved with a precise laser-etched grid of perpendicular lines and the depth of the chamber is standardized so that the volume of fluid and cells contained within a grid square and between the slide and the cover glass is known, allowing a count per volume to be determined." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Hemocytometer "Wikipedia", ISBN:978-1416049982, PMID:22654893]
+def: "A method performed by which a human uses a hemocytometer to assess the number of cells in a sample of blood and assign a value. A hemocytometer is an instrument used for manual, microscopic counting of cells in suspension and consisting of a glass microscope slide with a rectangular indentation that creates a chamber. The chamber is engraved with a precise laser-etched grid of perpendicular lines and the depth of the chamber is standardized so that the volume of fluid and cells contained within a grid square and between the slide and the cover glass is known, allowing a count per volume to be determined." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, PMID:22654893, http://en.wikipedia.org/wiki/Hemocytometer "Wikipedia"]
 is_a: MMO:0000368 ! hemocytometer
 is_a: MMO:0000446 ! manual blood cell counting method
 created_by: JSmith
@@ -3784,7 +3783,7 @@ creation_date: 2014-01-03T12:46:17Z
 [Term]
 id: MMO:0000450
 name: ion-selective electrode method
-def: "An electroanalytical technique which employs a sensor that converts the activity of a specific ion dissolved in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "An electroanalytical technique which employs a sensor that converts the activity of a specific ion dissolved in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia"]
 synonym: "ISE method" RELATED []
 synonym: "SIE method" RELATED []
 synonym: "specific ion electrode method" EXACT []
@@ -3795,7 +3794,7 @@ creation_date: 2014-01-03T17:33:50Z
 [Term]
 id: MMO:0000451
 name: chloride ion-selective electrode method
-def: "An electroanalytical technique which employs a sensor that converts the activity of a chloride ions (the chemical element with atomic number 17, that has gained one electron forming an anion with a charge of -1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "An electroanalytical technique which employs a sensor that converts the activity of a chloride ions (the chemical element with atomic number 17, that has gained one electron forming an anion with a charge of -1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia"]
 synonym: "chloride ISE method" RELATED []
 synonym: "chloride SIE method" RELATED []
 synonym: "chloride-specific ion electrode method" EXACT []
@@ -3806,7 +3805,7 @@ creation_date: 2014-01-03T17:44:39Z
 [Term]
 id: MMO:0000452
 name: sodium ion-selective electrode method
-def: "An electroanalytical technique which employs a sensor that converts the activity of sodium ions (the chemical element with atomic number 11, that has lost one electron forming a cation with a charge of +1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "An electroanalytical technique which employs a sensor that converts the activity of sodium ions (the chemical element with atomic number 11, that has lost one electron forming a cation with a charge of +1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia"]
 synonym: "sodium ISE method" RELATED []
 synonym: "sodium SIE method" RELATED []
 synonym: "sodium-specific ion electrode method" EXACT []
@@ -3817,7 +3816,7 @@ creation_date: 2014-01-03T17:46:59Z
 [Term]
 id: MMO:0000453
 name: potassium ion-selective electrode method
-def: "An electroanalytical technique which employs a sensor that converts the activity of potassium ions (chemical element with atomic number 19, that has lost one electron forming a cation with a charge of +1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "An electroanalytical technique which employs a sensor that converts the activity of potassium ions (chemical element with atomic number 19, that has lost one electron forming a cation with a charge of +1) in a solution into an electrical potential and measures the resulting potential using a voltmeter or potentiometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Ion_selective_electrode "Wikipedia"]
 synonym: "potassium ISE method" RELATED []
 synonym: "potassium SIE method" RELATED []
 synonym: "potassium-specific ion electrode method" EXACT []
@@ -3828,7 +3827,7 @@ creation_date: 2014-01-03T17:47:03Z
 [Term]
 id: MMO:0000454
 name: test apparatus method utilizing mechanical transducer
-def: "A method utilizing a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism, that makes use of a mechanical transducer to convert a physical/mechanical force or displacement signal to another, recordable, signal type." [http://en.wikipedia.org/wiki/Transducer "Wikipedia", Oxford:The_Online_Compact_Oxford_English_Dictionary]
+def: "A method utilizing a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism, that makes use of a mechanical transducer to convert a physical/mechanical force or displacement signal to another, recordable, signal type." [Oxford:The_Online_Compact_Oxford_English_Dictionary, http://en.wikipedia.org/wiki/Transducer "Wikipedia"]
 is_a: MMO:0000255 ! movement/behavior test apparatus method
 created_by: JSmith
 creation_date: 2014-01-14T12:17:06Z
@@ -3836,7 +3835,7 @@ creation_date: 2014-01-14T12:17:06Z
 [Term]
 id: MMO:0000455
 name: test apparatus method utilizing piezoelectric accelerometer
-def: "A method which utilizes a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism in which a piezoelectric accelerometer converts mechanical force into an electrical signal that can be measured by the recording instrument. A piezoelectric accelerometer utilizes the piezoelectric effect of certain materials, that is, the accumulation of an electrical charge in a substance in response to applied mechanical stress, to measure dynamic changes in mechanical variables." [http://en.wikipedia.org/wiki/Piezoelectric_accelerometer "Wikipedia", http://www.new.mmf.de/introduction.htm "Website", Oxford:The_Online_Compact_Oxford_English_Dictionary]
+def: "A method which utilizes a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism in which a piezoelectric accelerometer converts mechanical force into an electrical signal that can be measured by the recording instrument. A piezoelectric accelerometer utilizes the piezoelectric effect of certain materials, that is, the accumulation of an electrical charge in a substance in response to applied mechanical stress, to measure dynamic changes in mechanical variables." [Oxford:The_Online_Compact_Oxford_English_Dictionary, http://www.new.mmf.de/introduction.htm "Website", http://en.wikipedia.org/wiki/Piezoelectric_accelerometer "Wikipedia"]
 is_a: MMO:0000454 ! test apparatus method utilizing mechanical transducer
 created_by: JSmith
 creation_date: 2014-01-14T12:18:56Z
@@ -3882,7 +3881,7 @@ creation_date: 2014-01-14T13:21:30Z
 [Term]
 id: MMO:0000460
 name: real-time polymerase chain reaction assay
-def: "Real-time PCR is able to detect sequence-specific PCR products as they accumulate in 'real-time' during the PCR amplification process. As the PCR product of interest is produced, real-time PCR can detect their accumulation and quantify the number of substrates present in the initial PCR mixture before amplification began." [http://www.bio.davidson.edu/courses/genomics/method/realtimepcr.html]
+def: "Real-time PCR is able to detect sequence-specific PCR products as they accumulate in 'real-time' during the PCR amplification process. As the PCR product of interest is produced, real-time PCR can detect their accumulation and quantify the number of substrates present in the initial PCR mixture before amplification began." [Website:www.bio.davidson.edu/courses/genomics/method/realtimepcr.html]
 synonym: "kinetic polymerase chain reaction" RELATED []
 synonym: "qPCR" EXACT []
 synonym: "quantitative real time polymerase chain reaction" EXACT []
@@ -4005,7 +4004,7 @@ creation_date: 2014-01-14T17:56:30Z
 [Term]
 id: MMO:0000472
 name: blood intermediate-density lipoprotein cholesterol measurement test
-def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in blood. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia", Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in blood. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia"]
 synonym: "blood IDL-cholesterol test" RELATED []
 is_a: MMO:0000489 ! blood differential lipoprotein-cholesterol analysis
 created_by: JSmith
@@ -4014,7 +4013,7 @@ creation_date: 2014-01-15T11:15:19Z
 [Term]
 id: MMO:0000473
 name: serum intermediate-density lipoprotein cholesterol measurement test
-def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in a sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. IDL are relatively large lipoprotein particles (complexes that consist of a protein membrane surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in a sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. IDL are relatively large lipoprotein particles (complexes that consist of a protein membrane surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia"]
 synonym: "serum IDL-cholesterol test" RELATED []
 is_a: MMO:0000472 ! blood intermediate-density lipoprotein cholesterol measurement test
 created_by: JSmith
@@ -4023,7 +4022,7 @@ creation_date: 2014-01-15T11:16:42Z
 [Term]
 id: MMO:0000474
 name: plasma intermediate-density lipoprotein cholesterol measurement test
-def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in a sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. IDL are relatively large lipoprotein particles (complexes that consist of a protein membrane surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A test which determines the amount of cholesterol carried in intermediate-density lipoprotein (IDL) particles in a sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. IDL are relatively large lipoprotein particles (complexes that consist of a protein membrane surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia"]
 synonym: "plasma IDL-cholesterol test" RELATED []
 is_a: MMO:0000472 ! blood intermediate-density lipoprotein cholesterol measurement test
 created_by: JSmith
@@ -4032,7 +4031,7 @@ creation_date: 2014-01-15T11:18:52Z
 [Term]
 id: MMO:0000475
 name: blood high-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of blood. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complex particles that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of blood. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complex particles that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "blood HDL phospholipid test" EXACT []
 is_a: MMO:0000490 ! blood differential lipoprotein-phospholipid analysis
 created_by: JSmith
@@ -4050,7 +4049,7 @@ creation_date: 2014-01-15T11:31:37Z
 [Term]
 id: MMO:0000477
 name: blood low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of blood. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of blood. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "blood LDL phospholipid test" EXACT []
 is_a: MMO:0000490 ! blood differential lipoprotein-phospholipid analysis
 created_by: JSmith
@@ -4059,7 +4058,7 @@ creation_date: 2014-01-15T11:34:17Z
 [Term]
 id: MMO:0000478
 name: blood very low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of blood. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of blood. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "blood VLDL phospholipid test" EXACT []
 is_a: MMO:0000490 ! blood differential lipoprotein-phospholipid analysis
 created_by: JSmith
@@ -4085,7 +4084,7 @@ creation_date: 2014-01-15T12:02:51Z
 [Term]
 id: MMO:0000481
 name: serum high-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "serum HDL phospholipid test" EXACT []
 is_a: MMO:0000475 ! blood high-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4094,7 +4093,7 @@ creation_date: 2014-01-15T13:05:30Z
 [Term]
 id: MMO:0000482
 name: plasma high-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the high-density lipoprotein (HDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. HDL is the smallest (diameter approximately 5-15 nm) of the major lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "plasma HDL phospholipid test" EXACT []
 is_a: MMO:0000475 ! blood high-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4103,7 +4102,7 @@ creation_date: 2014-01-15T13:06:45Z
 [Term]
 id: MMO:0000483
 name: serum intermediate-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the intermediate-density lipoprotein (IDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins (diameter approximately 25-50 nm)." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the intermediate-density lipoprotein (IDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins (diameter approximately 25-50 nm)." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia"]
 synonym: "serum IDL phospholipid test" EXACT []
 is_a: MMO:0000476 ! blood intermediate-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4112,7 +4111,7 @@ creation_date: 2014-01-15T13:07:54Z
 [Term]
 id: MMO:0000484
 name: plasma intermediate-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the intermediate-density lipoprotein (IDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins (diameter approximately 25-50 nm)." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the intermediate-density lipoprotein (IDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. IDL are relatively large lipoprotein particles (complexes that consist of a protein layer surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins (diameter approximately 25-50 nm)." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://en.wikipedia.org/wiki/Intermediate-density_lipoprotein "Wikipedia"]
 synonym: "plasma IDL phospholipid test" EXACT []
 is_a: MMO:0000476 ! blood intermediate-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4121,7 +4120,7 @@ creation_date: 2014-01-15T13:08:58Z
 [Term]
 id: MMO:0000485
 name: serum low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "serum LDL phospholipid test" EXACT []
 is_a: MMO:0000477 ! blood low-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4130,7 +4129,7 @@ creation_date: 2014-01-15T13:11:34Z
 [Term]
 id: MMO:0000486
 name: plasma low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the low-density lipoprotein (LDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. LDL consitute a class of relatively large (diameter approximately 18-28 nm), heterogeneous lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "plasma LDL phospholipid test" EXACT []
 is_a: MMO:0000477 ! blood low-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4139,7 +4138,7 @@ creation_date: 2014-01-15T13:12:30Z
 [Term]
 id: MMO:0000487
 name: serum very low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "serum VLDL phospholipid test" EXACT []
 is_a: MMO:0000478 ! blood very low-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4148,7 +4147,7 @@ creation_date: 2014-01-15T13:13:55Z
 [Term]
 id: MMO:0000488
 name: plasma very low-density lipoprotein phospholipid measurement test
-def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) found in the very-low-density lipoprotein (VLDL) fraction of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. VLDL consitute a class of large (diameter approximately 30-80 nm) lipoprotein particles, complexes that consist of a protein layer surrounding a core of lipids." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 synonym: "plasma VLDL phospholipid test" EXACT []
 is_a: MMO:0000478 ! blood very low-density lipoprotein phospholipid measurement test
 created_by: JSmith
@@ -4166,7 +4165,7 @@ creation_date: 2014-01-16T12:40:18Z
 [Term]
 id: MMO:0000490
 name: blood differential lipoprotein-phospholipid analysis
-def: "Any laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) specifically associated with a particular type of lipoprotein, a complex that consists of a protein layer surrounding a core of lipids, in blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia", ISBN:978-1416049982]
+def: "Any laboratory test which measures the amount of phospholipid (phosphorus-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule) specifically associated with a particular type of lipoprotein, a complex that consists of a protein layer surrounding a core of lipids, in blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Lipoprotein "Wikipedia"]
 is_a: MMO:0000167 ! blood lipoprotein analysis
 is_a: MMO:0000323 ! blood phospholipid analysis
 created_by: JSmith
@@ -4330,7 +4329,7 @@ creation_date: 2014-02-07T13:02:23Z
 [Term]
 id: MMO:0000508
 name: in vivo whole body quantitative computed tomography
-def: "A computed tomography (CT) technique that uses a low radiation dose to analyze (for example to determine size or composition) and/or visualize the internal organs and tissues across the entire body of a living organism." [http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia", http://www.hitachi-aloka.co.jp/english/products/animal/lct200/index.html "Website", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A computed tomography (CT) technique that uses a low radiation dose to analyze (for example to determine size or composition) and/or visualize the internal organs and tissues across the entire body of a living organism." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", http://www.hitachi-aloka.co.jp/english/products/animal/lct200/index.html "Website", http://en.wikipedia.org/wiki/Quantitative_computed_tomography "Wikipedia"]
 comment: Peripheral quantitative computed tomography can be performed on excised bones as well as bones in vivo. This term, being in the "in vivo method" branch of the MMO, does not cover ex vivo usage of the technique. For that application please use the term "ex vivo peripheral quantitative computed tomography", MMO:0000367.
 synonym: "in vivo whole body quantitative CT" RELATED []
 is_a: MMO:0000364 ! quantitative computed tomography
@@ -4386,7 +4385,7 @@ creation_date: 2014-03-11T17:18:02Z
 [Term]
 id: MMO:0000514
 name: ex vivo caliper method
-def: "A procedure or technique performed outside the living body, for example, a procedure performed on an organ or tissue after removal from the body, to measure the thickness or diameter of a solid using a compass with bent or curved legs or a device comprised of a calibrated scale with a fixed jaw, and another jaw, with a pointer, that slides along the scale from which the distance between the two pieces can be read." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Calipers "Wikipedia", ISBN:978-1416049982]
+def: "A procedure or technique performed outside the living body, for example, a procedure performed on an organ or tissue after removal from the body, to measure the thickness or diameter of a solid using a compass with bent or curved legs or a device comprised of a calibrated scale with a fixed jaw, and another jaw, with a pointer, that slides along the scale from which the distance between the two pieces can be read." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Calipers "Wikipedia"]
 is_a: MMO:0000495 ! ex vivo linear measurement method
 created_by: JSmith
 creation_date: 2014-04-24T15:51:24Z
@@ -4438,7 +4437,7 @@ creation_date: 2014-04-29T14:46:20Z
 [Term]
 id: MMO:0000520
 name: blood campesterol measurement test
-def: "A method to determine the nature, properties, or composition of campesterol in extracted blood. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [http://en.wikipedia.org/wiki/Campesterol "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of campesterol in extracted blood. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia"]
 synonym: "blood campesterol analysis" RELATED []
 xref: CHEBI:28623
 is_a: MMO:0000519 ! blood phytosterol analysis
@@ -4448,7 +4447,7 @@ creation_date: 2014-04-29T14:47:56Z
 [Term]
 id: MMO:0000521
 name: blood sitosterol measurement test
-def: "A method to determine the nature, properties, or composition of sitosterol in extracted blood. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [http://en.wikipedia.org/wiki/Sitosterol "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of sitosterol in extracted blood. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia"]
 synonym: "blood sitosterol analysis" RELATED []
 xref: CHEBI:27693
 is_a: MMO:0000519 ! blood phytosterol analysis
@@ -4458,7 +4457,7 @@ creation_date: 2014-04-29T14:48:03Z
 [Term]
 id: MMO:0000522
 name: serum sitosterol measurement test
-def: "A method to determine the nature, properties, or composition of sitosterol in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of sitosterol in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia"]
 synonym: "serum sitosterol analysis" RELATED []
 xref: CHEBI:27693
 is_a: MMO:0000521 ! blood sitosterol measurement test
@@ -4468,7 +4467,7 @@ creation_date: 2014-04-29T14:51:28Z
 [Term]
 id: MMO:0000523
 name: plasma sitosterol measurement test
-def: "A method to determine the nature, properties, or composition of sitosterol in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of sitosterol in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia"]
 synonym: "plasma sitosterol analysis" RELATED []
 xref: CHEBI:27693
 is_a: MMO:0000521 ! blood sitosterol measurement test
@@ -4478,7 +4477,7 @@ creation_date: 2014-04-29T14:51:32Z
 [Term]
 id: MMO:0000524
 name: plasma campesterol measurement test
-def: "A method to determine the nature, properties, or composition of campesterol in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of campesterol in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia"]
 synonym: "plasma campesterol analysis" RELATED []
 xref: CHEBI:28623
 is_a: MMO:0000520 ! blood campesterol measurement test
@@ -4488,7 +4487,7 @@ creation_date: 2014-04-29T14:55:44Z
 [Term]
 id: MMO:0000525
 name: serum campesterol measurement test
-def: "A method to determine the nature, properties, or composition of campesterol in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of campesterol in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia"]
 synonym: "serum campesterol analysis" RELATED []
 xref: CHEBI:28623
 is_a: MMO:0000520 ! blood campesterol measurement test
@@ -4539,7 +4538,7 @@ creation_date: 2014-04-29T16:04:31Z
 [Term]
 id: MMO:0000530
 name: isolated tissue phytosterol analysis
-def: "Any method to determine the nature, properties, or composition of phytosterol(s) in a specified sample of tissue after removal of that tissue from the body. Phytosterols, which encompass both plant sterols and stanols, comprise a large group of steroid compounds similar to cholesterol that occur in plants and vary only in carbon side chains and/or presence or absence of a double bond." [http://en.wikipedia.org/wiki/Phytosterol "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "Any method to determine the nature, properties, or composition of phytosterol(s) in a specified sample of tissue after removal of that tissue from the body. Phytosterols, which encompass both plant sterols and stanols, comprise a large group of steroid compounds similar to cholesterol that occur in plants and vary only in carbon side chains and/or presence or absence of a double bond." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Phytosterol "Wikipedia"]
 synonym: "isolated tissue phytosterol measurement method" RELATED []
 xref: CHEBI:26125
 is_a: MMO:0000528 ! isolated tissue sterol analysis
@@ -4549,7 +4548,7 @@ creation_date: 2014-04-29T16:06:04Z
 [Term]
 id: MMO:0000531
 name: isolated tissue campesterol measurement test
-def: "A method to determine the nature, properties, or composition of campesterol in a specified sample of tissue after removal of that tissue from the body. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [http://en.wikipedia.org/wiki/Campesterol "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of campesterol in a specified sample of tissue after removal of that tissue from the body. Campesterol is a phytosterol (molecular formula C28H48O) whose chemical structure is similar to that of cholesterol." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Campesterol "Wikipedia"]
 synonym: "isolated tissue campesterol analysis" RELATED []
 synonym: "isolated tissue campesterol measurement method" RELATED []
 xref: CHEBI:28623
@@ -4560,7 +4559,7 @@ creation_date: 2014-04-29T16:07:43Z
 [Term]
 id: MMO:0000532
 name: isolated tissue sitosterol measurement test
-def: "A method to determine the nature, properties, or composition of sitosterol in a specified sample of tissue after removal of that tissue from the body. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [http://en.wikipedia.org/wiki/Sitosterol "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A method to determine the nature, properties, or composition of sitosterol in a specified sample of tissue after removal of that tissue from the body. Sitosterol is a phytosterol (molecular formula C29H50O) with chemical structures similar to that of cholesterol." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, http://en.wikipedia.org/wiki/Sitosterol "Wikipedia"]
 synonym: "isolated tissue sitosterol analysis" RELATED []
 synonym: "isolated tissue sitosterol measurement method" RELATED []
 xref: CHEBI:27693
@@ -4591,7 +4590,7 @@ creation_date: 2014-06-05T14:49:06Z
 [Term]
 id: MMO:0000535
 name: liquid chromatography-mass spectrometry
-def: "An analytical technique in that combines the physical separation capabilities of liquid chromatography (LC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components based on their chemicophysical properties and the properties of the liquid and stationary phases of the column. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [http://orgchem.colorado.edu/Technique/Procedures/Columnchrom/Columnchrom.html "Website", Segen:Segens_Medical_Dictionary_2012]
+def: "An analytical technique in that combines the physical separation capabilities of liquid chromatography (LC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components based on their chemicophysical properties and the properties of the liquid and stationary phases of the column. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [Segen:Segens_Medical_Dictionary_2012, http://orgchem.colorado.edu/Technique/Procedures/Columnchrom/Columnchrom.html "Website"]
 synonym: "LC-MS" RELATED []
 is_a: MMO:0000404 ! liquid column chromatography
 is_a: MMO:0000534 ! mass spectrometry
@@ -4601,7 +4600,7 @@ creation_date: 2014-06-05T14:59:03Z
 [Term]
 id: MMO:0000536
 name: gas chromatography-mass spectrometry
-def: "An analytical technique in that combines the physical separation capabilities of gas chromatography (GC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially vaporized and separated into components by GC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [http://chemwiki.ucdavis.edu/Analytical_Chemistry/Instrumental_Analysis/Chromatography/Gas_Chromatography "Website", Segen:Segens_Medical_Dictionary_2012]
+def: "An analytical technique in that combines the physical separation capabilities of gas chromatography (GC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially vaporized and separated into components by GC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [Segen:Segens_Medical_Dictionary_2012, http://chemwiki.ucdavis.edu/Analytical_Chemistry/Instrumental_Analysis/Chromatography/Gas_Chromatography "Website"]
 synonym: "GC-MS" RELATED []
 is_a: MMO:0000469 ! gas chromatography
 is_a: MMO:0000534 ! mass spectrometry
@@ -4832,7 +4831,7 @@ creation_date: 2015-05-01T11:34:14Z
 [Term]
 id: MMO:0000561
 name: ex vivo light microscopy with histochemistry
-def: "A method performed outside the living body, for instance, on isolated cells or tissues, which incorporates the use of light microscopy and histochemistry to produce magnified images. Histochemistry is the microscopic analysis of tissues stained with chemical agents to increase the contrast and aid visualization or to highlight specific substances within the specimen." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Histology#Staining "Wikipedia", ISBN:978-1416049982]
+def: "A method performed outside the living body, for instance, on isolated cells or tissues, which incorporates the use of light microscopy and histochemistry to produce magnified images. Histochemistry is the microscopic analysis of tissues stained with chemical agents to increase the contrast and aid visualization or to highlight specific substances within the specimen." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, http://en.wikipedia.org/wiki/Histology#Staining "Wikipedia"]
 is_a: MMO:0000111 ! ex vivo light microscopy
 is_a: MMO:0000497 ! histochemistry
 created_by: JSmith
@@ -5029,7 +5028,7 @@ creation_date: 2017-03-16T13:33:21Z
 [Term]
 id: MMO:0000582
 name: intra-carotid radiotelemetry
-def: "A method which utilizes a  measurement device implanted in one of the common carotid arteries (that is, the two main arteries which supply oxygenated blood to the head before each bifurcates into an internal and an external carotid artery)  which transmits radio signals to a recording device." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://en.wikipedia.org/wiki/Common_carotid_artery "Wikipedia", ISBN:978-1416049982]
+def: "A method which utilizes a  measurement device implanted in one of the common carotid arteries (that is, the two main arteries which supply oxygenated blood to the head before each bifurcates into an internal and an external carotid artery)  which transmits radio signals to a recording device." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, https://en.wikipedia.org/wiki/Common_carotid_artery "Wikipedia"]
 synonym: "intracarotid radiotelemetry" EXACT []
 is_a: MMO:0000015 ! radiotelemetry
 created_by: jesmith
@@ -5047,7 +5046,7 @@ creation_date: 2017-08-10T16:55:16Z
 [Term]
 id: MMO:0000584
 name: ex vivo analysis of atomic composition following dry ashing
-def: "A procedure or technique performed outside the living body by which the atomic composition, that is, the relative or absolute amounts of one or more specific elements in a sample that has been subjected to dry ashing. Dry ashing is defined as the heating of a substance to leave only noncombustible ash, usually performed by placing the sample in an open inert vessel and destroying the combustible (organic) portion of the sample by thermal decomposition." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--5th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://www.inorganicventures.com/ashing-sample-preparation-procedures "Website", ISBN:978-1416049982]
+def: "A procedure or technique performed outside the living body by which the atomic composition, that is, the relative or absolute amounts of one or more specific elements in a sample that has been subjected to dry ashing. Dry ashing is defined as the heating of a substance to leave only noncombustible ash, usually performed by placing the sample in an open inert vessel and destroying the combustible (organic) portion of the sample by thermal decomposition." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--5th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, https://www.inorganicventures.com/ashing-sample-preparation-procedures "Website"]
 synonym: "dry ashing with analysis of atomic composition" EXACT []
 is_a: MMO:0000583 ! ex vivo analysis of atomic composition
 created_by: jesmith
@@ -5056,7 +5055,7 @@ creation_date: 2017-08-10T17:05:01Z
 [Term]
 id: MMO:0000585
 name: flame atomic emission spectrometry following dry ashing
-def: "A method in which a sample is reduced to noncombustible ash followed by the measurement of its atomic composition by atomic emission spectrometry." [https://www.inorganicventures.com/ashing-sample-preparation-procedures "Website", McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed]
+def: "A method in which a sample is reduced to noncombustible ash followed by the measurement of its atomic composition by atomic emission spectrometry." [McGraw-Hill:McGraw-Hill_Dictionary_of_Scientific_and_Technical_Terms--4th_Ed, https://www.inorganicventures.com/ashing-sample-preparation-procedures "Website"]
 synonym: "dry ashing followed by flame photometry" RELATED []
 synonym: "flame photometry following dry ashing" RELATED []
 is_a: MMO:0000039 ! flame atomic emission spectrometry
@@ -5101,7 +5100,7 @@ creation_date: 2017-12-14T10:44:17Z
 [Term]
 id: MMO:0000590
 name: parallel rod floor apparatus method
-def: "A method used to assess motor coordination and balance whereby a clear acrylic box sits on top of a parallel rod floor made of conductive metal which is slightly above a base metal plate.  Foot slips (errors) are recorded when an electrical circuit is completed; used to assess effects of alcohol or other substances; a built-in activity monitor may record distance traveled." [https://www.stoeltingco.com/parallel-rod-floor-apparatus.html "Website", MPD:MB]
+def: "A method used to assess motor coordination and balance whereby a clear acrylic box sits on top of a parallel rod floor made of conductive metal which is slightly above a base metal plate.  Foot slips (errors) are recorded when an electrical circuit is completed; used to assess effects of alcohol or other substances; a built-in activity monitor may record distance traveled." [MPD:MB, https://www.stoeltingco.com/parallel-rod-floor-apparatus.html "Website"]
 is_a: MMO:0000256 ! movement/behavior test enclosure method
 is_a: MMO:0000588 ! balance, coordination or strength assessment method
 created_by: jesmith
@@ -5174,7 +5173,7 @@ creation_date: 2017-12-14T12:10:39Z
 [Term]
 id: MMO:0000599
 name: modified SHIRPA test
-def: "A variation of the standardized SHIRPA test utilizing a viewing jar and/or an arena to assess muscle function, cerebellar function, sensory function, neuropsychiatric function, and dysmorphology by experimenter observation." [https://en.wikipedia.org/wiki/SHIRPA "Wikipedia", MPD:MB]
+def: "A variation of the standardized SHIRPA test utilizing a viewing jar and/or an arena to assess muscle function, cerebellar function, sensory function, neuropsychiatric function, and dysmorphology by experimenter observation." [MPD:MB, https://en.wikipedia.org/wiki/SHIRPA "Wikipedia"]
 is_a: MMO:0000598 ! SHIRPA test
 created_by: jesmith
 creation_date: 2017-12-14T12:14:53Z
@@ -5325,7 +5324,7 @@ creation_date: 2018-01-16T17:31:11Z
 [Term]
 id: MMO:0000617
 name: flow cytometry method
-def: "A method employed in cell counting, cell sorting, and biomarker detection by suspending cells in a stream of fluid and passing them through an electronic detection apparatus." [https://en.wikipedia.org/wiki/Flow_cytometry "Wikipedia", MPD:MB]
+def: "A method employed in cell counting, cell sorting, and biomarker detection by suspending cells in a stream of fluid and passing them through an electronic detection apparatus." [MPD:MB, https://en.wikipedia.org/wiki/Flow_cytometry "Wikipedia"]
 is_a: MMO:0000225 ! automated cell/particle size/count analysis method
 created_by: jesmith
 creation_date: 2018-01-16T17:37:59Z
@@ -5374,7 +5373,7 @@ creation_date: 2018-01-17T13:13:20Z
 [Term]
 id: MMO:0000623
 name: transepidermal water loss test
-def: "A method used to measure water loss through the skin using an instrument which consists of two pairs of sensors to measure humidity and temperature gradients just above the skin's surface." [http://www.courage-khazaka.de/index.php/en/products/scientific/139-tewameter "Website", MPD:MB]
+def: "A method used to measure water loss through the skin using an instrument which consists of two pairs of sensors to measure humidity and temperature gradients just above the skin's surface." [MPD:MB, http://www.courage-khazaka.de/index.php/en/products/scientific/139-tewameter "Website"]
 synonym: "TEWL test" RELATED []
 is_a: MMO:0000026 ! in vivo method
 created_by: jesmith
@@ -5383,7 +5382,7 @@ creation_date: 2018-01-17T13:26:05Z
 [Term]
 id: MMO:0000624
 name: tympanometry
-def: "A method used to test the condition of the middle ear, including mobility of the tympanic membrane (eardrum) and condition of conduction bones. During the test, a tympanometer is inserted into the ear canal and the instrument causes a series of changes in the pressure in the ear, generates a tone and measures the response of the eardrum at the different pressures." [https://en.wikipedia.org/wiki/Tympanometry "Wikipedia", MPD:MB]
+def: "A method used to test the condition of the middle ear, including mobility of the tympanic membrane (eardrum) and condition of conduction bones. During the test, a tympanometer is inserted into the ear canal and the instrument causes a series of changes in the pressure in the ear, generates a tone and measures the response of the eardrum at the different pressures." [MPD:MB, https://en.wikipedia.org/wiki/Tympanometry "Wikipedia"]
 is_a: MMO:0000026 ! in vivo method
 created_by: jesmith
 creation_date: 2018-01-17T13:35:32Z
@@ -5407,7 +5406,7 @@ creation_date: 2018-01-17T14:38:18Z
 [Term]
 id: MMO:0000627
 name: virtual optometry
-def: "A method which employs a virtual reality system to quantify visuomotor behavior, that is, motor activity which is dependent on or involving sight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://www.cerebralmechanics.com/products.html "Website", MPD:MB]
+def: "A method which employs a virtual reality system to quantify visuomotor behavior, that is, motor activity which is dependent on or involving sight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, MPD:MB, http://www.cerebralmechanics.com/products.html "Website"]
 synonym: "OptoMotry method" NARROW []
 is_a: MMO:0000254 ! body movement/behavior method
 created_by: jesmith
@@ -5424,7 +5423,7 @@ creation_date: 2018-01-17T15:27:17Z
 [Term]
 id: MMO:0000629
 name: blood cytokine analysis
-def: "Any method which measures one or more cytokines, any of a large group of low-molecular-weight proteins (~5-20 kDa in size) secreted by various cell types. Cytokines are involved in cell-to-cell communication, in coordinating antibody and T cell immune interactions, and in regulating immune reactivity. Cytokines include colony-stimulating factors, interferons, interleukins, lymphokines, and members of the TNF and TGF-beta superfamilies." [https://www.sinobiological.com/Cytokines-information-cytokine.html "Website", Mosby:Mosbys_Medical_Dictionary--9th_Ed, MPD:MB]
+def: "Any method which measures one or more cytokines, any of a large group of low-molecular-weight proteins (~5-20 kDa in size) secreted by various cell types. Cytokines are involved in cell-to-cell communication, in coordinating antibody and T cell immune interactions, and in regulating immune reactivity. Cytokines include colony-stimulating factors, interferons, interleukins, lymphokines, and members of the TNF and TGF-beta superfamilies." [Mosby:Mosbys_Medical_Dictionary--9th_Ed, MPD:MB, https://www.sinobiological.com/Cytokines-information-cytokine.html "Website"]
 comment: Only for use when the specific method of measuring the cytokine such as ELISA, EIA or RIA, is not given.
 is_a: MMO:0000166 ! blood protein analysis
 created_by: jesmith
@@ -5443,7 +5442,7 @@ creation_date: 2018-01-17T15:52:50Z
 [Term]
 id: MMO:0000631
 name: standard blood plasma chemistry panel
-def: "A standardized group of  tests which are routinely performed to determine the general health of a patient or test subject, specifically using blood plasma as the input. Plasma is the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://labtestsonline.org/tests/chemistry-panels "Website", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+def: "A standardized group of  tests which are routinely performed to determine the general health of a patient or test subject, specifically using blood plasma as the input. Plasma is the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, https://labtestsonline.org/tests/chemistry-panels "Website"]
 is_a: MMO:0000169 ! standard blood chemistry panel
 created_by: jesmith
 creation_date: 2018-01-17T16:01:36Z
@@ -5451,7 +5450,7 @@ creation_date: 2018-01-17T16:01:36Z
 [Term]
 id: MMO:0000632
 name: standard blood serum chemistry panel
-def: "A standardized group of  tests which are routinely performed to determine the general health of a patient or test subject, specifically using blood serum as the input. Serum is the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://labtestsonline.org/tests/chemistry-panels "Website", ISBN:978-1416049982]
+def: "A standardized group of  tests which are routinely performed to determine the general health of a patient or test subject, specifically using blood serum as the input. Serum is the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, https://labtestsonline.org/tests/chemistry-panels "Website"]
 is_a: MMO:0000169 ! standard blood chemistry panel
 created_by: jesmith
 creation_date: 2018-01-17T16:06:11Z
@@ -5459,7 +5458,7 @@ creation_date: 2018-01-17T16:06:11Z
 [Term]
 id: MMO:0000633
 name: bronchoalveolar lavage
-def: "A technique in which fluid is introduced into the lung(s) then collected for analysis, for example assessment of cells, proteins or pathogens in the lungs." [https://en.wikipedia.org/wiki/Bronchoalveolar_lavage "Wikipedia", https://www.thoracic.org/professionals/clinical-resources/critical-care/clinical-education/critical-care-procedures/bronchoalveolar-lavage.php "Website"]
+def: "A technique in which fluid is introduced into the lung(s) then collected for analysis, for example assessment of cells, proteins or pathogens in the lungs." [https://www.thoracic.org/professionals/clinical-resources/critical-care/clinical-education/critical-care-procedures/bronchoalveolar-lavage.php "Website", https://en.wikipedia.org/wiki/Bronchoalveolar_lavage "Wikipedia"]
 synonym: "BAL" RELATED []
 is_a: MMO:0000235 ! body fluid collection method
 created_by: jesmith
@@ -5530,7 +5529,7 @@ creation_date: 2018-05-24T12:40:34Z
 [Term]
 id: MMO:0000641
 name: transcript expression assay
-def: "Any method which measures the levels, timing, and/or location, or differential quantification of specific gene transcripts, that is, RNA molecules formed from DNA templates during transcription." [https://en.wikipedia.org/wiki/Primary_transcript "Wikipedia", Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed, Segen:Segens_Medical_Dictionary_2012]
+def: "Any method which measures the levels, timing, and/or location, or differential quantification of specific gene transcripts, that is, RNA molecules formed from DNA templates during transcription." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed, Segen:Segens_Medical_Dictionary_2012, https://en.wikipedia.org/wiki/Primary_transcript "Wikipedia"]
 synonym: "RNA expression assay" RELATED []
 synonym: "transcript expression" EXACT DISPLAY_SYNONYM []
 synonym: "transcription profiling assay" RELATED []
@@ -5542,7 +5541,7 @@ creation_date: 2018-05-24T13:39:43Z
 [Term]
 id: MMO:0000642
 name: protein expression assay
-def: "Any method which measures the levels, timing, and/or location of, or differentially quantifies, proteins formed from the translation of gene transcripts." [https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393 "Scitable", PMID:19381602]
+def: "Any method which measures the levels, timing, and/or location of, or differentially quantifies, proteins formed from the translation of gene transcripts." [PMID:19381602, https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393 "Scitable"]
 synonym: "protein expression" EXACT DISPLAY_SYNONYM []
 xref: ECO:0000010
 xref: efo:EFO_0001458
@@ -5641,7 +5640,7 @@ creation_date: 2018-05-28T18:23:06Z
 [Term]
 id: MMO:0000651
 name: nuclease protection assay
-def: "A method in which single-stranded, discretely-sized antisense DNA or RNA probe(s) are hybridized in solution to a sample of RNA. Unhybridized probe and sample nucleotides are removed by digestion with one or more nucleases, enzymes which specifically cleave RNA, DNA or both. The remaining probe-target hybrids are analyzed, e.g. by electrophoresis and/or other detection methods." [https://en.wikipedia.org/wiki/Nuclease_protection_assay "Wikipedia", https://www.thermofisher.com/us/en/home/references/ambion-tech-support/ribonuclease-protection-assays/general-articles/the-basics-what-is-a-nuclease-protection-assay.html "Website"]
+def: "A method in which single-stranded, discretely-sized antisense DNA or RNA probe(s) are hybridized in solution to a sample of RNA. Unhybridized probe and sample nucleotides are removed by digestion with one or more nucleases, enzymes which specifically cleave RNA, DNA or both. The remaining probe-target hybrids are analyzed, e.g. by electrophoresis and/or other detection methods." [https://www.thermofisher.com/us/en/home/references/ambion-tech-support/ribonuclease-protection-assays/general-articles/the-basics-what-is-a-nuclease-protection-assay.html "Website", https://en.wikipedia.org/wiki/Nuclease_protection_assay "Wikipedia"]
 xref: ECO:0001106
 is_a: MMO:0000641 ! transcript expression assay
 created_by: jrsmith
@@ -5650,7 +5649,7 @@ creation_date: 2018-05-28T18:24:50Z
 [Term]
 id: MMO:0000652
 name: ribonuclease protection assay
-def: "A nuclease protection assay in which the probe is RNA and the nuclease is one or more ribonucleases which preferentially cleave single-stranded RNA." [https://en.wikipedia.org/wiki/Nuclease_protection_assay "Wikipedia", https://www.thermofisher.com/us/en/home/references/ambion-tech-support/ribonuclease-protection-assays/general-articles/the-basics-what-is-a-nuclease-protection-assay.html "Website"]
+def: "A nuclease protection assay in which the probe is RNA and the nuclease is one or more ribonucleases which preferentially cleave single-stranded RNA." [https://www.thermofisher.com/us/en/home/references/ambion-tech-support/ribonuclease-protection-assays/general-articles/the-basics-what-is-a-nuclease-protection-assay.html "Website", https://en.wikipedia.org/wiki/Nuclease_protection_assay "Wikipedia"]
 synonym: "RNA protection assay" RELATED []
 synonym: "RNase protection" EXACT DISPLAY_SYNONYM []
 synonym: "RNase protection" RELATED []
@@ -5836,7 +5835,7 @@ creation_date: 2018-05-28T19:02:46Z
 [Term]
 id: MMO:0000667
 name: high throughput proteomic profiling by tissue array
-def: "A method which employs a two-dimensionally ordered arrangement of tissues in paraffin blocks to histologically characterize protein expression in those tissues." [https://en.wikipedia.org/wiki/Tissue_microarray "Wikipedia", https://medicine.yale.edu/pathology/ypts/tissuemicroarrayfacility/index.aspx "Website"]
+def: "A method which employs a two-dimensionally ordered arrangement of tissues in paraffin blocks to histologically characterize protein expression in those tissues." [https://medicine.yale.edu/pathology/ypts/tissuemicroarrayfacility/index.aspx "Website", https://en.wikipedia.org/wiki/Tissue_microarray "Wikipedia"]
 is_a: MMO:0000666 ! high throughput proteomic profiling by array
 created_by: jrsmith
 creation_date: 2018-05-28T19:04:55Z
@@ -5853,7 +5852,7 @@ creation_date: 2018-05-28T19:06:24Z
 id: MMO:0000669
 name: western blot assay
 alt_id: MMO:0000338
-def: "An assay in which one or more protein samples are size-, structure-, and/or charge-separated by one- or two-dimensional gel electrophoresis, transferred to a membrane and an immunostaining procedure is used to detect and quantify one or more specific proteins in the sample(s)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://en.wikipedia.org/wiki/Western_blot "Wikipedia", ISBN:978-1416049982]
+def: "An assay in which one or more protein samples are size-, structure-, and/or charge-separated by one- or two-dimensional gel electrophoresis, transferred to a membrane and an immunostaining procedure is used to detect and quantify one or more specific proteins in the sample(s)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, https://en.wikipedia.org/wiki/Western_blot "Wikipedia"]
 synonym: "protein immunoblot assay" RELATED []
 synonym: "western" EXACT DISPLAY_SYNONYM []
 xref: ECO:0000112
@@ -5928,9 +5927,9 @@ creation_date: 2018-12-07T15:26:55Z
 
 [Term]
 id: MMO:0000677
-name: blood NAGA activity assay
+name: blood &#945;-N-acetylgalactosaminidase activity assay
 def: "A method which quantifies the catalytic effect exerted by &#945;-N-acetylgalactosaminidase in a specified sample of blood." []
-synonym: "blood &#945;-N-acetylgalactosaminidase activity assay" EXACT []
+synonym: "blood NAGA activity assay" EXACT []
 is_a: MMO:0000429 ! blood enzyme activity assay
 created_by: sjwang
 creation_date: 2018-12-07T15:31:16Z
@@ -5938,7 +5937,7 @@ creation_date: 2018-12-07T15:31:16Z
 [Term]
 id: MMO:0000678
 name: anion-exchange chromatography
-def: "A type of chromatography where a positively charged ion exchange resin with an affinity for molecules having net negative surface charges is used to separate the molecules." [ECO:0001010]
+def: "A type of chromatography where a positively charged ion exchange resin with an affinity for molecules having net negative surface charges is used to separate the molecules." [ECO:ECO\:0001010]
 is_a: MMO:0000404 ! liquid column chromatography
 created_by: sjwang
 creation_date: 2018-12-20T10:12:36Z
@@ -5946,7 +5945,7 @@ creation_date: 2018-12-20T10:12:36Z
 [Term]
 id: MMO:0000679
 name: cell fractionation
-def: "A type of fractionation where sub-cellular components are separated based on their physical properties such as density in a sucrose density gradient." [ECO:0000004]
+def: "A type of fractionation where sub-cellular components are separated based on their physical properties such as density in a sucrose density gradient." [ECO:ECO\:0000004]
 is_a: MMO:0000222 ! isolated cell method
 created_by: sjwang
 creation_date: 2018-12-20T10:15:21Z
@@ -5954,7 +5953,7 @@ creation_date: 2018-12-20T10:15:21Z
 [Term]
 id: MMO:0000680
 name: chromatin immunoprecipitation
-def: "A type of chromatin immunoprecipitation that uses a tiling microarray for the detection of protein-bound DNA regions where chromatin is immunoprecipitated for protein tagging and DNA is sheared from the cross-linked protein-DNA complex to be arrayed revealing the protein-bound genomic regions." [ECO:0000230]
+def: "A type of chromatin immunoprecipitation that uses a tiling microarray for the detection of protein-bound DNA regions where chromatin is immunoprecipitated for protein tagging and DNA is sheared from the cross-linked protein-DNA complex to be arrayed revealing the protein-bound genomic regions." [ECO:ECO\:0000230]
 synonym: "ChIP-chip" RELATED []
 synonym: "ChIP-on-chip" RELATED []
 is_a: MMO:0000682 ! immunoprecipitation
@@ -5964,7 +5963,7 @@ creation_date: 2018-12-20T10:18:35Z
 [Term]
 id: MMO:0000681
 name: co-fractionation
-def: "A type of fractionation evidence resulting from a protein fractionated with other compounds, factors, or macromolecules." [ECO:0000102]
+def: "A type of fractionation evidence resulting from a protein fractionated with other compounds, factors, or macromolecules." [ECO:ECO\:0000102]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-12-20T10:33:46Z
@@ -5972,7 +5971,7 @@ creation_date: 2018-12-20T10:33:46Z
 [Term]
 id: MMO:0000682
 name: immunoprecipitation
-def: "A type of protein assay that involves precipitation of a multivalent antigen by a bivalent antibody for protein isolation." [ECO:0000085]
+def: "A type of protein assay that involves precipitation of a multivalent antigen by a bivalent antibody for protein isolation." [ECO:ECO\:0000085]
 is_a: MMO:0000286 ! molecular separation method
 created_by: sjwang
 creation_date: 2018-12-20T10:38:08Z
@@ -5980,7 +5979,7 @@ creation_date: 2018-12-20T10:38:08Z
 [Term]
 id: MMO:0000683
 name: co-immunoprecipitation
-def: "A type of immunoprecipitation that involves precipitating two or more proteins via binding to an antibody specific to a single protein, followed by protein identification." [ECO:0000070]
+def: "A type of immunoprecipitation that involves precipitating two or more proteins via binding to an antibody specific to a single protein, followed by protein identification." [ECO:ECO\:0000070]
 is_a: MMO:0000682 ! immunoprecipitation
 created_by: sjwang
 creation_date: 2018-12-20T10:44:57Z
@@ -5988,7 +5987,7 @@ creation_date: 2018-12-20T10:44:57Z
 [Term]
 id: MMO:0000684
 name: gel filtration chromatography
-def: "A type of chromatography resulting from the exclusion of proteins based on molecular size by filtration through a porous matrix (swollen gel), from which larger molecules are excluded." [ECO:0001049]
+def: "A type of chromatography resulting from the exclusion of proteins based on molecular size by filtration through a porous matrix (swollen gel), from which larger molecules are excluded." [ECO:ECO\:0001049]
 is_a: MMO:0000404 ! liquid column chromatography
 created_by: sjwang
 creation_date: 2018-12-20T10:47:33Z
@@ -5996,7 +5995,7 @@ creation_date: 2018-12-20T10:47:33Z
 [Term]
 id: MMO:0000685
 name: confocal microscopy
-def: "A type of microscopy where sharp images are taken by excluding most of the light from the specimen that is not from the microscope's focal plane, thus allowing better contrast and less haze, which makes it possible to build three-dimensional reconstructions of a volume of the specimen by assembling a series of thin slices taken along the vertical axis." [ECO:0005587]
+def: "A type of microscopy where sharp images are taken by excluding most of the light from the specimen that is not from the microscope's focal plane, thus allowing better contrast and less haze, which makes it possible to build three-dimensional reconstructions of a volume of the specimen by assembling a series of thin slices taken along the vertical axis." [ECO:ECO\:0005587]
 is_a: MMO:0000111 ! ex vivo light microscopy
 created_by: sjwang
 creation_date: 2018-12-20T10:50:58Z
@@ -6004,7 +6003,7 @@ creation_date: 2018-12-20T10:50:58Z
 [Term]
 id: MMO:0000686
 name: immunofluorescence confocal microscopy
-def: "A type of confocal microscopy where light passes through immunofluorescent-stained tissue sections or cells and then the emitted light passes through the dichroic mirror and is focused onto the pinhole for subsequent detection." [ECO:0005600]
+def: "A type of confocal microscopy where light passes through immunofluorescent-stained tissue sections or cells and then the emitted light passes through the dichroic mirror and is focused onto the pinhole for subsequent detection." [ECO:ECO\:0005600]
 is_a: MMO:0000538 ! ex vivo light microscopy with immunohistochemistry
 is_a: MMO:0000685 ! confocal microscopy
 created_by: sjwang
@@ -6012,7 +6011,7 @@ creation_date: 2018-12-20T10:54:33Z
 
 [Term]
 id: MMO:0000687
-name: urine aldosterone analysis
+name: Urine aldosterone analysis
 def: "Any test which measures the amount of aldosterone, a mineralocorticoid hormone produced by the adrenal cortex, in urine." []
 is_a: MMO:0000147 ! urine analysis
 created_by: sjwang
@@ -6020,7 +6019,7 @@ creation_date: 2018-12-20T15:19:50Z
 
 [Term]
 id: MMO:0000688
-name: blood parathyroid hormone analysis
+name: Blood parathyroid hormone analysis
 def: "Any method by which the level or concentration in a sample of blood of parathyroid hormone is measured." []
 is_a: MMO:0000311 ! blood hormone analysis
 created_by: sjwang
@@ -6028,17 +6027,17 @@ creation_date: 2018-12-27T10:08:44Z
 
 [Term]
 id: MMO:0000689
-name: plasma parathyroid hormone analysis
+name: Plasma parathyroid hormone analysis
 def: "Any method by which the level or concentration in a sample of plasma of parathyroid hormone is measured." []
-is_a: MMO:0000688 ! blood parathyroid hormone analysis
+is_a: MMO:0000688 ! Blood parathyroid hormone analysis
 created_by: sjwang
 creation_date: 2018-12-27T10:11:49Z
 
 [Term]
 id: MMO:0000690
-name: serum parathyroid hormone analysis
+name: Serum parathyroid hormone analysis
 def: "Any method by which the level or concentration in a sample of serum of parathyroid hormone is measured." []
-is_a: MMO:0000688 ! blood parathyroid hormone analysis
+is_a: MMO:0000688 ! Blood parathyroid hormone analysis
 created_by: sjwang
 creation_date: 2018-12-27T10:13:01Z
 
@@ -6077,7 +6076,7 @@ creation_date: 2019-01-02T14:33:45Z
 [Term]
 id: MMO:0000695
 name: optical coherence tomography
-def: "Optical coherence tomography (OCT) is an imaging technique that uses low-coherence light to capture micrometer-resolution, two- and three-dimensional images from within optical scattering media (e.g., biological tissue)." [PMID:3411196]
+def: "Optical coherence tomography (OCT) is an imaging technique that uses low-coherence light to capture micrometer-resolution, two- and three-dimensional images from within optical scattering media (e.g., biological tissue)." [PMID:PMID\:3411196]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-03-19T16:51:24Z
@@ -6293,7 +6292,7 @@ creation_date: 2020-06-05T18:04:27Z
 [Term]
 id: MMO:0000718
 name: Dynamic Contrast-Enhanced Magnetic Resonance Imaging
-def: "Magnetic resonance imaging (MRI) contrast agents increase the contrast difference between normal and abnormal tissues. MRI with contrast can be used to follow the progress and/or treatment of diseases such as cancer, atherosclerosis, and renal disease." [https://www.sciencedirect.com/topics/medicine-and-dentistry/dynamic-contrast-enhanced-mri "ScienceDirect", PMID:27666161]
+def: "Magnetic resonance imaging (MRI) contrast agents increase the contrast difference between normal and abnormal tissues. MRI with contrast can be used to follow the progress and/or treatment of diseases such as cancer, atherosclerosis, and renal disease." [PMID:27666161, https://www.sciencedirect.com/topics/medicine-and-dentistry/dynamic-contrast-enhanced-mri "ScienceDirect"]
 synonym: "DCE-MRI" EXACT []
 is_a: MMO:0000019 ! magnetic resonance imaging
 created_by: slaulede
@@ -6302,7 +6301,7 @@ creation_date: 2020-06-08T13:58:17Z
 [Term]
 id: MMO:0000719
 name: freezing point osmometry
-def: "An osmometer can determine the concentration of solutes in a solvent, based on the lowering of a solution's freezing point by increasing solute concentrations. The freezing point depression method of osmometry is the most commonly used method to measure the osmolality of aqueous samples." [https://www.aicompanies.com/osmometers/?utm_medium=adwords]
+def: "An osmometer can determine the concentration of solutes in a solvent, based on the lowering of a solution's freezing point by increasing solute concentrations. The freezing point depression method of osmometry is the most commonly used method to measure the osmolality of aqueous samples." [https://www.aicompanies.com/osmometers/?utm_medium=adwords "url"]
 is_a: MMO:0000170 ! osmometry
 created_by: slaulede
 creation_date: 2020-06-12T16:09:10Z
@@ -6310,7 +6309,7 @@ creation_date: 2020-06-12T16:09:10Z
 [Term]
 id: MMO:0000720
 name: ultra-performance liquid chromatography
-def: "An ultra-high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 1000 atmospheres (15,000 psi). Higher pressure and smaller column particle sizes of less than 2 um helps UPLC outperform HPLC." [https://www.pharmaguideline.com/2018/04/differences-between-hplc-and-uplc.html#gsc.tab=0]
+def: "An ultra-high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 1000 atmospheres (15,000 psi). Higher pressure and smaller column particle sizes of less than 2 um helps UPLC outperform HPLC." [https://www.pharmaguideline.com/2018/04/differences-between-hplc-and-uplc.html#gsc.tab=0 "url"]
 synonym: "UHPLC" NARROW []
 synonym: "ultra high performance liquid chromatography" NARROW []
 synonym: "UPLC" NARROW []
@@ -6321,7 +6320,7 @@ creation_date: 2020-06-16T17:08:57Z
 [Term]
 id: MMO:0000721
 name: ultra-performance liquid chromatography-mass spectrometry
-def: "An analytical technique that combines the physical separation capabilities of ultra-pressure liquid chromatography (UPLC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components by UPLC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [https://www.waters.com/waters/en_US/Mass-Spec-Users-Prefer-UPLC/nav.htm?cid=10007802&locale=en_US]
+def: "An analytical technique that combines the physical separation capabilities of ultra-pressure liquid chromatography (UPLC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components by UPLC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [https://www.waters.com/waters/en_US/Mass-Spec-Users-Prefer-UPLC/nav.htm?cid=10007802&locale=en_US "url"]
 synonym: "Ultra Performance Liquid Chromatography/Mass Spectrometry" EXACT []
 synonym: "UPLC/MS" EXACT []
 synonym: "uplc-mass spec" EXACT []
@@ -6330,66 +6329,6 @@ is_a: MMO:0000534 ! mass spectrometry
 is_a: MMO:0000720 ! ultra-performance liquid chromatography
 created_by: slaulede
 creation_date: 2020-06-16T17:39:24Z
-
-[Term]
-id: MMO:0000722
-name: ex vivo light microscopy with inverted microscope
-def: "Microscopy with its light source from above pointing down, while the objectives and turret are below the stage pointing up - uses include micromanipulation applications where space above the specimen is required for manipulator mechanisms and the microtools they hold." [https://en.wikipedia.org/wiki/Inverted_microscope "Wikipedia"]
-is_a: MMO:0000111 ! ex vivo light microscopy
-created_by: slaulede
-creation_date: 2020-06-25T13:41:29Z
-
-[Term]
-id: MMO:0000723
-name: blood NAG activity assay
-def: "A method which quantifies the catalytic effect exerted by N-acetyl-&#946;-d-glucosaminidase in a specified sample of blood." []
-synonym: "blood N-acetyl-&#946;-d-glucosaminidase activity assay" EXACT []
-is_a: MMO:0000429 ! blood enzyme activity assay
-created_by: slaulede
-creation_date: 2020-06-30T13:44:52Z
-
-[Term]
-id: MMO:0000725
-name: passive avoidance test using a two-way shuttle box apparatus
-def: "Passive avoidance describes experiments in which the animal learns to avoid an aversive event by suppressing a particular behavior. To learn to do so, the aversive stimulus must be clearly associated with the active behavioral component. The passive avoidance task is be carried out in a shuttle box with a light chamber and a dark chamber separated by a doorway (the step-through version of the task). Given that illuminated environments are unpleasant to rodents, when placed in the light chamber, they are led into the preferred dark compartment by its innate photophobia. During habituation, theyre allowed to do so, but in the conditioning phase of the passive avoidance test, the animal will receive a foot shock when he crosses to the dark chamber. His innate behavior of seeking a darker environment will thereby become associated with an aversive stimulus. When placed again in the light chamber, the animal will avoid entering the dark, shock-associated chamber." [https://conductscience.com/maze/portfolio/active-passive-avoidance-shuttle-box/ "Website"]
-is_a: MMO:0000301 ! two way shuttlebox apparatus method
-created_by: slaulede
-creation_date: 2020-07-07T15:36:49Z
-
-[Term]
-id: MMO:0000726
-name: blood p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of blood. The rate of formation of the colored oxidation product is proportional to the concentration of serum ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "blood PPD oxidase activity assay" EXACT []
-is_a: MMO:0000429 ! blood enzyme activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:28:09Z
-
-[Term]
-id: MMO:0000727
-name: plasma p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of plasma. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "plasma PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:33:41Z
-
-[Term]
-id: MMO:0000728
-name: serum p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of serum. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "serum PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:35:48Z
-
-[Term]
-id: MMO:0000729
-name: flame photometry
-def: "This is a controlled flame test with the intensity of the flame color quantified by photoelectric circuitry. The intensity of the color will depend on the energy that had been absorbed by the atoms that was sufficient to vaporize them. Filters select which colors the photometer detects and exclude the influence of other ions." [https://en.wikipedia.org/wiki/Photoelectric_flame_photometer "Wikipedia"]
-is_a: MMO:0000704 ! photometry
-created_by: slaulede
-creation_date: 2020-07-16T10:29:04Z
 
 [Typedef]
 id: OBO_REL:part_of

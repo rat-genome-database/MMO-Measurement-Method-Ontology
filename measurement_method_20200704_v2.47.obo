@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.49
-date: 18:07:2020 20:13
+data-version: 2.47
+date: 04:07:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2452,8 +2452,8 @@ creation_date: 2012-08-27T01:02:04Z
 
 [Term]
 id: MMO:0000302
-name: active avoidance test using a two-way shuttle box apparatus
-def: "Active avoidance requires performing a specific behavior in order to escape or avoid the aversive stimulus. It is a conditioning paradigm in which the animal learns to control the application of an unconditioned stimulus (US), in this case, a foot shock, by appropriately reacting to a conditioned stimulus (CS) preceding the US, such as a light cue. The first stage of avoidance learning is usually to escape from the US. With continued training, anticipatory reactions appear which enable the animal to avoid the US altogether. In the active avoidance test, the rodent is placed into a shuttle box and is trained to move to the opposite side of the box in response to a cue that signals an incoming foot shock. Movement to the opposite side of the chamber in response to the presentation of the shock-predictive cue alone is regarded as active avoidance, whereas movement to the opposite side of the chamber only after receiving foot shock is regarded as an escape response." [https://conductscience.com/maze/portfolio/active-passive-avoidance-shuttle-box/ "Website"]
+name: active avoidance test using two way shuttlebox apparatus
+def: "A test measuring movements made in response to adverse stimuli, such as loud noises, bright lights or foot shocks, administered in a two-sided box in which an experimental animal must move from one compartment to the other in order to avoid such stimuli." [http://users.ipfw.edu/abbott/314/Avoidance.html "Website"]
 is_a: MMO:0000301 ! two way shuttlebox apparatus method
 created_by: jsmith
 creation_date: 2012-08-27T04:31:31Z
@@ -3882,7 +3882,7 @@ creation_date: 2014-01-14T13:21:30Z
 [Term]
 id: MMO:0000460
 name: real-time polymerase chain reaction assay
-def: "Real-time PCR is able to detect sequence-specific PCR products as they accumulate in 'real-time' during the PCR amplification process. As the PCR product of interest is produced, real-time PCR can detect their accumulation and quantify the number of substrates present in the initial PCR mixture before amplification began." [http://www.bio.davidson.edu/courses/genomics/method/realtimepcr.html]
+def: "Real-time PCR is able to detect sequence-specific PCR products as they accumulate in 'real-time' during the PCR amplification process. As the PCR product of interest is produced, real-time PCR can detect their accumulation and quantify the number of substrates present in the initial PCR mixture before amplification began." [Website:www.bio.davidson.edu/courses/genomics/method/realtimepcr.html]
 synonym: "kinetic polymerase chain reaction" RELATED []
 synonym: "qPCR" EXACT []
 synonym: "quantitative real time polymerase chain reaction" EXACT []
@@ -6302,7 +6302,7 @@ creation_date: 2020-06-08T13:58:17Z
 [Term]
 id: MMO:0000719
 name: freezing point osmometry
-def: "An osmometer can determine the concentration of solutes in a solvent, based on the lowering of a solution's freezing point by increasing solute concentrations. The freezing point depression method of osmometry is the most commonly used method to measure the osmolality of aqueous samples." [https://www.aicompanies.com/osmometers/?utm_medium=adwords]
+def: "An osmometer can determine the concentration of solutes in a solvent, based on the lowering of a solution's freezing point by increasing solute concentrations. The freezing point depression method of osmometry is the most commonly used method to measure the osmolality of aqueous samples." [url:https\://www.aicompanies.com/osmometers/?utm_medium=adwords]
 is_a: MMO:0000170 ! osmometry
 created_by: slaulede
 creation_date: 2020-06-12T16:09:10Z
@@ -6310,7 +6310,7 @@ creation_date: 2020-06-12T16:09:10Z
 [Term]
 id: MMO:0000720
 name: ultra-performance liquid chromatography
-def: "An ultra-high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 1000 atmospheres (15,000 psi). Higher pressure and smaller column particle sizes of less than 2 um helps UPLC outperform HPLC." [https://www.pharmaguideline.com/2018/04/differences-between-hplc-and-uplc.html#gsc.tab=0]
+def: "An ultra-high pressure form of liquid column chromatography in which the solvent is forced through the column under high pressures of up to 1000 atmospheres (15,000 psi). Higher pressure and smaller column particle sizes of less than 2 um helps UPLC outperform HPLC." [url:https\://www.pharmaguideline.com/2018/04/differences-between-hplc-and-uplc.html#gsc.tab=0]
 synonym: "UHPLC" NARROW []
 synonym: "ultra high performance liquid chromatography" NARROW []
 synonym: "UPLC" NARROW []
@@ -6321,7 +6321,7 @@ creation_date: 2020-06-16T17:08:57Z
 [Term]
 id: MMO:0000721
 name: ultra-performance liquid chromatography-mass spectrometry
-def: "An analytical technique that combines the physical separation capabilities of ultra-pressure liquid chromatography (UPLC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components by UPLC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [https://www.waters.com/waters/en_US/Mass-Spec-Users-Prefer-UPLC/nav.htm?cid=10007802&locale=en_US]
+def: "An analytical technique that combines the physical separation capabilities of ultra-pressure liquid chromatography (UPLC) with the mass analysis capabilities of mass spectrometry (MS). Molecular mixtures are initially separated into components by UPLC. As these components exit the column, they are subjected to mass spectrometry for identification based on their mass-to-charge ratio and behavior in a magnetic field." [url:https\://www.waters.com/waters/en_US/Mass-Spec-Users-Prefer-UPLC/nav.htm?cid=10007802&locale=en_US]
 synonym: "Ultra Performance Liquid Chromatography/Mass Spectrometry" EXACT []
 synonym: "UPLC/MS" EXACT []
 synonym: "uplc-mass spec" EXACT []
@@ -6347,49 +6347,6 @@ synonym: "blood N-acetyl-&#946;-d-glucosaminidase activity assay" EXACT []
 is_a: MMO:0000429 ! blood enzyme activity assay
 created_by: slaulede
 creation_date: 2020-06-30T13:44:52Z
-
-[Term]
-id: MMO:0000725
-name: passive avoidance test using a two-way shuttle box apparatus
-def: "Passive avoidance describes experiments in which the animal learns to avoid an aversive event by suppressing a particular behavior. To learn to do so, the aversive stimulus must be clearly associated with the active behavioral component. The passive avoidance task is be carried out in a shuttle box with a light chamber and a dark chamber separated by a doorway (the step-through version of the task). Given that illuminated environments are unpleasant to rodents, when placed in the light chamber, they are led into the preferred dark compartment by its innate photophobia. During habituation, theyre allowed to do so, but in the conditioning phase of the passive avoidance test, the animal will receive a foot shock when he crosses to the dark chamber. His innate behavior of seeking a darker environment will thereby become associated with an aversive stimulus. When placed again in the light chamber, the animal will avoid entering the dark, shock-associated chamber." [https://conductscience.com/maze/portfolio/active-passive-avoidance-shuttle-box/ "Website"]
-is_a: MMO:0000301 ! two way shuttlebox apparatus method
-created_by: slaulede
-creation_date: 2020-07-07T15:36:49Z
-
-[Term]
-id: MMO:0000726
-name: blood p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of blood. The rate of formation of the colored oxidation product is proportional to the concentration of serum ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "blood PPD oxidase activity assay" EXACT []
-is_a: MMO:0000429 ! blood enzyme activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:28:09Z
-
-[Term]
-id: MMO:0000727
-name: plasma p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of plasma. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "plasma PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:33:41Z
-
-[Term]
-id: MMO:0000728
-name: serum p-phenylenediamine oxidase activity assay
-def: "A method which quantifies the catalytic effect exerted by ceruloplasmin in a specified sample of serum. The rate of formation of the colored oxidation product is proportional to the concentration of ceruloplasmin when a correction is made for nonenzymatic oxidation of p-phenylenediamine (PPD)." [PMID:5473551]
-synonym: "serum PPD oxidase activity assay" EXACT []
-is_a: MMO:0000726 ! blood p-phenylenediamine oxidase activity assay
-created_by: slaulede
-creation_date: 2020-07-14T13:35:48Z
-
-[Term]
-id: MMO:0000729
-name: flame photometry
-def: "This is a controlled flame test with the intensity of the flame color quantified by photoelectric circuitry. The intensity of the color will depend on the energy that had been absorbed by the atoms that was sufficient to vaporize them. Filters select which colors the photometer detects and exclude the influence of other ions." [https://en.wikipedia.org/wiki/Photoelectric_flame_photometer "Wikipedia"]
-is_a: MMO:0000704 ! photometry
-created_by: slaulede
-creation_date: 2020-07-16T10:29:04Z
 
 [Typedef]
 id: OBO_REL:part_of
