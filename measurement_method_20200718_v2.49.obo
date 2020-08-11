@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.50
-date: 08:08:2020 20:13
+data-version: 2.49
+date: 18:07:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -6390,15 +6390,6 @@ def: "This is a controlled flame test with the intensity of the flame color quan
 is_a: MMO:0000704 ! photometry
 created_by: slaulede
 creation_date: 2020-07-16T10:29:04Z
-
-[Term]
-id: MMO:0000730
-name: o-Phthalaldehyde fluorescent protein assay
-def: "When reacted with primary amines in the presence of mercaptoethanol, OPA (o-Phthalaldehyde) yields an intense blue-colored fluorescent product that has a maximum wavelength of excitation of 340 nm and emission at 455 nm. Wavelengths from 330-375 nm have been used for excitation and 436-490 nm for measuring emission. Protein concentrations as low as 50 ng/ml can be measured with an OPA assay. The inherent sensitivity and speed of OPA, along with its broad linear range, makes it a useful protein and peptide assay reagent." [http://www.piercenet.com, PMID: 5576608]
-synonym: "OPA fluorescent protein assay" EXACT []
-is_a: MMO:0000247 ! fluorometry
-created_by: slaulede
-creation_date: 2020-08-04T17:55:00Z
 
 [Typedef]
 id: OBO_REL:part_of
