@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.52
-date: 03:10:2020 20:13
+data-version: 2.50
+date: 08:08:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2708,8 +2708,9 @@ creation_date: 2013-02-12T16:00:26Z
 
 [Term]
 id: MMO:0000332
-name: pyrogallol red-molybdate complex-based urine total protein analysis
+name: pyrogallol red-molybdate complex-based urine total protein analysis with spectrophotometric readout
 def: "Method of assessing the total amount of protein, complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in a specified sample of urine based upon measuring the shift in the absorption that occurs when a complex of pyrogallol red and molybdate binds to basic amino acid groups of protein molecules in the sample." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, PMID:3731450]
+is_a: MMO:0000331 ! protein analysis by liquid phase colorimetry with spectrophotometric readout
 is_a: MMO:0000335 ! urine total protein analysis
 is_a: MMO:0000423 ! urine protein colorimetric analysis
 created_by: JSmith
@@ -6398,54 +6399,6 @@ synonym: "OPA fluorescent protein assay" EXACT []
 is_a: MMO:0000247 ! fluorometry
 created_by: slaulede
 creation_date: 2020-08-04T17:55:00Z
-
-[Term]
-id: MMO:0000731
-name: nociception measurement method
-def: "A nociception assay that evaluates the ability of an animal, usually a rodent, to detect a noxious stimulus such as the feeling of pain, caused by stimulation of nociceptors. These assays measure the existence of pain through behaviors such as withdrawal, licking, immobility, and vocalization." []
-is_obsolete: true
-created_by: slaulede
-creation_date: 2020-09-25T12:22:24Z
-
-[Term]
-id: MMO:0000732
-name: nociception measurement method
-alt_id: MMO:0000731
-def: "A method to measure nociception, the sensory nervous system's process of encoding noxious stimuli. In nociception, intense chemical, mechanical, or thermal stimulation of sensory nerve cells called nociceptors produces a signal that travels along a chain of nerve fibers via the spinal cord to the brain." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception]
-synonym: "nociception assay" EXACT []
-synonym: "pain measurement method" RELATED []
-is_a: MMO:0000026 ! in vivo method
-created_by: slaulede
-creation_date: 2020-09-25T12:36:27Z
-
-[Term]
-id: MMO:0000733
-name: Randall-Selitto test
-def: "The Randall-Selitto test consists of an application of a uniformly increasing pressure on the paw to assess the threshold response to pain." [https://en.wikipedia.org/wiki/Nociception, https://www.panlab.com/en/tests-solutions/randall-selitto-test, PMID:13471093]
-synonym: "paw pressure test" EXACT []
-xref: PMID:13471093
-xref: PMID:21682605
-is_a: MMO:0000732 ! nociception measurement method
-created_by: slaulede
-creation_date: 2020-09-25T13:11:24Z
-
-[Term]
-id: MMO:0000734
-name: automated plasma triglyceride analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure triglyceride in plasma." [https://www.merriam-webster.com/]
-is_a: MMO:0000234 ! plasma triglyceride analysis
-is_a: MMO:0000553 ! automated plasma analysis
-created_by: slaulede
-creation_date: 2020-09-29T17:25:28Z
-
-[Term]
-id: MMO:0000735
-name: automated plasma glucose analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure glucose in plasma." [https://www.merriam-webster.com/]
-is_a: MMO:0000315 ! plasma glucose analysis
-is_a: MMO:0000553 ! automated plasma analysis
-created_by: slaulede
-creation_date: 2020-09-29T17:34:41Z
 
 [Typedef]
 id: OBO_REL:part_of
