@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 2.73
-date: 08:01:2022 20:13
+data-version: 2.63
+date: 10:04:2021 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: measurement_method_ontology
 ontology: mmo
@@ -522,7 +522,7 @@ creation_date: 2010-06-15T10:22:33Z
 [Term]
 id: MMO:0000072
 name: bioimpedance method
-def: "Method which measures the opposition to the flow of an electrical current through a segment of tissue." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "Measurement of the opposition to the flow of an electrical current through a segment of tissue." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: MMO:0000026 ! in vivo method
 created_by: mshimoyama
 creation_date: 2010-06-15T10:23:06Z
@@ -2118,7 +2118,6 @@ creation_date: 2012-07-24T04:48:52Z
 id: MMO:0000263
 name: center of elevated plus maze apparatus
 def: "The area in an elevated plus maze apparatus where the four arms meet. An elevated plus maze is an experimental apparatus which consists of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 cm, above the floor or platform upon which the apparatus sits." [PMID:22294128]
-synonym: "center of EPM" EXACT []
 is_a: MMO:0000262 ! elevated plus maze apparatus method
 created_by: JSmith
 creation_date: 2012-07-24T05:06:57Z
@@ -2127,7 +2126,6 @@ creation_date: 2012-07-24T05:06:57Z
 id: MMO:0000264
 name: arm(s) of elevated plus maze apparatus
 def: "Any of the arms, either open or enclosed, of an elevated plus maze apparatus, an experimental apparatus which consists of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 cm, above the floor or platform upon which the apparatus sits." [PMID:22294128]
-synonym: "arms of EPM" EXACT []
 is_a: MMO:0000262 ! elevated plus maze apparatus method
 created_by: JSmith
 creation_date: 2012-07-24T05:10:26Z
@@ -2135,9 +2133,8 @@ creation_date: 2012-07-24T05:10:26Z
 [Term]
 id: MMO:0000265
 name: enclosed arm of elevated plus maze apparatus
-def: "One or both of the arms of an elevated plus maze apparatus which are bounded on two or three sides by walls, forming an observable enclosure. An elevated plus maze is an experimental apparatus which consists of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 cm, above the floor or platform upon which the apparatus sits." [PMID:22294128]
-synonym: "closed arm of elevated plus maze apparatus" EXACT []
-synonym: "enclosed arm of EPM" EXACT []
+def: "One or both of the arms of an elevated plus maze apparatus which are bounded on two or three sides by walls, forming an observable enclosure.  An elevated plus maze is an experimental apparatus which consists of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 cm, above the floor or platform upon which the apparatus sits." [PMID:22294128]
+synonym: "closed arm of elevated plus maze apparatus" RELATED []
 is_a: MMO:0000264 ! arm(s) of elevated plus maze apparatus
 created_by: JSmith
 creation_date: 2012-07-24T05:12:07Z
@@ -2146,7 +2143,6 @@ creation_date: 2012-07-24T05:12:07Z
 id: MMO:0000266
 name: open arm of elevated plus maze apparatus
 def: "One or both of the arms of an elevated plus maze apparatus which are not bounded or enclosed with walls. An elevated plus maze is an experimental apparatus which consists of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 cm, above the floor or platform upon which the apparatus sits." [PMID:22294128]
-synonym: "open arm of EPM" EXACT []
 is_a: MMO:0000264 ! arm(s) of elevated plus maze apparatus
 created_by: JSmith
 creation_date: 2012-07-24T05:15:31Z
@@ -2598,11 +2594,7 @@ creation_date: 2012-10-04T04:01:07Z
 
 [Term]
 id: MMO:0000319
-name: ex vivo videomicroscopy
-def: "The use of video microscopes provide a live feed image directly to a computer, TV or a LCD projector. There are several different setups for video microscopes which differ mostly based on the type of camera and the frames per second that the camera provides. The main goal for a video microscope is typically a smooth real-time video image that does not jump and is fluid." [https://www.microscopeworld.com/t-video_microscopes.aspx, https://www.sciencedirect.com/topics/medicine-and-dentistry/video-microscopy]
-synonym: "ex vivo television microscopy" EXACT []
-synonym: "ex vivo video microscopy" EXACT []
-xref: PMID:27270176
+name: ex vivo television microscopy
 is_a: MMO:0000111 ! ex vivo light microscopy
 created_by: JSmith
 creation_date: 2012-10-05T12:06:36Z
@@ -3603,7 +3595,7 @@ def: "Any method which quantifies the catalytic effect exerted by an enzyme, a p
 synonym: "blood enzyme activity analysis" EXACT []
 synonym: "blood enzyme activity test" EXACT []
 is_a: MMO:0000030 ! ex vivo blood analysis
-is_a: MMO:0000444 ! enzyme or transport activity assay
+is_a: MMO:0000444 ! enzyme activity assay
 created_by: JSmith
 creation_date: 2013-11-13T10:42:42Z
 
@@ -3743,10 +3735,8 @@ creation_date: 2013-11-18T12:17:57Z
 
 [Term]
 id: MMO:0000444
-name: enzyme or transport activity assay
-def: "A procedure or technique performed outside the living body by which the catalytic activity of an enzyme (a protein that catalyzes chemical reactions of other substances without itself being destroyed or altered upon completion of the reactions) or activity of a transport molecule or complex is assessed and a quantitative or qualitative value assigned." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter]
-xref: PMID:12887131
-xref: PMID:3611769
+name: enzyme activity assay
+def: "A procedure or technique performed outside the living body by which the catalytic activity of an enzyme (a protein that catalyzes chemical reactions of other substances without itself being destroyed or altered upon completion of the reactions) is assessed and a quantitative or qualitative value assigned." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, PMID:22654893]
 is_a: MMO:0000027 ! ex vivo method
 created_by: JSmith
 creation_date: 2013-12-20T10:39:06Z
@@ -4672,10 +4662,7 @@ creation_date: 2014-06-10T13:38:03Z
 id: MMO:0000542
 name: creatinine analysis by Jaffe reaction with spectrophotometric readout
 def: "A method for assaying creatinine in a sample using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm." [http://en.wikipedia.org/wiki/Jaffe_reaction "Wikipedia"]
-synonym: "alkaline picrate creatinine assay with spectrophotometric readout" EXACT []
 synonym: "Jaffe reaction creatinine assay with spectrophotometric readout" EXACT []
-xref: PMID:13072520
-is_a: MMO:0000270 ! blood creatinine analysis
 is_a: MMO:0000541 ! creatinine analysis by liquid phase colorimetry with spectrophotometric readout
 created_by: JSmith
 creation_date: 2014-06-10T13:41:17Z
@@ -4684,7 +4671,6 @@ creation_date: 2014-06-10T13:41:17Z
 id: MMO:0000543
 name: urine creatinine analysis by Jaffe reaction with spectrophotometric readout
 def: "A method for assaying creatinine in urine using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm." [http://en.wikipedia.org/wiki/Jaffe_reaction "Wikipedia"]
-synonym: "alkaline picrate urine creatinine assay with spectrophotometric readout" EXACT []
 synonym: "Jaffe reaction urine creatinine assay with spectrophotometric readout" EXACT []
 is_a: MMO:0000275 ! urine creatinine analysis
 is_a: MMO:0000542 ! creatinine analysis by Jaffe reaction with spectrophotometric readout
@@ -4695,9 +4681,7 @@ creation_date: 2014-06-10T13:43:17Z
 id: MMO:0000544
 name: plasma creatinine analysis by Jaffe reaction with spectrophotometric readout
 def: "A method for assaying the creatinine in plasma (the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended) using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm. The assay can be performed without the removal of proteins from the sample, or in combination with such removal which reduces the possibility of interference from proteinaceous chromogens." [http://en.wikipedia.org/wiki/Jaffe_reaction "Wikipedia"]
-synonym: "alkaline picrate plasma creatinine assay with spectrophotometric readout" EXACT []
 synonym: "Jaffe reaction plasma creatinine assay with spectrophotometric readout" EXACT []
-xref: PMID:13072520
 is_a: MMO:0000306 ! plasma creatinine analysis
 is_a: MMO:0000542 ! creatinine analysis by Jaffe reaction with spectrophotometric readout
 created_by: JSmith
@@ -6294,7 +6278,7 @@ creation_date: 2020-06-05T13:10:50Z
 id: MMO:0000715
 name: Morgan-Elson assay
 def: "The Morgan-Elson assay is a colorimetric method for the determination of glucosamine and chondrosamine and may be used for determination of hyaluronidase activity." [PMID:14596836, PMID:16745305]
-is_a: MMO:0000444 ! enzyme or transport activity assay
+is_a: MMO:0000444 ! enzyme activity assay
 created_by: slaulede
 creation_date: 2020-06-05T17:43:17Z
 
@@ -6645,355 +6629,6 @@ xref: PMID:24388923
 is_a: MMO:0000732 ! nociception measurement method
 created_by: slaulede
 creation_date: 2021-03-25T17:10:33Z
-
-[Term]
-id: MMO:0000753
-name: probit analysis estimate
-def: "In statistics, a probit model is a type of regression where the dependent variable can take only two values, for example married or not married. The word is a portmanteau, coming from probability + unit. The purpose of the model is to estimate the probability that an observation with particular characteristics will fall into a specific one of the categories. This procedure will allow you to estimate the strength of a stimulus required to induce a certain proportion of responses, such as the median effective dose." [https://en.wikipedia.org/wiki/Probit_model, https://www.ibm.com/docs/en/spss-statistics/24.0.0?topic=option-probit-analysis#\:~\:text=The%20probit%20analysis%20procedure%20reports%20estimates%20of%20effective\,reports%20estimates%20of%20odds%20ratios%20for%20independent%20variables.]
-xref: PMID:30575429
-is_a: MMO:0000575 ! computational method
-created_by: slaulede
-creation_date: 2021-05-04T17:45:28Z
-
-[Term]
-id: MMO:0000754
-name: optokinetic reflex test method
-def: "This testing method may involve an optokinetic drum, a strip of paper with alternating 2-inch black/colored and white strips, or a mirror used to rotate across the subject's visual field. Any of the options may be passed in front of the subject's eye(s). The subject looks at the object as it rapidly moves by. The time between cycles of the eye(s) repositioning to the original position is recorded." [https://eyewiki.org/Reflexes_and_the_Eye#Optokinetic_reflex, https://psychology.wikia.org/wiki/Optokinetic_reflex#\:~\:text=The%20optokinetic%20reflex%20is%20a%20combination%20of%20a\,was%20in%20when%20it%20first%20saw%20the%20object., https://www.sciencedirect.com/topics/neuroscience/optokinetic-reflex]
-synonym: "alternating stripe method" NARROW []
-synonym: "OKR test method" EXACT []
-synonym: "optokinetic drum method" NARROW []
-xref: PMID:28441076
-is_a: MMO:0000026 ! in vivo method
-created_by: slaulede
-creation_date: 2021-06-18T18:31:15Z
-
-[Term]
-id: MMO:0000755
-name: anorectal manometry
-def: "This is a technique used to measure contractility in the anus and rectum. This technique uses a balloon in the rectum to distend the rectum, a pressure sensor at the internal anal sphincter, and a pressure transducer connected to a recording device." [https://en.wikipedia.org/wiki/Anorectal_manometry, PMID:29391927]
-synonym: "anal manometry" EXACT []
-xref: PMID:29391927
-is_a: MMO:0000040 ! dynamometry
-created_by: slaulede
-creation_date: 2021-07-13T10:50:58Z
-
-[Term]
-id: MMO:0000756
-name: albumin blue 580-based urine albumin analysis with spectrophotometric readout
-def: "The dye albumin blue 580 specifically binds to albumin with exhibition of strong red fluorescence. The albumin concentration is calculated from emission intensity at 616 nm (excitation at 590 nm) and a calibration curve." [PMID:9177738, PMID:9191552]
-synonym: "albumin blue 580-based urine albumin analysis" EXACT []
-xref: PMID:9191552
-is_a: MMO:0000406 ! urine albumin analysis
-is_a: MMO:0000423 ! urine protein colorimetric analysis
-created_by: slaulede
-creation_date: 2021-07-15T18:10:43Z
-
-[Term]
-id: MMO:0000757
-name: in vivo videography with digital image analysis
-def: "The process of producing moving images of an entire living organism, or of a part of a living organism such as an organ or tissue recorded in situ, by the action of radiant energy and especially light on a sensitive surface such as film or an optical sensor followed by use of computer software to analyze or assist in the analysis of the resulting images." [https://www.merriam-webster.com/, PMID:28341233]
-synonym: "in vivo videodocumentation with digital image analysis" EXACT []
-synonym: "videography of in vivo subject with digital image analysis" EXACT []
-xref: PMID:28341233
-is_a: MMO:0000409 ! in vivo photography with digital image analysis
-created_by: slaulede
-creation_date: 2021-07-26T14:42:12Z
-
-[Term]
-id: MMO:0000758
-name: multiphase pCASL MRI
-def: "Multiphase pCASL is a variant of ASL where instead of acquiring the traditional label and control images, images are acquired following labeling with radio-frequency (RF) pulses at multiple phase increments. Arterial spin labeling (ASL) perfusion is a MRI technique to quantify tissue blood flow. ASL is a non-invasive technique that labels the protons in the arterial blood by radiofrequency pulses, without the exogenous injection of contrast media." [https://doi.org/10.1016/j.diii.2013.06.010, PMID:29498562]
-synonym: "arterial spin labelling (ASL) MRI" EXACT []
-synonym: "arterial spin labelling magnetic resonance imaging" EXACT []
-synonym: "MP pCASL" EXACT []
-synonym: "multiphase pseudo-continuous arterial spin labelling magnetic resonance imaging" EXACT []
-xref: PMID:29498562
-is_a: MMO:0000019 ! magnetic resonance imaging
-created_by: slaulede
-creation_date: 2021-07-29T16:51:13Z
-
-[Term]
-id: MMO:0000759
-name: autoradiography
-def: "This is an imaging technique which records on a photographic plate the radiation emitted by radioactive material within an object or tissue, which is in close contact with the photographic emulsion." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/chemistry/autoradiography, MESH:D001345]
-xref: PMID:29498562
-is_a: MMO:0000124 ! in vivo radiography
-is_a: MMO:0000366 ! ex vivo radiography
-created_by: slaulede
-creation_date: 2021-07-29T18:16:26Z
-
-[Term]
-id: MMO:0000760
-name: computerized assessment of in vivo video recording
-def: "A procedure or technique in which a morphological or physiological state or property of a living body or in situ body part is evaluated, appraised or perceived through an algorithmic analysis of a stored image-based record of the organism, body or body part, for example a videotape or a stored video file." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "computer tracking system" EXACT []
-xref: PMID:16837653
-is_a: MMO:0000163 ! in vivo visual assessment
-created_by: slaulede
-creation_date: 2021-09-09T14:54:52Z
-
-[Term]
-id: MMO:0000761
-name: Morris water maze with computer analysis of video recording
-def: "This is an experimental method in which a subject is placed in an open pool of water with a submerged escape platform and the subject's movements are video recorded. These movements are then evaluated, appraised or perceived through computerized analysis." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "Morris water maze with computer tracking system" EXACT []
-xref: PMID:16837653
-is_a: MMO:0000760 ! computerized assessment of in vivo video recording
-created_by: slaulede
-creation_date: 2021-09-09T15:14:23Z
-
-[Term]
-id: MMO:0000762
-name: serum creatinine analysis by Jaffe reaction with spectrophotometric readout
-def: "A method for assaying the creatinine in serum (blood plasma from which fibrinogen has been removed.) using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm." [https://med.libretexts.org/Bookshelves/Allied_Health/Book%3A_Clinical_Chemistry_-_Theory_Analysis_Correlation_(Kaplan_and_Pesce)/02%3A_Laboratory_Exercises/2.14%3A_Serum_Creatinine_(Jaffe_Method)]
-synonym: "alkaline picrate serum creatinine assay with spectrophotometric readout" EXACT []
-xref: PMID:13072520
-is_a: MMO:0000271 ! serum creatinine analysis
-is_a: MMO:0000542 ! creatinine analysis by Jaffe reaction with spectrophotometric readout
-created_by: slaulede
-creation_date: 2021-09-14T15:36:57Z
-
-[Term]
-id: MMO:0000763
-name: urine creatinine analysis by Jaffe reaction with deproteinization and spectrophotometric readout
-def: "A method for assaying creatinine in deproteinized urine (urine from which excess proteins have been removed) using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm." [https://med.libretexts.org/Bookshelves/Allied_Health/Book%3A_Clinical_Chemistry_-_Theory_Analysis_Correlation_(Kaplan_and_Pesce)/02%3A_Laboratory_Exercises/2.14%3A_Serum_Creatinine_(Jaffe_Method)]
-synonym: "alkaline picrate urine creatinine assay with deproteinization and spectrophotometric readout" EXACT []
-xref: PMID:7411020
-is_a: MMO:0000543 ! urine creatinine analysis by Jaffe reaction with spectrophotometric readout
-created_by: slaulede
-creation_date: 2021-09-14T16:38:27Z
-
-[Term]
-id: MMO:0000764
-name: urine creatinine analysis by Jaffe reaction without deproteinization and spectrophotometric readout
-def: "A method for assaying the creatinine in urine from which excess proteins have not been removed, using the Jaffe reaction, the reaction of creatinine and picric acid in an alkaline solution, followed by quantitation of the colorimetric readout using a spectrophotometer at 520 nm." [https://med.libretexts.org/Bookshelves/Allied_Health/Book%3A_Clinical_Chemistry_-_Theory_Analysis_Correlation_(Kaplan_and_Pesce)/02%3A_Laboratory_Exercises/2.14%3A_Serum_Creatinine_(Jaffe_Method)]
-synonym: "alkaline picrate urine creatinine assay without deproteinization and spectrophotometric readout" EXACT []
-xref: PMID:19420905
-is_a: MMO:0000543 ! urine creatinine analysis by Jaffe reaction with spectrophotometric readout
-created_by: slaulede
-creation_date: 2021-09-14T16:47:26Z
-
-[Term]
-id: MMO:0000765
-name: scintigraphy
-def: "This is a diagnostic technique in which a two-dimensional picture of internal body tissue is produced through the detection of radiation emitted by a radioactive tracer introduced into the body of the subject." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gamma scan" EXACT []
-xref: PMID:30208622
-is_a: MMO:0000124 ! in vivo radiography
-created_by: slaulede
-creation_date: 2021-10-04T17:00:16Z
-
-[Term]
-id: MMO:0000766
-name: Na+/K+ ATPase activity assay
-def: "A method which quantifies the catalytic effect exerted by Na+/K+ ATPase, an enzyme found in all animal cells which helps maintain resting potential, affects transport, and regulates cellular volume." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase]
-synonym: "Na&#8314;/K&#8314; pump assay" EXACT []
-synonym: "ouabain-sensitive Na&#8314;/K&#8314; pump assay" EXACT []
-synonym: "sodium-potassium adenosine triphosphatase assay" EXACT []
-synonym: "sodium-potassium pump assay" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000444 ! enzyme or transport activity assay
-created_by: slaulede
-creation_date: 2021-11-01T17:04:07Z
-
-[Term]
-id: MMO:0000767
-name: Na+/K+ ATPase activity assay in Mg++ medium
-def: "A method which quantifies the catalytic effect exerted by Na+/K+ ATPase in a medium supplemented with magnesium ions. Na+/K+ ATPase is an enzyme found in all animal cells which helps maintain resting potential, affects transport, and regulates cellular volume." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase]
-synonym: "Na&#8314;/K&#8314; pump assay in Mg++ medium" EXACT []
-synonym: "sodium-potassium adenosine triphosphatase assay in Mg++ medium" EXACT []
-synonym: "sodium-potassium pump assay in Mg++ medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000766 ! Na+/K+ ATPase activity assay
-created_by: slaulede
-creation_date: 2021-11-01T17:15:00Z
-
-[Term]
-id: MMO:0000768
-name: Na+/K+ ATPase activity assay in choline medium
-def: "A method which quantifies the catalytic effect exerted by Na+/K+ ATPase in a medium supplemented with choline. Na+/K+ ATPase is an enzyme found in all animal cells which helps maintain resting potential, affects transport, and regulates cellular volume." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase]
-synonym: "Na&#8314;/K&#8314; pump assay in choline medium" EXACT []
-synonym: "sodium-potassium adenosine triphosphatase assay in choline medium" EXACT []
-synonym: "sodium-potassium pump assay in choline medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000766 ! Na+/K+ ATPase activity assay
-created_by: slaulede
-creation_date: 2021-11-01T17:22:46Z
-
-[Term]
-id: MMO:0000769
-name: Na-K-Cl cotransport activity assay
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters, membrane transport proteins which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter]
-synonym: "bumetanide-sensitive sodium flux assay" EXACT []
-synonym: "Na-K-Cl symporter activity assay" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000444 ! enzyme or transport activity assay
-created_by: slaulede
-creation_date: 2021-11-01T17:48:59Z
-
-[Term]
-id: MMO:0000770
-name: Na-K-Cl cotransport activity assay in choline medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in a medium supplemented with choline. Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. This assay substitutes choline for potassium." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-sensitive sodium flux assay in choline medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in choline medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in choline medium" EXACT []
-xref: PMID:3611769
-is_a: MMO:0000769 ! Na-K-Cl cotransport activity assay
-created_by: slaulede
-creation_date: 2021-11-01T18:09:38Z
-
-[Term]
-id: MMO:0000771
-name: Na-K-Cl cotransport activity assay in Mg++ medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in a medium supplemented with magnesium ions. Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-sensitive sodium flux assay in Mg++ medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in Mg++ medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in Mg++ medium" EXACT []
-xref: PMID:3611769
-is_a: MMO:0000769 ! Na-K-Cl cotransport activity assay
-created_by: slaulede
-creation_date: 2021-11-01T18:16:31Z
-
-[Term]
-id: MMO:0000772
-name: Na+ passive permeability assay
-def: "A method which quantifies the net effect of blocking both Na-K-Cl cotransporters and the Na/K pump, membrane transport proteins/enzymes which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. The Na+ passive permeability assay essentially measures Na+ and/or K+ leak into cells." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-ouabain resistant cation leak assay" EXACT []
-synonym: "bumetanide-ouabain resistant pathway assay" EXACT []
-synonym: "passive membrane permeability assay" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000444 ! enzyme or transport activity assay
-created_by: slaulede
-creation_date: 2021-11-01T18:41:22Z
-
-[Term]
-id: MMO:0000773
-name: Na+/K+ ATPase activity assay in isotonic choline medium
-def: "A method which quantifies the catalytic effect exerted by Na+/K+ ATPase in an isotonic choline medium (295 mOsm). Na+/K+ ATPase is an enzyme found in all animal cells which helps maintain resting potential, affects transport, and regulates cellular volume." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase]
-synonym: "Na&#8314;/K&#8314; pump assay in isotonic choline medium" EXACT []
-synonym: "sodium-potassium adenosine triphosphatase assay in isotonic choline medium" EXACT []
-synonym: "sodium-potassium pump assay in isotonic choline medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000768 ! Na+/K+ ATPase activity assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T13:51:50Z
-
-[Term]
-id: MMO:0000774
-name: Na+/K+ ATPase activity assay in hypotonic choline medium
-def: "A method which quantifies the catalytic effect exerted by Na+/K+ ATPase in a hypotonic choline medium (170 mOsm). Na+/K+ ATPase is an enzyme found in all animal cells which helps maintain resting potential, affects transport, and regulates cellular volume" [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase]
-synonym: "Na&#8314;/K&#8314; pump assay in hypotonic choline medium" EXACT []
-synonym: "sodium-potassium adenosine triphosphatase assay in hypotonic" EXACT []
-synonym: "sodium-potassium pump assay in isotonic hypotonic medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000768 ! Na+/K+ ATPase activity assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T14:16:38Z
-
-[Term]
-id: MMO:0000775
-name: Na-K-Cl cotransport activity assay in isotonic choline medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in an isotonic choline medium (295 mOsm). Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-sensitive sodium flux assay in isotonic choline medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in isotonic choline medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in isotonic choline medium" EXACT []
-xref: PMID:3611769
-is_a: MMO:0000770 ! Na-K-Cl cotransport activity assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T14:21:59Z
-
-[Term]
-id: MMO:0000776
-name: Na-K-Cl cotransport activity assay in hypotonic choline medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in a hypotonic choline medium (170 mOsm). Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-sensitive sodium flux assay in hypotonic choline medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in hypotonic choline medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in hypotonic choline medium" EXACT []
-xref: PMID:3611769
-is_a: MMO:0000770 ! Na-K-Cl cotransport activity assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T14:27:45Z
-
-[Term]
-id: MMO:0000777
-name: Na+ passive permeability assay in Mg++ medium
-def: "A method which quantifies, in a medium supplemented with magnesium ions, the net effect of blocking both Na-K-Cl cotransporters and the Na/K pump, membrane transport proteins/enzymes which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. The Na+ passive permeability assay essentially measures Na+ and/or K+ leak into cells." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-ouabain resistant cation leak assay in Mg++ medium" EXACT []
-synonym: "bumetanide-ouabain resistant pathway assay in Mg++ medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000772 ! Na+ passive permeability assay
-created_by: slaulede
-creation_date: 2021-11-02T14:44:11Z
-
-[Term]
-id: MMO:0000778
-name: Na+ passive permeability assay in choline medium
-def: "A method which quantifies, in a medium supplemented with choline, the net effect of blocking both Na-K-Cl cotransporters and the Na/K pump, membrane transport proteins/enzymes which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. The Na+ passive permeability assay essentially measures Na+ and/or K+ leak into cells." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-ouabain resistant cation leak assay in choline medium" EXACT []
-synonym: "bumetanide-ouabain resistant pathway assay in choline medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000772 ! Na+ passive permeability assay
-created_by: slaulede
-creation_date: 2021-11-02T14:59:00Z
-
-[Term]
-id: MMO:0000779
-name: Na+ passive permeability assay in isotonic choline medium
-def: "A method which quantifies, in an isotonic choline medium (295 mOsm), the net effect of blocking both Na-K-Cl cotransporters and the Na/K pump, membrane transport proteins/enzymes which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. The Na+ passive permeability assay essentially measures Na+ and/or K+ leak into cells." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-ouabain resistant cation leak assay in isotonic choline medium" EXACT []
-synonym: "bumetanide-ouabain resistant pathway assay in isotonic choline medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000778 ! Na+ passive permeability assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T15:16:43Z
-
-[Term]
-id: MMO:0000780
-name: Na+ passive permeability assay in hypotonic choline medium
-def: "A method which quantifies, in a hypotonic choline medium (170 mOsm), the net effect of blocking both Na-K-Cl cotransporters and the Na/K pump, membrane transport proteins/enzymes which transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. The Na+ passive permeability assay essentially measures Na+ and/or K+ leak into cells." [https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase, https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:3611769]
-synonym: "bumetanide-ouabain resistant cation leak assay in hypotonic choline medium" EXACT []
-synonym: "bumetanide-ouabain resistant pathway assay in hypotonic choline medium" EXACT []
-xref: PMID:12887131
-xref: PMID:3611769
-is_a: MMO:0000778 ! Na+ passive permeability assay in choline medium
-created_by: slaulede
-creation_date: 2021-11-02T15:20:19Z
-
-[Term]
-id: MMO:0000781
-name: Na-K-Cl cotransport activity assay in nitrate medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in a medium supplemented with nitrate. Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. This assay substitutes nitrate for chloride." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:1390856]
-synonym: "bumetanide-sensitive sodium flux assay in nitrate medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in nitrate medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in nitrate medium" EXACT []
-xref: PMID:1390856
-is_a: MMO:0000769 ! Na-K-Cl cotransport activity assay
-created_by: slaulede
-creation_date: 2021-11-04T13:45:37Z
-
-[Term]
-id: MMO:0000782
-name: Na-K-Cl cotransport activity assay in sulfate medium
-def: "A method which quantifies the ion transporting effect exerted by Na-K-Cl cotransporters in a medium supplemented with sulfate. Na-K-Cl symporters transport sodium (Na), potassium (K), and chloride (Cl) ions across cell membranes. This assay substitutes sulfate for chloride." [https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter, PMID:1390856]
-synonym: "bumetanide-sensitive sodium flux assay in sulfate medium" EXACT []
-synonym: "Na-K-Cl symporter activity assay in sulfate medium" EXACT []
-synonym: "sodium-potassium-chloride symporter activity assay in sulfate medium" EXACT []
-xref: PMID:1390856
-is_a: MMO:0000769 ! Na-K-Cl cotransport activity assay
-created_by: slaulede
-creation_date: 2021-11-04T14:00:28Z
 
 [Typedef]
 id: OBO_REL:part_of
