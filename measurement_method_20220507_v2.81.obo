@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.82
-date: 04:06:2022 20:13
+data-version: 2.81
+date: 07:05:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -1290,13 +1290,9 @@ creation_date: 2010-11-08T09:32:54Z
 
 [Term]
 id: MMO:0000165
-name: blood glucose test strip read by electrochemical glucometer
-def: "This is an automated device that calculates glucose levels in blood from a very small sample (~1 ul) on an electrochemical test strip. The glucose-derived electrons from the sample are routed directly through the external meter and counted so a glucose level may be automatically calculated." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, https://knowledge.electrochem.org/encycl/art-g01-glucose.htm]
-synonym: "blood glucose test strip read by electro-chemical glucometer" EXACT []
-synonym: "EBGTS" EXACT []
-synonym: "electrochemical blood glucose test strip" EXACT []
-xref: https://knowledge.electrochem.org/encycl/art-g01-glucose.htm
-is_a: MMO:0000190 ! machine read blood glucose test strip
+name: electro-chemical glucometer
+def: "An automated device that calculates glucose levels in blood." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+is_a: MMO:0000112 ! blood glucose analysis
 created_by: mshimoyama
 creation_date: 2010-11-10T02:37:57Z
 
@@ -7644,25 +7640,6 @@ xref: PMID:25189624
 is_a: MMO:0000704 ! photometry
 created_by: slaulede
 creation_date: 2022-05-06T18:43:52Z
-
-[Term]
-id: MMO:0000845
-name: affinity chromatography
-def: "Affinity chromatography is a type of gel filtration chromatography which separates proteins on the basis of a reversible interaction between a protein (or group of proteins) and a speci&#64257;c ligand coupled to a chromatography matrix. With such high selectivity and hence high resolution for the protein(s) of interest, puri&#64257;cation levels in the order of several thousand-fold with high recovery of active material are achievable. Samples are concentrated during binding and the target protein(s) is collected in a puri&#64257;ed, concentrated form. Examples include antibody/antigen, enzyme/substrate, and enzyme/inhibitor interactions." [https://www.bio-rad.com/en-us/applications-technologies/introduction-affinity-chromatography?ID=MWHAVG4VY, https://www.merriam-webster.com/, https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/protein-purification/affinity-chromatography-in-a-purification-strategy?gclid=CjwKCAjwyryUBhBSEiwAGN5OCDg0lfZARkdeWumvPKwkZLgKZSXVEVXjjZYu-CRDA3UgireEjA9BrBoCmygQAvD_BwE]
-synonym: "AC" EXACT []
-xref: PMID:15780096
-is_a: MMO:0000404 ! liquid column chromatography
-created_by: slaulede
-creation_date: 2022-05-26T15:41:19Z
-
-[Term]
-id: MMO:0000846
-name: blood glucose test strip read by optical glucometer
-def: "This is an automated device that calculates glucose levels in blood from a small sample (~5 ul) on an optical test strip. The glucose-derived electrons from the sample effect a change in the color of an indicating dye so a glucose level may be automatically calculated." [https://knowledge.electrochem.org/encycl/art-g01-glucose.htm]
-xref: https://knowledge.electrochem.org/encycl/art-g01-glucose.htm
-is_a: MMO:0000190 ! machine read blood glucose test strip
-created_by: slaulede
-creation_date: 2022-05-31T16:24:49Z
 
 [Typedef]
 id: OBO_REL:part_of
