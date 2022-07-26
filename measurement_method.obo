@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.82
-date: 04:06:2022 20:13
+data-version: 2.83
+date: 23:07:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -7663,6 +7663,15 @@ xref: https://knowledge.electrochem.org/encycl/art-g01-glucose.htm
 is_a: MMO:0000190 ! machine read blood glucose test strip
 created_by: slaulede
 creation_date: 2022-05-31T16:24:49Z
+
+[Term]
+id: MMO:0000847
+name: electrochemiluminescence immunoassay
+def: "This assay is a quantitative method for measurement of antigen or antibody based on the change in electrochemiluminescence (ECL) signal before and after immunoreaction." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/electrochemiluminescence]
+synonym: "ECLIA" EXACT []
+is_a: MMO:0000098 ! immunoassay
+created_by: slaulede
+creation_date: 2022-07-21T16:17:37Z
 
 [Typedef]
 id: OBO_REL:part_of
