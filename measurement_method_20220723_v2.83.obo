@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.84
-date: 30:07:2022 20:13
+data-version: 2.83
+date: 23:07:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -7574,7 +7574,6 @@ creation_date: 2022-04-07T14:55:44Z
 [Term]
 id: MMO:0000837
 name: automated plasma glucose analysis
-alt_id: MMO:0000735
 def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose in plasma, the clear liquid that separates from blood after cells and platelets have been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000315 ! plasma glucose analysis
 is_a: MMO:0000835 ! automated blood glucose analysis
@@ -7673,41 +7672,6 @@ synonym: "ECLIA" EXACT []
 is_a: MMO:0000098 ! immunoassay
 created_by: slaulede
 creation_date: 2022-07-21T16:17:37Z
-
-[Term]
-id: MMO:0000848
-name: automated urine creatinine analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, an organic acid that assists the body in producing muscle contractions, in urine." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-is_a: MMO:0000177 ! automated urine analysis
-is_a: MMO:0000275 ! urine creatinine analysis
-created_by: slaulede
-creation_date: 2022-07-29T12:55:53Z
-
-[Term]
-id: MMO:0000849
-name: automated urine potassium analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of potassium in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-is_a: MMO:0000177 ! automated urine analysis
-is_a: MMO:0000435 ! urine potassium analysis
-created_by: slaulede
-creation_date: 2022-07-29T13:26:10Z
-
-[Term]
-id: MMO:0000850
-name: automated urine urea analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of urea in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-is_a: MMO:0000177 ! automated urine analysis
-is_a: MMO:0000676 ! urine urea analysis
-created_by: slaulede
-creation_date: 2022-07-29T13:34:12Z
-
-[Term]
-id: MMO:0000851
-name: automated urine phosphate analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of phosphate in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-is_a: MMO:0000177 ! automated urine analysis
-created_by: slaulede
-creation_date: 2022-07-29T14:46:52Z
 
 [Typedef]
 id: OBO_REL:part_of
