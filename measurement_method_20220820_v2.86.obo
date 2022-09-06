@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.87
-date: 27:08:2022 20:13
+data-version: 2.86
+date: 20:08:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -5719,8 +5719,8 @@ name: reverse transcription polymerase chain reaction assay
 alt_id: MMO:0000461
 def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [https://en.wikipedia.org/wiki/Polymerase_chain_reaction "Wikipedia", https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction "Wikipedia"]
 synonym: "reverse transcription polymerase chain reaction" EXACT []
-synonym: "RT-PCR" RELATED []
 synonym: "RT-PCR" EXACT DISPLAY_SYNONYM []
+synonym: "RT-PCR" RELATED []
 xref: ECO:0000109
 xref: efo:EFO_0002943
 xref: OBI:0001170
