@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 2.107
-date: 03:06:2023 20:13
+data-version: 2.106
+date: 20:05:2023 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: measurement_method_ontology
 ontology: mmo
@@ -3552,6 +3552,7 @@ id: MMO:0000422
 name: ex vivo light microscopy with immunohistochemistry and digital image analysis
 def: "A method performed outside the living body, e.g., on isolated tissue, which incorporates use of light microscopy and immunohistochemistry to produce picture files stored as data expressed in a discrete numerical form, followed by use of computer software to evaluate these resulting microscopic images. Light microscopy is the examination or observation of material through a light microscope, an optical instrument that uses visible light (electromagnetic radiation with wavelengths between approximately 390 and 700 nm) processed through a lens or a combination of lenses to produce magnified images. Immunohistochemistry is the microscopic localization of specific antigens in tissues by staining with antibodies labeled with fluorescent or pigmented material." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Visible_spectrum "Wikipedia", http://www.answers.com "Website", ISBN:978-1416049982]
 is_a: MMO:0000538 ! ex vivo light microscopy with immunohistochemistry
+is_a: MMO:0000560 ! ex vivo light microscopy with histochemistry and digital image analysis
 created_by: JSmith
 creation_date: 2013-11-12T14:39:39Z
 
@@ -4644,8 +4645,8 @@ creation_date: 2014-06-05T15:09:27Z
 id: MMO:0000538
 name: ex vivo light microscopy with immunohistochemistry
 def: "A method performed outside the living body, for instance, on isolated tissue, which incorporates use of light microscopy and immunohistochemistry to produce magnified images. Immunohistochemistry is the microscopic localization of specific antigens in tissues by staining with antibodies labeled with fluorescent or pigmented material." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: MMO:0000111 ! ex vivo light microscopy
 is_a: MMO:0000498 ! immunohistochemistry
+is_a: MMO:0000561 ! ex vivo light microscopy with histochemistry
 created_by: JSmith
 creation_date: 2014-06-05T16:28:40Z
 
@@ -6429,7 +6430,7 @@ creation_date: 2020-07-16T10:29:04Z
 [Term]
 id: MMO:0000730
 name: o-Phthalaldehyde fluorescent protein assay
-def: "When reacted with primary amines in the presence of mercaptoethanol, OPA (o-Phthalaldehyde) yields an intense blue-colored fluorescent product that has a maximum wavelength of excitation of 340 nm and emission at 455 nm. Wavelengths from 330-375 nm have been used for excitation and 436-490 nm for measuring emission. Protein concentrations as low as 50 ng/ml can be measured with an OPA assay. The inherent sensitivity and speed of OPA, along with its broad linear range, makes it a useful protein and peptide assay reagent." [http://www.piercenet.com, PMID:_5576608]
+def: "When reacted with primary amines in the presence of mercaptoethanol, OPA (o-Phthalaldehyde) yields an intense blue-colored fluorescent product that has a maximum wavelength of excitation of 340 nm and emission at 455 nm. Wavelengths from 330-375 nm have been used for excitation and 436-490 nm for measuring emission. Protein concentrations as low as 50 ng/ml can be measured with an OPA assay. The inherent sensitivity and speed of OPA, along with its broad linear range, makes it a useful protein and peptide assay reagent." [http://www.piercenet.com, PMID: 5576608]
 synonym: "OPA fluorescent protein assay" EXACT []
 is_a: MMO:0000247 ! fluorometry
 created_by: slaulede
@@ -6468,7 +6469,7 @@ creation_date: 2020-09-25T13:11:24Z
 [Term]
 id: MMO:0000734
 name: automated plasma triglyceride analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure triglyceride in plasma." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure triglyceride in plasma." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000038 ! blood lipid analysis
 is_a: MMO:0000234 ! plasma triglyceride analysis
 created_by: slaulede
@@ -7024,7 +7025,7 @@ creation_date: 2022-02-22T17:39:57Z
 [Term]
 id: MMO:0000785
 name: automated serum lipid analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the physical or chemical characteristics of serum lipids, water insoluble fats and fat-like substances in the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the physical or chemical characteristics of serum lipids, water insoluble fats and fat-like substances in the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000038 ! blood lipid analysis
 is_a: MMO:0000554 ! automated serum analysis
 created_by: slaulede
@@ -7033,7 +7034,7 @@ creation_date: 2022-02-22T18:06:14Z
 [Term]
 id: MMO:0000786
 name: automated serum total cholesterol analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the total amount of cholesterol in serum, including cholesterol carried in any and all types of lipoprotein molecules." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the total amount of cholesterol in serum, including cholesterol carried in any and all types of lipoprotein molecules." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated analysis of total cholesterol in serum" EXACT []
 is_a: MMO:0000785 ! automated serum lipid analysis
 created_by: slaulede
@@ -7054,7 +7055,7 @@ creation_date: 2022-02-24T08:59:26Z
 [Term]
 id: MMO:0000788
 name: serum aspartate aminotransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13: 978-0781733908]
 synonym: "serum aspartate transaminase activity assay" EXACT []
 synonym: "serum AST activity assay" EXACT []
 synonym: "serum glutamic-oxaloacetic transaminase activity assay" EXACT []
@@ -7066,7 +7067,7 @@ creation_date: 2022-02-24T09:06:19Z
 [Term]
 id: MMO:0000789
 name: automated serum aspartate aminotransferase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated serum aspartate transaminase activity assay" EXACT []
 synonym: "automated serum AST activity assay" EXACT []
 synonym: "automated serum glutamic-oxaloacetic transaminase activity assay" EXACT []
@@ -7090,7 +7091,7 @@ creation_date: 2022-02-24T09:44:34Z
 [Term]
 id: MMO:0000791
 name: serum alanine aminotransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of serum, i.e. blood plasma from which fibrinogen has been removed. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Serum ALT level is used as an enzymatic marker for liver disease or damage." [https://en.wikipedia.org/wiki/Alanine_transaminase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of serum, i.e. blood plasma from which fibrinogen has been removed. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Serum ALT level is used as an enzymatic marker for liver disease or damage." [https://en.wikipedia.org/wiki/Alanine_transaminase, ISBN-13: 978-0781733908]
 synonym: "serum alanine transaminase activity assay" EXACT []
 synonym: "serum ALT activity assay" EXACT []
 synonym: "serum glutamic-pyruvate transaminase activity assay" EXACT []
@@ -7114,7 +7115,7 @@ creation_date: 2022-02-24T10:05:22Z
 [Term]
 id: MMO:0000793
 name: blood alkaline phosphatase activity assay
-def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of blood. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of blood. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13: 978-0781733908]
 synonym: "blood ALKP activity assay" EXACT []
 synonym: "blood alk phos activity assay" EXACT []
 synonym: "blood ALP activity assay" EXACT []
@@ -7127,7 +7128,7 @@ creation_date: 2022-02-24T10:24:06Z
 [Term]
 id: MMO:0000794
 name: serum alkaline phosphatase activity assay
-def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13: 978-0781733908]
 synonym: "serum ALKP activity assay" EXACT []
 synonym: "serum alk phos activity assay" EXACT []
 synonym: "serum ALP activity assay" EXACT []
@@ -7150,7 +7151,7 @@ creation_date: 2022-02-24T10:53:35Z
 [Term]
 id: MMO:0000796
 name: automated serum globulin analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of globulins, a broad category of plasma proteins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of globulins, a broad category of plasma proteins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000346 ! automated serum protein analysis
 is_a: MMO:0000798 ! serum globulin analysis
 created_by: slaulede
@@ -7159,7 +7160,7 @@ creation_date: 2022-02-24T15:21:37Z
 [Term]
 id: MMO:0000797
 name: blood globulin analysis
-def: "This is a method to determine the amount of globulins, a broad category of plasma proteins, in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method to determine the amount of globulins, a broad category of plasma proteins, in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000166 ! blood protein analysis
 created_by: slaulede
 creation_date: 2022-02-24T15:38:48Z
@@ -7167,7 +7168,7 @@ creation_date: 2022-02-24T15:38:48Z
 [Term]
 id: MMO:0000798
 name: serum globulin analysis
-def: "This is a method to determine the amount of globulins, a broad category of plasma proteins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method to determine the amount of globulins, a broad category of plasma proteins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000797 ! blood globulin analysis
 created_by: slaulede
 creation_date: 2022-02-24T15:43:16Z
@@ -7175,7 +7176,7 @@ creation_date: 2022-02-24T15:43:16Z
 [Term]
 id: MMO:0000799
 name: blood creatine kinase activity assay
-def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of blood. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Blood CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of blood. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Blood CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13: 978-0781733908]
 synonym: "blood CK activity assay" EXACT []
 synonym: "blood CPK activity assay" EXACT []
 synonym: "blood creatine phosphokinase activity assay" EXACT []
@@ -7187,7 +7188,7 @@ creation_date: 2022-02-24T16:36:18Z
 [Term]
 id: MMO:0000800
 name: serum creatine kinase activity assay
-def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Serum CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Serum CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13: 978-0781733908]
 synonym: "serum CK activity assay" EXACT []
 synonym: "serum CPK activity assay" EXACT []
 synonym: "serum creatine phosphokinase activity assay" EXACT []
@@ -7199,7 +7200,7 @@ creation_date: 2022-02-24T16:48:26Z
 [Term]
 id: MMO:0000801
 name: automated serum creatine kinase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of creatine kinase (CK) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Serum CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of creatine kinase (CK) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Serum CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13: 978-0781733908]
 synonym: "automated serum CK activity assay" EXACT []
 synonym: "automated serum CPK activity assay" EXACT []
 synonym: "automated serum creatine phosphokinase activity assay" EXACT []
@@ -7211,7 +7212,7 @@ creation_date: 2022-02-24T16:54:40Z
 [Term]
 id: MMO:0000802
 name: automated serum alkaline phosphatase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of alkaline phosphatase (AP) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of alkaline phosphatase (AP) in a specified sample of serum, i.e. blood plasma from which clotting factors have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13: 978-0781733908]
 synonym: "automated serum ALKP activity assay" EXACT []
 synonym: "automated serum alk phos activity assay" EXACT []
 synonym: "automated serum ALP activity assay" EXACT []
@@ -7224,7 +7225,7 @@ creation_date: 2022-02-24T17:09:24Z
 [Term]
 id: MMO:0000803
 name: automated serum urea analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount, level or concentration of urea, the chief nitrogenous end product of protein metabolism, in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which clotting factors have been removed." [https://en.wikipedia.org/wiki/Blood_urea_nitrogen, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount, level or concentration of urea, the chief nitrogenous end product of protein metabolism, in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which clotting factors have been removed." [https://en.wikipedia.org/wiki/Blood_urea_nitrogen, ISBN-13: 978-0781733908]
 is_a: MMO:0000273 ! serum urea analysis
 is_a: MMO:0000554 ! automated serum analysis
 created_by: slaulede
@@ -7305,7 +7306,7 @@ creation_date: 2022-03-08T11:19:58Z
 [Term]
 id: MMO:0000811
 name: plasma aspartate aminotransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13: 978-0781733908]
 synonym: "plasma aspartate transaminase activity assay" EXACT []
 synonym: "plasma AST activity assay" EXACT []
 synonym: "plasma glutamic-oxaloacetic transaminase activity assay" EXACT []
@@ -7317,7 +7318,7 @@ creation_date: 2022-03-08T15:53:57Z
 [Term]
 id: MMO:0000812
 name: automated plasma aspartate aminotransferase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Blood AST level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Aspartate_transaminase, ISBN-13: 978-0781733908]
 synonym: "automated plasma aspartate transaminase activity assay" EXACT []
 synonym: "automated plasma AST activity assay" EXACT []
 synonym: "automated plasma glutamic-oxaloacetic transaminase activity assay" EXACT []
@@ -7329,7 +7330,7 @@ creation_date: 2022-03-08T15:58:07Z
 [Term]
 id: MMO:0000813
 name: plasma alkaline phosphatase activity assay
-def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of alkaline phosphatase (AP) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13: 978-0781733908]
 synonym: "plasma ALKP activity assay" EXACT []
 synonym: "plasma alk phos activity assay" EXACT []
 synonym: "plasma ALP activity assay" EXACT []
@@ -7342,7 +7343,7 @@ creation_date: 2022-03-08T16:40:57Z
 [Term]
 id: MMO:0000814
 name: plasma urea analysis
-def: "An assay which measures the amount, level or concentration of urea, the chief nitrogenous endproduct of protein metabolism, in plasma, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13:_978-0781733908]
+def: "An assay which measures the amount, level or concentration of urea, the chief nitrogenous endproduct of protein metabolism, in plasma, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13: 978-0781733908]
 xref: PMID:32084371
 is_a: MMO:0000272 ! blood urea analysis
 created_by: slaulede
@@ -7351,7 +7352,7 @@ creation_date: 2022-03-08T16:48:55Z
 [Term]
 id: MMO:0000815
 name: automated plasma alkaline phosphatase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of alkaline phosphatase (AP) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of alkaline phosphatase (AP) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. AP is an enzyme that catalyzes the cleavage of orthophosphate from orthophosphoric monoesters under alkaline conditions." [https://en.wikipedia.org/wiki/Alkaline_phosphatase, ISBN-13: 978-0781733908]
 synonym: "automated plasma ALKP activity assay" EXACT []
 synonym: "automated plasma alk phos activity assay" EXACT []
 synonym: "automated plasma ALP activity assay" EXACT []
@@ -7364,7 +7365,7 @@ creation_date: 2022-03-08T16:52:09Z
 [Term]
 id: MMO:0000816
 name: plasma creatine kinase activity assay
-def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of creatine kinase (CK) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13: 978-0781733908]
 synonym: "plasma CK activity assay" EXACT []
 synonym: "plasma CPK activity assay" EXACT []
 synonym: "plasma creatine phosphokinase activity assay" EXACT []
@@ -7376,7 +7377,7 @@ creation_date: 2022-03-11T14:13:07Z
 [Term]
 id: MMO:0000817
 name: automated plasma creatine kinase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of creatine kinase (CK) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of creatine kinase (CK) in a specified sample of plasma, i.e. blood from which cells and platelets have been removed. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate." [http://en.wikipedia.org/wiki/Creatine_kinase, ISBN-13: 978-0781733908]
 synonym: "automated plasma CK activity assay" EXACT []
 synonym: "automated plasma CPK activity assay" EXACT []
 synonym: "automated plasma creatine phosphokinase activity assay" EXACT []
@@ -7388,7 +7389,7 @@ creation_date: 2022-03-11T14:26:45Z
 [Term]
 id: MMO:0000818
 name: automated plasma urea analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount, level or concentration of urea, the chief nitrogenous end product of protein metabolism, in plasma, the clear liquid that separates from blood after it has clotted completely, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount, level or concentration of urea, the chief nitrogenous end product of protein metabolism, in plasma, the clear liquid that separates from blood after it has clotted completely, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13: 978-0781733908]
 xref: PMID:32084371
 is_a: MMO:0000553 ! automated plasma analysis
 is_a: MMO:0000814 ! plasma urea analysis
@@ -7398,7 +7399,7 @@ creation_date: 2022-03-11T14:54:57Z
 [Term]
 id: MMO:0000819
 name: automated plasma bicarbonate test
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of bicarbonate, an anion of carbonic acid in which only one of the hydrogen atoms has been removed, in plasma, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of bicarbonate, an anion of carbonic acid in which only one of the hydrogen atoms has been removed, in plasma, i.e. blood from which cells and platelets have been removed." [https://www.merriam-webster.com, ISBN-13: 978-0781733908]
 xref: PMID:32084371
 is_a: MMO:0000805 ! automated plasma electrolyte analysis
 created_by: slaulede
@@ -7416,7 +7417,7 @@ creation_date: 2022-03-11T15:46:22Z
 [Term]
 id: MMO:0000821
 name: automated plasma chloride test
-def: "This is an automated analysis to determine the level of chloride ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13:_978-0781733908]
+def: "This is an automated analysis to determine the level of chloride ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13: 978-0781733908]
 is_a: MMO:0000805 ! automated plasma electrolyte analysis
 created_by: slaulede
 creation_date: 2022-03-17T16:28:53Z
@@ -7424,7 +7425,7 @@ creation_date: 2022-03-17T16:28:53Z
 [Term]
 id: MMO:0000822
 name: automated plasma potassium test
-def: "This is an automated analysis to determine the level of potassium ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13:_978-0781733908]
+def: "This is an automated analysis to determine the level of potassium ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13: 978-0781733908]
 is_a: MMO:0000805 ! automated plasma electrolyte analysis
 created_by: slaulede
 creation_date: 2022-03-17T16:35:05Z
@@ -7432,7 +7433,7 @@ creation_date: 2022-03-17T16:35:05Z
 [Term]
 id: MMO:0000823
 name: automated plasma sodium test
-def: "This is an automated analysis to determine the level of sodium ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13:_978-0781733908]
+def: "This is an automated analysis to determine the level of sodium ions in plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://www.donatingplasma.org/donation/what-is-plasma, ISBN-13: 978-0781733908]
 is_a: MMO:0000805 ! automated plasma electrolyte analysis
 created_by: slaulede
 creation_date: 2022-03-17T16:39:55Z
@@ -7440,7 +7441,7 @@ creation_date: 2022-03-17T16:39:55Z
 [Term]
 id: MMO:0000824
 name: automated plasma total bilirubin analysis
-def: "This a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of total (direct and indirect) bilirubin in a specified volume of plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13:_978-0781733908]
+def: "This a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of total (direct and indirect) bilirubin in a specified volume of plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13: 978-0781733908]
 xref: PMID:31125290
 is_a: MMO:0000553 ! automated plasma analysis
 is_a: MMO:0000826 ! plasma total bilirubin analysis
@@ -7450,7 +7451,7 @@ creation_date: 2022-03-24T12:18:16Z
 [Term]
 id: MMO:0000825
 name: blood total bilirubin analysis
-def: "This is any assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in whole blood." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13:_978-0781733908]
+def: "This is any assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in whole blood." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13: 978-0781733908]
 xref: PMID:31125290
 is_a: MMO:0000030 ! ex vivo blood analysis
 created_by: slaulede
@@ -7459,7 +7460,7 @@ creation_date: 2022-03-24T12:37:02Z
 [Term]
 id: MMO:0000826
 name: plasma total bilirubin analysis
-def: "This is an assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in a specified volume of plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13:_978-0781733908]
+def: "This is an assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in a specified volume of plasma, the fluid portion of the blood remaining after cells and platelets are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13: 978-0781733908]
 xref: PMID:31125290
 is_a: MMO:0000825 ! blood total bilirubin analysis
 created_by: slaulede
@@ -7468,7 +7469,7 @@ creation_date: 2022-03-24T12:55:25Z
 [Term]
 id: MMO:0000827
 name: serum total bilirubin analysis
-def: "This is an assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in a specified volume of serum, i.e. blood from which cells, platelets and clotting factors have been removed have been removed by clot formation." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13:_978-0781733908]
+def: "This is an assay which measures the amount, level or concentration of total (direct and indirect) bilirubin in a specified volume of serum, i.e. blood from which cells, platelets and clotting factors have been removed have been removed by clot formation." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13: 978-0781733908]
 xref: PMID:31125290
 is_a: MMO:0000825 ! blood total bilirubin analysis
 created_by: slaulede
@@ -7477,7 +7478,7 @@ creation_date: 2022-03-24T13:05:23Z
 [Term]
 id: MMO:0000828
 name: blood gamma-glutamyltransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of blood. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of blood. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13: 978-0781733908]
 synonym: "blood gamma-glutamyl transpeptidase activity assay" EXACT []
 synonym: "blood GGT activity assay" EXACT []
 synonym: "blood GGTP activity assay" EXACT []
@@ -7489,7 +7490,7 @@ creation_date: 2022-03-24T16:35:53Z
 [Term]
 id: MMO:0000829
 name: plasma gamma-glutamyltransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of plasma, the fluid portion of the blood remaining after cells and platelets are removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of plasma, the fluid portion of the blood remaining after cells and platelets are removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13: 978-0781733908]
 synonym: "plasma gamma-glutamyl transpeptidase activity assay" EXACT []
 synonym: "plasma GGT activity assay" EXACT []
 synonym: "plasma GGTP activity assay" EXACT []
@@ -7501,7 +7502,7 @@ creation_date: 2022-03-24T16:42:35Z
 [Term]
 id: MMO:0000830
 name: serum gamma-glutamyltransferase activity assay
-def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of serum, i.e. blood plasma from which cells, platelets, and clotting factors have been removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13:_978-0781733908]
+def: "This is a method which quantifies the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of serum, i.e. blood plasma from which cells, platelets, and clotting factors have been removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13: 978-0781733908]
 synonym: "serum gamma-glutamyl transpeptidase activity assay" EXACT []
 synonym: "serum GGT activity assay" EXACT []
 synonym: "serum GGTP activity assay" EXACT []
@@ -7513,7 +7514,7 @@ creation_date: 2022-03-24T16:46:53Z
 [Term]
 id: MMO:0000831
 name: automated plasma gamma-glutamyltransferase activity assay
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of plasma, the fluid portion of the blood remaining after cells and platelets are removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of plasma, the fluid portion of the blood remaining after cells and platelets are removed. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase, ISBN-13: 978-0781733908]
 synonym: "plasma gamma-glutamyl transpeptidase activity assay" EXACT []
 synonym: "plasma GGT activity assay" EXACT []
 synonym: "plasma GGTP activity assay" EXACT []
@@ -7525,7 +7526,7 @@ creation_date: 2022-03-24T16:57:41Z
 [Term]
 id: MMO:0000832
 name: automated serum low-density lipoprotein-cholesterol analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in low-density lipoprotein (LDL) particles in serum, the clear liquid that separates from blood after it has clotted completely." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in low-density lipoprotein (LDL) particles in serum, the clear liquid that separates from blood after it has clotted completely." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated serum LDL-cholesterol test" EXACT []
 is_a: MMO:0000134 ! serum low-density lipoprotein-cholesterol measurement test
 is_a: MMO:0000346 ! automated serum protein analysis
@@ -7535,7 +7536,7 @@ creation_date: 2022-04-04T12:24:02Z
 [Term]
 id: MMO:0000833
 name: automated serum high-density lipoprotein-cholesterol measurement test
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in high-density lipoprotein (LDL) particles in serum, the clear liquid that separates from blood after it has clotted completely," [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in high-density lipoprotein (LDL) particles in serum, the clear liquid that separates from blood after it has clotted completely," [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated serum HDL-cholesterol test" EXACT []
 is_a: MMO:0000133 ! serum high-density lipoprotein-cholesterol measurement test
 is_a: MMO:0000346 ! automated serum protein analysis
@@ -7545,7 +7546,7 @@ creation_date: 2022-04-04T13:46:04Z
 [Term]
 id: MMO:0000834
 name: automated plasma high-density lipoprotein-cholesterol measurement test
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in high-density lipoprotein (LDL) particles in plasma, the fluid portion of the blood in which the particulate components are suspended." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure cholesterol carried in high-density lipoprotein (LDL) particles in plasma, the fluid portion of the blood in which the particulate components are suspended." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated plasma HDL-cholesterol test" EXACT []
 is_a: MMO:0000282 ! plasma high-density lipoprotein-cholesterol measurement test
 is_a: MMO:0000553 ! automated plasma analysis
@@ -7555,7 +7556,7 @@ creation_date: 2022-04-04T13:52:27Z
 [Term]
 id: MMO:0000835
 name: automated blood glucose analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose, the end product of carbohydrate metabolism, in the blood." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose, the end product of carbohydrate metabolism, in the blood." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000112 ! blood glucose analysis
 created_by: slaulede
 creation_date: 2022-04-07T14:51:17Z
@@ -7563,7 +7564,7 @@ creation_date: 2022-04-07T14:51:17Z
 [Term]
 id: MMO:0000836
 name: automated serum glucose analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose in serum, the clear liquid that separates from blood after cells, platelets, and clotting factors have been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose in serum, the clear liquid that separates from blood after cells, platelets, and clotting factors have been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000316 ! serum glucose analysis
 is_a: MMO:0000835 ! automated blood glucose analysis
 created_by: slaulede
@@ -7573,7 +7574,7 @@ creation_date: 2022-04-07T14:55:44Z
 id: MMO:0000837
 name: automated plasma glucose analysis
 alt_id: MMO:0000735
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose in plasma, the clear liquid that separates from blood after cells and platelets have been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of glucose in plasma, the clear liquid that separates from blood after cells and platelets have been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000315 ! plasma glucose analysis
 is_a: MMO:0000553 ! automated plasma analysis
 is_a: MMO:0000835 ! automated blood glucose analysis
@@ -7583,7 +7584,7 @@ creation_date: 2022-04-07T15:00:29Z
 [Term]
 id: MMO:0000838
 name: automated blood urea nitrogen analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in the blood in the form of urea, the chief nitrogenous end product of protein metabolism. Urea is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in the blood in the form of urea, the chief nitrogenous end product of protein metabolism. Urea is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "automated BUN test" EXACT []
 is_a: MMO:0000179 ! automated blood analysis
 is_a: MMO:0000253 ! blood urea nitrogen analysis
@@ -7593,7 +7594,7 @@ creation_date: 2022-04-07T15:05:45Z
 [Term]
 id: MMO:0000839
 name: automated serum urea nitrogen analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in serum, the clear liquid that separates from blood after it has clotted completely. Urea is the chief nitrogenous end product of protein metabolism and is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in serum, the clear liquid that separates from blood after it has clotted completely. Urea is the chief nitrogenous end product of protein metabolism and is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000803 ! automated serum urea analysis
 is_a: MMO:0000838 ! automated blood urea nitrogen analysis
 created_by: slaulede
@@ -7602,7 +7603,7 @@ creation_date: 2022-04-07T15:08:36Z
 [Term]
 id: MMO:0000840
 name: automated plasma urea nitrogen analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in plasma, the clear liquid that separates from blood after cells and platelets have been removed. Urea is the chief nitrogenous end product of protein metabolism and is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the amount of nitrogen present in plasma, the clear liquid that separates from blood after cells and platelets have been removed. Urea is the chief nitrogenous end product of protein metabolism and is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000818 ! automated plasma urea analysis
 created_by: slaulede
 creation_date: 2022-04-07T15:11:21Z
@@ -7610,7 +7611,7 @@ creation_date: 2022-04-07T15:11:21Z
 [Term]
 id: MMO:0000841
 name: automated serum triglyceride analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure triglyceride, the naturally occurring ester of three fatty acids and glycerol that is the chief constituent of fat, in serum. Serum is the clear liquid that separates from blood when cells, platelets, and clotting factors have been removed." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure triglyceride, the naturally occurring ester of three fatty acids and glycerol that is the chief constituent of fat, in serum. Serum is the clear liquid that separates from blood when cells, platelets, and clotting factors have been removed." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000136 ! serum triglyceride analysis
 is_a: MMO:0000785 ! automated serum lipid analysis
 created_by: slaulede
@@ -7619,7 +7620,7 @@ creation_date: 2022-04-07T15:23:18Z
 [Term]
 id: MMO:0000842
 name: automated plasma lipid analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure plasma lipids, water insoluble fats and fat-like substances in the clear liquid that remains after cells and platelets have been removed from blood." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure plasma lipids, water insoluble fats and fat-like substances in the clear liquid that remains after cells and platelets have been removed from blood." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000038 ! blood lipid analysis
 is_a: MMO:0000553 ! automated plasma analysis
 created_by: slaulede
@@ -7628,7 +7629,7 @@ creation_date: 2022-04-07T15:30:11Z
 [Term]
 id: MMO:0000843
 name: automated serum total bilirubin analysis
-def: "This a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of total (direct and indirect) bilirubin in a specified volume of serum, the fluid portion of the blood remaining after cells,platelets, and clotting factors are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13:_978-0781733908]
+def: "This a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the entire amount of total (direct and indirect) bilirubin in a specified volume of serum, the fluid portion of the blood remaining after cells,platelets, and clotting factors are removed." [https://en.wikipedia.org/wiki/Bilirubin, ISBN-13: 978-0781733908]
 xref: PMID:33483609
 is_a: MMO:0000554 ! automated serum analysis
 is_a: MMO:0000827 ! serum total bilirubin analysis
@@ -7676,7 +7677,7 @@ creation_date: 2022-07-21T16:17:37Z
 [Term]
 id: MMO:0000848
 name: automated urine creatinine analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, an organic acid that assists the body in producing muscle contractions, in urine." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure the level of creatinine, the catabolic product of creatine, an organic acid that assists the body in producing muscle contractions, in urine." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000177 ! automated urine analysis
 is_a: MMO:0000275 ! urine creatinine analysis
 created_by: slaulede
@@ -7685,7 +7686,7 @@ creation_date: 2022-07-29T12:55:53Z
 [Term]
 id: MMO:0000849
 name: automated urine potassium analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of potassium in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of potassium in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000177 ! automated urine analysis
 is_a: MMO:0000435 ! urine potassium analysis
 created_by: slaulede
@@ -7694,7 +7695,7 @@ creation_date: 2022-07-29T13:26:10Z
 [Term]
 id: MMO:0000850
 name: automated urine urea analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of urea in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of urea in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000177 ! automated urine analysis
 is_a: MMO:0000676 ! urine urea analysis
 created_by: slaulede
@@ -7703,7 +7704,7 @@ creation_date: 2022-07-29T13:34:12Z
 [Term]
 id: MMO:0000851
 name: automated urine phosphate analysis
-def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of phosphate in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is a method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to assess the amount, proportions or properties of phosphate in urine, the fluid waste product excreted by the kidneys." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 is_a: MMO:0000177 ! automated urine analysis
 created_by: slaulede
 creation_date: 2022-07-29T14:46:52Z
