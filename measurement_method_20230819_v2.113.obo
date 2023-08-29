@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.114
-date: 26:08:2023 20:13
+data-version: 2.113
+date: 19:08:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4380,6 +4380,7 @@ creation_date: 2014-03-07T14:44:33Z
 id: MMO:0000511
 name: metabolic cage urine volume measurement method
 def: "A method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid wastes and in some cases for measurement of liquid waste, to determine the size of the three dimensional space occupied by a sample of urine, the fluid waste product excreted by the kidneys." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, American_Heritage:The_American_Heritage_Science_Dictionary_2005, http://www.pharmacelsus.de/metabolic_cage/ "Website"]
+synonym: "metabolic cage urine weight measurement method" RELATED []
 is_a: MMO:0000357 ! urine volume measurement method
 created_by: JSmith
 creation_date: 2014-03-10T11:20:37Z
@@ -5378,7 +5379,7 @@ creation_date: 2018-01-16T17:47:06Z
 [Term]
 id: MMO:0000620
 name: food intake measuring method
-def: "A method used to quantify the consumption or ingestion of food, any solid or semi-solid with nutritional value that is brought into the mouth and swallowed." [https://phenome.jax.org/, https://www.merriam-webster.com/]
+def: "A method used to quantify the consumption or ingestion of food, any solid or semi-solid with nutritional value that is brought into the mouth and swallowed." [MPD:MB]
 is_a: MMO:0000618 ! consumption measuring method
 created_by: jesmith
 creation_date: 2018-01-16T17:52:03Z
@@ -5718,8 +5719,8 @@ name: reverse transcription polymerase chain reaction assay
 alt_id: MMO:0000461
 def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [https://en.wikipedia.org/wiki/Polymerase_chain_reaction "Wikipedia", https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction "Wikipedia"]
 synonym: "reverse transcription polymerase chain reaction" EXACT []
-synonym: "RT-PCR" RELATED []
 synonym: "RT-PCR" EXACT DISPLAY_SYNONYM []
+synonym: "RT-PCR" RELATED []
 xref: ECO:0000109
 xref: efo:EFO_0002943
 xref: OBI:0001170
@@ -6128,8 +6129,8 @@ creation_date: 2019-03-19T16:52:11Z
 [Term]
 id: MMO:0000697
 name: metabolic cage water drinking measurement method
-def: "This is a method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid waste, to determine the amount of water consumed during a fixed time period." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
-is_a: MMO:0000860 ! metabolic cage drink measurement method (MMO:0000697)
+def: "A method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid wastes, to determine the amount of water consumed during a fixed time period." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
+is_a: MMO:0000212 ! ex vivo volume measurement method
 created_by: slaulede
 creation_date: 2019-12-16T17:19:17Z
 
@@ -7734,67 +7735,6 @@ xref: PMID:37191987
 is_a: MMO:0000709 ! nuclear magnetic resonance spectroscopy
 created_by: slaulede
 creation_date: 2023-08-11T16:50:57Z
-
-[Term]
-id: MMO:0000855
-name: metabolic cage urine mass measurement method
-def: "This is a method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid waste, to determine the mass of a sample of urine, the fluid waste product excreted by the kidneys." [http://www.pharmacelsus.de/metabolic_cage/]
-synonym: "metabolic cage urine weight measurement method" RELATED []
-xref: PMID:37191987
-is_a: MMO:0000856 ! urine mass measurement method
-created_by: slaulede
-creation_date: 2023-08-21T13:57:07Z
-
-[Term]
-id: MMO:0000856
-name: urine mass measurement method
-def: "This is any method by which the mass of a sample of urine, the fluid waste product excreted by the kidneys, is determined." [ISBN:978-1455756438]
-synonym: "urine mass measurement method" RELATED []
-xref: PMID:37191987
-is_a: MMO:0000147 ! urine analysis
-created_by: slaulede
-creation_date: 2023-08-21T14:02:11Z
-
-[Term]
-id: MMO:0000857
-name: ex vivo solid waste analysis
-def: "This is any method to determine the nature, properties, or composition of solid biological waste, that is a solid waste produced by a living organism, after that waste has been removed or defecated from the body." [https://www.merriam-webster.com/, ISBN:978-1455756438]
-synonym: "ex vivo excrement analysis" EXACT []
-synonym: "ex vivo fecal analysis" EXACT []
-xref: PMID:37191987
-is_a: MMO:0000027 ! ex vivo method
-created_by: slaulede
-creation_date: 2023-08-21T14:21:48Z
-
-[Term]
-id: MMO:0000858
-name: metabolic cage feces mass measurement method
-def: "This is a method which utilizes a metabolic cage, a housing unit constructed for the separate collection and measurement of liquid and solid waste, to determine the mass of a sample of feces, the bodily waste discharged through the anus." [https://www.merriam-webster.com/]
-synonym: "metabolic cage feces weight measurement method" RELATED []
-synonym: "metabolic cage solid waste mass measurement method" EXACT []
-xref: PMID:37191987
-is_a: MMO:0000857 ! ex vivo solid waste analysis
-created_by: slaulede
-creation_date: 2023-08-21T16:27:19Z
-
-[Term]
-id: MMO:0000859
-name: metabolic cage food consumption measurement method
-def: "This is a method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid waste, to determine the amount of solid or semi-solid food consumed during a fixed period of time." [https://phenome.jax.org/, https://www.merriam-webster.com/]
-synonym: "metabolic cage food intake measurement method" EXACT []
-synonym: "PMID:37191987" EXACT []
-is_a: MMO:0000620 ! food intake measuring method
-created_by: slaulede
-creation_date: 2023-08-21T16:46:18Z
-
-[Term]
-id: MMO:0000860
-name: metabolic cage drink measurement method (MMO:0000697)
-def: "This is a method which utilizes a metabolic cage, a housing unit constructed for the separate collection of liquid and solid waste, to determine the amount of liquid consumed during a fixed time period." [https://www.merriam-webster.com/, ISBN:978-1455756438]
-xref: PMID:37191987
-is_a: MMO:0000619 ! drink intake measuring method
-created_by: slaulede
-creation_date: 2023-08-21T16:56:45Z
 
 [Typedef]
 id: OBO_REL:part_of
