@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.115
-date: 16:09:2023 20:13
+data-version: 2.116
+date: 14:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -7795,6 +7795,29 @@ xref: PMID:37191987
 is_a: MMO:0000619 ! drink intake measuring method
 created_by: slaulede
 creation_date: 2023-08-21T16:56:45Z
+
+[Term]
+id: MMO:0000861
+name: Promethion multiplexed metabolic phenotyping analysis
+def: "The Promethion Metabolic /Behavioral Phenotyping System analyzes rat behaviors in real time with second-by-second data acquisition from all sensors. The system is configurable with devices for ingestive behavior studies and activity including cage movement and wheel running. The analysis is driven with SableHD (Sable Systems Int.) high-definition digital technology." [https://www.sablesys.com/products/promethion-core-line/]
+synonym: "Promethion Core" EXACT []
+is_a: MMO:0000254 ! body movement/behavior method
+is_a: MMO:0000618 ! consumption measuring method
+created_by: slaulede
+creation_date: 2023-10-02T12:57:10Z
+
+[Term]
+id: MMO:0000862
+name: single cell RNA-seq assay
+def: "This is a method which combines single cell isolation and RNA-seq, which assesses transcript expression and structure via high-throughput sequencing. Sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed." [https://en.wikipedia.org/wiki/Single-cell_transcriptomics, https://rnaseq.uoregon.edu]
+synonym: "scRNA-seq assay" EXACT []
+synonym: "single cell ribonucleic acid sequencing assay" EXACT []
+synonym: "single-cell RNA-seq" EXACT []
+synonym: "single-cell RNA-seq assay" EXACT []
+is_a: MMO:0000222 ! isolated cell method
+is_a: MMO:0000659 ! RNA-seq assay
+created_by: slaulede
+creation_date: 2023-10-02T15:31:20Z
 
 [Typedef]
 id: OBO_REL:part_of
