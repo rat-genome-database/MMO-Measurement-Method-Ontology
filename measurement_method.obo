@@ -552,7 +552,7 @@ creation_date: 2010-06-15T12:12:45Z
 id: MMO:0000075
 name: enzyme linked immunosorbent assay
 def: "An enzyme immunoassay using enzyme labeled immunoreactant (antigen or antibody) and an immunosorbent (antigen or antibody) bound to a solid support." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "ELISA" EXACT [XX:<new dbxref> ]
+synonym: "ELISA" EXACT []
 is_a: MMO:0000713 ! enzyme immunoassay
 created_by: mshimoyama
 creation_date: 2010-07-27T03:12:27Z
