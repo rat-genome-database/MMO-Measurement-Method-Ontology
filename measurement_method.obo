@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.126
-date: 27:01:2024 20:13
+data-version: 2.127
+date: 24:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -6649,6 +6649,7 @@ creation_date: 2021-03-19T12:03:14Z
 id: MMO:0000752
 name: von Frey assay
 def: "This is a test introduced by physiologist Maximilian von Frey and modified by Weinstein, to evaluate mechanical allodynia in mice and rats. The test, which may be manual or electronic, uses von Frey hair or fibers, which are small pieces of nylon rod, approximately 50 mm in length, and of varying diameters, to test a rodent's sensitivity to a mechanical stimulus." [https://en.wikipedia.org/wiki/Nociception_assay, PMID:28932184]
+synonym: "von Frey test" EXACT []
 xref: PMID:24388923
 is_a: MMO:0000732 ! nociception measurement method
 created_by: slaulede
