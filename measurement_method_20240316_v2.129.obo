@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.130
-date: 30:03:2024 20:13
+data-version: 2.129
+date: 16:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -5773,8 +5773,8 @@ creation_date: 2018-05-28T18:39:22Z
 id: MMO:0000659
 name: RNA-seq assay
 def: "A method which assesses transcript expression and structure via high-throughput sequencing. Sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed." [https://rnaseq.uoregon.edu/ "RNA-seqlopedia"]
-synonym: "ribonucleic acid sequencing assay" EXACT []
-synonym: "RNA-seq" EXACT []
+synonym: "ribonucleic acid sequencing assay" RELATED []
+synonym: "RNA-seq" EXACT DISPLAY_SYNONYM []
 synonym: "transcription profiling by high throughput sequencing" RELATED []
 synonym: "whole transcriptome sequencing" RELATED []
 xref: ECO:0000295
