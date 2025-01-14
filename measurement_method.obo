@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.145
-date: 30:11:2024 20:13
+data-version: 2.146
+date: 11:01:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -5772,7 +5772,7 @@ creation_date: 2018-05-28T18:39:22Z
 [Term]
 id: MMO:0000659
 name: RNA-seq assay
-def: "A method which assesses transcript expression and structure via high-throughput sequencing. Sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed." [https://rnaseq.uoregon.edu/ "RNA-seqlopedia"]
+def: "This is a method which assesses transcript expression and structure via high-throughput sequencing. Sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed." [https://rnaseq.uoregon.edu/ "RNA-seqlopedia"]
 synonym: "ribonucleic acid sequencing assay" EXACT []
 synonym: "RNA-seq" EXACT []
 synonym: "transcription profiling by high throughput sequencing" RELATED []
@@ -7838,6 +7838,15 @@ is_a: MMO:0000262 ! elevated plus maze apparatus method
 is_a: MMO:0000401 ! visual assessment of in vivo video recording
 created_by: jrsjrs
 creation_date: 2024-09-04T15:59:44Z
+
+[Term]
+id: MMO:0000865
+name: bulk RNA-seq assay
+def: "This is a method which assesses transcript expression and structure via high-throughput sequencing of RNA from pooled cell populations, tissue sections, or biopsies. Advanced computational analyses allow copy number determination, indel detection, microbial contamination investigation, and more in complex samples." [https://www.scdiscoveries.com, PMID:34329375]
+synonym: "bulk RNA sequencing" EXACT []
+is_a: MMO:0000659 ! RNA-seq assay
+created_by: slaulederkind
+creation_date: 2025-01-07T16:22:28Z
 
 [Typedef]
 id: OBO_REL:part_of
