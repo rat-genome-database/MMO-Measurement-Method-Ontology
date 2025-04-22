@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.149
-date: 22:04:2025 13:56
+data-version: 2.147
+date: 29:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -3894,8 +3894,7 @@ creation_date: 2014-01-14T12:55:54Z
 id: MMO:0000459
 name: polymerase chain reaction assay
 def: "A rapid technique for in vitro amplification of specific DNA sequences, allowing small quantities of short sequences to be analyzed without cloning. DNA sequences are amplified in vitro by separating the DNA into two strands and incubating it in a series of temperature cycles with oligonucleotide primers and heat-stable DNA polymerase." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "PCR" EXACT DISPLAY_SYNONYM []
-synonym: "PCR assay" EXACT []
+synonym: "PCR" EXACT []
 is_a: MMO:0000388 ! enzymatic method
 is_a: MMO:0000641 ! transcript expression assay
 created_by: JSmith
@@ -5603,7 +5602,7 @@ creation_date: 2018-05-28T18:02:15Z
 id: MMO:0000645
 name: cDNA clone-based transcript expression assay
 def: "A method which assesses transcript expression by reverse transcription of purified mRNA into the corresponding complementary DNA (cDNA) before insertion into a vector, allowing synthesis of a large number of copies of the sequence for analysis." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Segen:Segens_Medical_Dictionary_2012]
-synonym: "cDNA clone" EXACT DISPLAY_SYNONYM []
+synonym: "cDNA" EXACT DISPLAY_SYNONYM []
 xref: OBI:0600064
 is_a: MMO:0000641 ! transcript expression assay
 created_by: jrsmith
@@ -5775,7 +5774,7 @@ id: MMO:0000659
 name: RNA-seq assay
 def: "This is a method which assesses transcript expression and structure via high-throughput sequencing. Sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed." [https://rnaseq.uoregon.edu/ "RNA-seqlopedia"]
 synonym: "ribonucleic acid sequencing assay" EXACT []
-synonym: "RNA-seq" EXACT DISPLAY_SYNONYM []
+synonym: "RNA-seq" EXACT []
 synonym: "transcription profiling by high throughput sequencing" RELATED []
 synonym: "whole transcriptome sequencing" RELATED []
 xref: ECO:0000295
@@ -5858,7 +5857,6 @@ creation_date: 2018-05-28T19:00:36Z
 id: MMO:0000666
 name: high throughput proteomic profiling by array
 def: "Any method which employs an array (a two-dimensionally ordered arrangement of tissues, antibodies or other biomolecular interactors on a solid substrate) to identify and characterize, for example determine the levels of, a large number of proteins in a limited number of samples, a limited number of proteins in a large number of samples, or a large number of proteins in a large number of samples." [https://en.wikipedia.org/wiki/Protein_microarray "Wikipedia"]
-synonym: "protein microarray" EXACT DISPLAY_SYNONYM []
 xref: OBI:0001318
 is_a: MMO:0000664 ! high throughput proteomic profiling
 created_by: jrsmith
@@ -7816,7 +7814,6 @@ def: "This is a method which combines single cell isolation and RNA-seq, which a
 synonym: "scRNA-seq assay" EXACT []
 synonym: "single cell ribonucleic acid sequencing assay" EXACT []
 synonym: "single-cell RNA-seq" EXACT []
-synonym: "single cell RNA-seq assay" EXACT DISPLAY_SYNONYM []
 synonym: "single-cell RNA-seq assay" EXACT []
 is_a: MMO:0000222 ! isolated cell method
 is_a: MMO:0000659 ! RNA-seq assay
@@ -7846,7 +7843,6 @@ creation_date: 2024-09-04T15:59:44Z
 id: MMO:0000865
 name: bulk RNA-seq assay
 def: "This is a method which assesses transcript expression and structure via high-throughput sequencing of RNA from pooled cell populations, tissue sections, or biopsies. Advanced computational analyses allow copy number determination, indel detection, microbial contamination investigation, and more in complex samples." [https://www.scdiscoveries.com, PMID:34329375]
-synonym: "bulk RNA-seq" EXACT DISPLAY_SYNONYM []
 synonym: "bulk RNA sequencing" EXACT []
 is_a: MMO:0000659 ! RNA-seq assay
 created_by: slaulederkind
