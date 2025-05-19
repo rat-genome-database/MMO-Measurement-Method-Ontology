@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.151
-date: 17:05:2025 20:13
+data-version: 2.149
+date: 22:04:2025 13:56
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -6736,12 +6736,8 @@ creation_date: 2021-07-29T18:16:26Z
 [Term]
 id: MMO:0000760
 name: computerized assessment of in vivo video recording
-alt_id: MMO:0000761
 def: "A procedure or technique in which a morphological or physiological state or property of a living body or in situ body part is evaluated, appraised or perceived through an algorithmic analysis of a stored image-based record of the organism, body or body part, for example a videotape or a stored video file." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "computerized assessment of in vivo video recording of a Morris water maze apparatus" NARROW []
 synonym: "computer tracking system" EXACT []
-synonym: "Morris water maze with computer analysis of video recording" NARROW []
-synonym: "Morris water maze with computer tracking system" NARROW []
 xref: PMID:16837653
 is_a: MMO:0000163 ! in vivo visual assessment
 created_by: slaulede
@@ -6753,7 +6749,7 @@ name: Morris water maze with computer analysis of video recording
 def: "This is an experimental method in which a subject is placed in an open pool of water with a submerged escape platform and the subject's movements are video recorded. These movements are then evaluated, appraised or perceived through computerized analysis." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "Morris water maze with computer tracking system" EXACT []
 xref: PMID:16837653
-is_obsolete: true
+is_a: MMO:0000760 ! computerized assessment of in vivo video recording
 created_by: slaulede
 creation_date: 2021-09-09T15:14:23Z
 
