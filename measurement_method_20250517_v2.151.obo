@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.152
-date: 07:06:2025 20:13
+data-version: 2.151
+date: 17:05:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -5719,8 +5719,8 @@ name: reverse transcription polymerase chain reaction assay
 alt_id: MMO:0000461
 def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [https://en.wikipedia.org/wiki/Polymerase_chain_reaction "Wikipedia", https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction "Wikipedia"]
 synonym: "reverse transcription polymerase chain reaction" EXACT []
-synonym: "RT-PCR" RELATED []
 synonym: "RT-PCR" EXACT DISPLAY_SYNONYM []
+synonym: "RT-PCR" RELATED []
 xref: ECO:0000109
 xref: efo:EFO_0002943
 xref: OBI:0001170
@@ -6739,8 +6739,6 @@ name: computerized assessment of in vivo video recording
 alt_id: MMO:0000761
 def: "A procedure or technique in which a morphological or physiological state or property of a living body or in situ body part is evaluated, appraised or perceived through an algorithmic analysis of a stored image-based record of the organism, body or body part, for example a videotape or a stored video file." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "computerized assessment of in vivo video recording of a Morris water maze apparatus" NARROW []
-synonym: "computerized assessment of in vivo video recording of an elevated plus maze apparatus" NARROW []
-synonym: "computerized assessment of in vivo video recording of an open field apparatus" NARROW []
 synonym: "computer tracking system" EXACT []
 synonym: "Morris water maze with computer analysis of video recording" NARROW []
 synonym: "Morris water maze with computer tracking system" NARROW []
