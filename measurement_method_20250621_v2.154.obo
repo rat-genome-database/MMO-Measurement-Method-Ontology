@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.155
-date: 28:06:2025 20:13
+data-version: 2.154
+date: 21:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -3358,18 +3358,9 @@ creation_date: 2013-07-09T13:09:03Z
 [Term]
 id: MMO:0000401
 name: visual assessment of in vivo video recording
-alt_id: MMO:0000506
-alt_id: MMO:0000863
-alt_id: MMO:0000864
 def: "A procedure or technique in which a morphological or physiological state or property of a living body or in situ body part is evaluated, appraised or perceived through the sense of sight by watching a stored image-based record of the organism, body or body part, for example a videotape or a stored video file." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, PMID:22654893]
 synonym: "video monitoring" RELATED []
-synonym: "videotape analysis" BROAD []
-synonym: "visual assessment of in vivo video recording of a defensive burying test" NARROW []
-synonym: "visual assessment of in vivo video recording of a glove test" NARROW []
-synonym: "visual assessment of in vivo video recording of an elevated plus maze test" NARROW []
-synonym: "visual assessment of in vivo video recording of an EPM test" NARROW []
-synonym: "visual assessment of in vivo video recording of an OF test" NARROW []
-synonym: "visual assessment of in vivo video recording of an open field test" NARROW []
+synonym: "videotape analysis" RELATED []
 is_a: MMO:0000163 ! in vivo visual assessment
 created_by: JSmith
 creation_date: 2013-07-09T13:24:27Z
@@ -4348,7 +4339,8 @@ creation_date: 2014-02-07T12:50:09Z
 id: MMO:0000506
 name: glove test with visual analysis of video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an experimental apparatus or test cage and subsequently presented with a gloved human hand, passively and/or with attempts to handle the animal and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived through the sense of sight by watching the stored sound- and image-based record of the organism." [PMID:18177873]
-is_obsolete: true
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
+is_a: MMO:0000505 ! glove test
 created_by: JSmith
 creation_date: 2014-02-07T12:50:52Z
 
@@ -7846,7 +7838,8 @@ creation_date: 2023-10-02T15:31:20Z
 id: MMO:0000863
 name: open field test with visual assessment of in vivo video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
-is_obsolete: true
+is_a: MMO:0000258 ! open field apparatus method
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
 created_by: jrsjrs
 creation_date: 2024-09-04T15:57:45Z
 
@@ -7855,7 +7848,8 @@ id: MMO:0000864
 name: elevated plus maze test with visual assessment of in vivo video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
 synonym: "EPM test with visual assessment of in vivo video recording" RELATED []
-is_obsolete: true
+is_a: MMO:0000262 ! elevated plus maze apparatus method
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
 created_by: jrsjrs
 creation_date: 2024-09-04T15:59:44Z
 

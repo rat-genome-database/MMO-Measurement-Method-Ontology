@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.155
-date: 28:06:2025 20:13
+data-version: 2.153
+date: 14:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2056,9 +2056,8 @@ creation_date: 2012-07-24T02:58:03Z
 
 [Term]
 id: MMO:0000255
-name: movement measuring method
-def: "This is a method utilizing a piece of physical instrumentation, machinery or equipment designed and used to measure the movements of an organism." [Oxford:The_Online_Compact_Oxford_English_Dictionary]
-synonym: "movement/behavior test apparatus method" RELATED []
+name: movement/behavior test apparatus method
+def: "A method utilizing a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism." [Oxford:The_Online_Compact_Oxford_English_Dictionary]
 is_a: MMO:0000254 ! body movement/behavior method
 created_by: JSmith
 creation_date: 2012-07-24T03:01:57Z
@@ -2067,7 +2066,7 @@ creation_date: 2012-07-24T03:01:57Z
 id: MMO:0000256
 name: movement/behavior test enclosure method
 def: "A test utilizing an experimental instrument composed of a demarcated area used to measure and/or record movement or behavior of an organism." [RGD:JRS]
-is_a: MMO:0000255 ! movement measuring method
+is_a: MMO:0000255 ! movement/behavior test apparatus method
 created_by: JSmith
 creation_date: 2012-07-24T03:08:23Z
 
@@ -2075,7 +2074,7 @@ creation_date: 2012-07-24T03:08:23Z
 id: MMO:0000257
 name: movement/behavior test maze method
 def: "A method that utilizes an experimental apparatus made up of multiple components which requires that an experimental subject makes a choice or a series of choices and/or learn a specific solution to a problem. Used to test movement or behavior of an organism." [RGD:JRS]
-is_a: MMO:0000255 ! movement measuring method
+is_a: MMO:0000255 ! movement/behavior test apparatus method
 created_by: JSmith
 creation_date: 2012-07-24T03:37:16Z
 
@@ -2971,10 +2970,10 @@ creation_date: 2013-02-20T18:28:01Z
 
 [Term]
 id: MMO:0000361
-name: running or walking measurement
-def: "This is a method of measuring some aspect of a subject walking or running." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
-synonym: "measurement of running or walking on a treadmill" NARROW []
-is_a: MMO:0000255 ! movement measuring method
+name: treadmill method
+def: "Any method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+synonym: "treadmill test" RELATED []
+is_a: MMO:0000255 ! movement/behavior test apparatus method
 created_by: JSmith
 creation_date: 2013-02-21T15:00:19Z
 
@@ -2982,7 +2981,7 @@ creation_date: 2013-02-21T15:00:19Z
 id: MMO:0000362
 name: treadmill method with electric shock source
 def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place, containing an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website"]
-is_obsolete: true
+is_a: MMO:0000361 ! treadmill method
 created_by: JSmith
 creation_date: 2013-02-21T15:08:52Z
 
@@ -3170,14 +3169,9 @@ creation_date: 2013-02-27T15:01:32Z
 
 [Term]
 id: MMO:0000381
-name: automated tracking of running or walking
-alt_id: MMO:0000362
-alt_id: MMO:0000382
-def: "This is a measuring method that utilizes a computerized device to automatically record speed of, distance of, and/or time spent running or walking by a test subject." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "automated tracking of running or walking on a treadmill" NARROW []
-synonym: "automated tracking of running or walking on a treadmill with shock grid" NARROW []
-xref: https://omnitech-usa.com/product/accupacer-mouse-treadmill/
-is_a: MMO:0000361 ! running or walking measurement
+name: treadmill method with automated tracking
+def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and connected to or incorporating a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+is_a: MMO:0000361 ! treadmill method
 created_by: JSmith
 creation_date: 2013-02-27T15:23:04Z
 
@@ -3185,7 +3179,8 @@ creation_date: 2013-02-27T15:23:04Z
 id: MMO:0000382
 name: treadmill method with electric shock source and automated tracking
 def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and incorporating both an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt and a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-is_obsolete: true
+is_a: MMO:0000362 ! treadmill method with electric shock source
+is_a: MMO:0000381 ! treadmill method with automated tracking
 created_by: JSmith
 creation_date: 2013-02-27T15:38:16Z
 
@@ -3358,18 +3353,9 @@ creation_date: 2013-07-09T13:09:03Z
 [Term]
 id: MMO:0000401
 name: visual assessment of in vivo video recording
-alt_id: MMO:0000506
-alt_id: MMO:0000863
-alt_id: MMO:0000864
 def: "A procedure or technique in which a morphological or physiological state or property of a living body or in situ body part is evaluated, appraised or perceived through the sense of sight by watching a stored image-based record of the organism, body or body part, for example a videotape or a stored video file." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed, PMID:22654893]
 synonym: "video monitoring" RELATED []
-synonym: "videotape analysis" BROAD []
-synonym: "visual assessment of in vivo video recording of a defensive burying test" NARROW []
-synonym: "visual assessment of in vivo video recording of a glove test" NARROW []
-synonym: "visual assessment of in vivo video recording of an elevated plus maze test" NARROW []
-synonym: "visual assessment of in vivo video recording of an EPM test" NARROW []
-synonym: "visual assessment of in vivo video recording of an OF test" NARROW []
-synonym: "visual assessment of in vivo video recording of an open field test" NARROW []
+synonym: "videotape analysis" RELATED []
 is_a: MMO:0000163 ! in vivo visual assessment
 created_by: JSmith
 creation_date: 2013-07-09T13:24:27Z
@@ -3864,7 +3850,7 @@ creation_date: 2014-01-03T17:47:03Z
 id: MMO:0000454
 name: test apparatus method utilizing mechanical transducer
 def: "A method utilizing a piece of physical instrumentation, machinery or equipment designed and used to measure the movements and/or behaviors of an organism, that makes use of a mechanical transducer to convert a physical/mechanical force or displacement signal to another, recordable, signal type." [http://en.wikipedia.org/wiki/Transducer "Wikipedia", Oxford:The_Online_Compact_Oxford_English_Dictionary]
-is_a: MMO:0000255 ! movement measuring method
+is_a: MMO:0000255 ! movement/behavior test apparatus method
 created_by: JSmith
 creation_date: 2014-01-14T12:17:06Z
 
@@ -4348,7 +4334,8 @@ creation_date: 2014-02-07T12:50:09Z
 id: MMO:0000506
 name: glove test with visual analysis of video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an experimental apparatus or test cage and subsequently presented with a gloved human hand, passively and/or with attempts to handle the animal and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived through the sense of sight by watching the stored sound- and image-based record of the organism." [PMID:18177873]
-is_obsolete: true
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
+is_a: MMO:0000505 ! glove test
 created_by: JSmith
 creation_date: 2014-02-07T12:50:52Z
 
@@ -7846,7 +7833,8 @@ creation_date: 2023-10-02T15:31:20Z
 id: MMO:0000863
 name: open field test with visual assessment of in vivo video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
-is_obsolete: true
+is_a: MMO:0000258 ! open field apparatus method
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
 created_by: jrsjrs
 creation_date: 2024-09-04T15:57:45Z
 
@@ -7855,7 +7843,8 @@ id: MMO:0000864
 name: elevated plus maze test with visual assessment of in vivo video recording
 def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
 synonym: "EPM test with visual assessment of in vivo video recording" RELATED []
-is_obsolete: true
+is_a: MMO:0000262 ! elevated plus maze apparatus method
+is_a: MMO:0000401 ! visual assessment of in vivo video recording
 created_by: jrsjrs
 creation_date: 2024-09-04T15:59:44Z
 
