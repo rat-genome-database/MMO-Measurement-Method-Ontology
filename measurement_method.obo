@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.170
-date: 07:02:2026 20:13
+data-version: 2.171
+date: 28:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -5605,7 +5605,7 @@ creation_date: 2018-05-28T17:59:54Z
 
 [Term]
 id: MMO:0000644
-name: high throughput expression assay
+name: high-throughput expression assay
 def: "Any method which uses rapid, highly parallel techniques to identify and characterize, for example determine the levels of, a large number of biomolecules (e.g. proteins or RNAs) in a limited number of samples, a limited number of biomolecules in a large number of samples, or a large number of biomolecules in a large number of samples." [https://en.wikipedia.org/wiki/High_throughput_biology "Wikipedia"]
 synonym: "high throughput" EXACT DISPLAY_SYNONYM []
 is_a: MMO:0000640 ! expression assay
@@ -5649,35 +5649,35 @@ creation_date: 2018-05-28T18:11:40Z
 
 [Term]
 id: MMO:0000648
-name: high throughput transcription profiling by array
+name: high-throughput transcription profiling by array
 def: "A method which assesses transcript expression by the use of an array, an ordered two dimensional collection of specific single-stranded DNA probes (either short oligonucleotides or longer DNA strands) which is hybridized to a labelled cDNA or RNA sample under high-stringency conditions. Detection of the labelled targets gives an indication of the presence and/or amount of that target in the original sample." [https://en.wikipedia.org/wiki/Microarray "Wikipedia"]
 synonym: "transcript array" EXACT DISPLAY_SYNONYM []
 xref: efo:EFO_0002768
 xref: OBI:0001463
 is_a: MMO:0000641 ! transcript expression assay
-is_a: MMO:0000644 ! high throughput expression assay
+is_a: MMO:0000644 ! high-throughput expression assay
 created_by: jrsmith
 creation_date: 2018-05-28T18:13:28Z
 
 [Term]
 id: MMO:0000649
-name: high throughput transcription profiling by microarray
+name: high-throughput transcription profiling by microarray
 def: "A method which assesses transcript expression by the use of a microarray, an ordered two dimensional collection of specific single-stranded DNA probes (either short oligonucleotides or longer DNA strands) densely packed into a small area. The array is hybridized to a labelled cDNA or RNA sample under high-stringency conditions. Detection of the labelled targets gives an indication of the presence and/or amount of that target in the original sample." [https://en.wikipedia.org/wiki/Microarray "Wikipedia"]
 synonym: "microarray" EXACT DISPLAY_SYNONYM []
 synonym: "microarray assay" BROAD []
 xref: ECO:0000058
-is_a: MMO:0000648 ! high throughput transcription profiling by array
+is_a: MMO:0000648 ! high-throughput transcription profiling by array
 created_by: jrsmith
 creation_date: 2018-05-28T18:18:07Z
 
 [Term]
 id: MMO:0000650
-name: high throughput transcription profiling by tiling array
-def: "A method which assesses expression transcripts from a specific, contiguous region of the genome by the use of a tiling microarray." [https://en.wikipedia.org/wiki/Tiling_array "Wikipedia"]
+name: high-throughput transcription profiling by tiling array
+def: "This is any method which assesses the expression of transcripts from a specific, contiguous region of the genome by the use of a tiling microarray. Genomic tiling arrays are high-density microarrays that feature probes designed to cover entire chromosomes or specific genomic regions at regular, high-resolution intervals (10–100 bp)." [https://en.wikipedia.org/wiki/Tiling_array "Wikipedia"]
 synonym: "tiling array" EXACT DISPLAY_SYNONYM []
 synonym: "tiling array assay" EXACT []
 xref: OBI:0001235
-is_a: MMO:0000648 ! high throughput transcription profiling by array
+is_a: MMO:0000649 ! high-throughput transcription profiling by microarray
 created_by: jrsmith
 creation_date: 2018-05-28T18:23:06Z
 
@@ -5796,7 +5796,7 @@ xref: efo:EFO_0002770
 xref: efo:EFO_0008896
 xref: OBI:0001271
 is_a: MMO:0000641 ! transcript expression assay
-is_a: MMO:0000644 ! high throughput expression assay
+is_a: MMO:0000644 ! high-throughput expression assay
 created_by: jrsmith
 creation_date: 2018-05-28T18:42:29Z
 
@@ -5809,7 +5809,7 @@ synonym: "SAGE" RELATED []
 xref: efo:EFO_0002941
 xref: OBI:0002029
 is_a: MMO:0000641 ! transcript expression assay
-is_a: MMO:0000644 ! high throughput expression assay
+is_a: MMO:0000644 ! high-throughput expression assay
 created_by: jrsmith
 creation_date: 2018-05-28T18:45:18Z
 
@@ -5847,11 +5847,11 @@ creation_date: 2018-05-28T18:53:10Z
 
 [Term]
 id: MMO:0000664
-name: high throughput proteomic profiling
+name: high-throughput proteomic profiling
 def: "Any method which uses rapid, highly parallel techniques to identify and characterize, for example determine the levels of, a large number of proteins in a limited number of samples, a limited number of proteins in a large number of samples, or a large number of proteins in a large number of samples." [https://en.wikipedia.org/wiki/High_throughput_biology "Wikipedia", https://en.wikipedia.org/wiki/Proteomics#High-throughput_proteomic_technologies "Wikipedia"]
 synonym: "proteomic profiling" EXACT DISPLAY_SYNONYM []
 is_a: MMO:0000642 ! protein expression assay
-is_a: MMO:0000644 ! high throughput expression assay
+is_a: MMO:0000644 ! high-throughput expression assay
 created_by: jrsmith
 creation_date: 2018-05-28T18:57:02Z
 
@@ -5863,7 +5863,7 @@ xref: ECO:0001119
 xref: ECO:0005585
 xref: ECO:0005603
 is_a: MMO:0000534 ! mass spectrometry
-is_a: MMO:0000664 ! high throughput proteomic profiling
+is_a: MMO:0000664 ! high-throughput proteomic profiling
 created_by: jrsmith
 creation_date: 2018-05-28T19:00:36Z
 
@@ -5873,7 +5873,7 @@ name: high throughput proteomic profiling by array
 def: "Any method which employs an array (a two-dimensionally ordered arrangement of tissues, antibodies or other biomolecular interactors on a solid substrate) to identify and characterize, for example determine the levels of, a large number of proteins in a limited number of samples, a limited number of proteins in a large number of samples, or a large number of proteins in a large number of samples." [https://en.wikipedia.org/wiki/Protein_microarray "Wikipedia"]
 synonym: "protein microarray" EXACT DISPLAY_SYNONYM []
 xref: OBI:0001318
-is_a: MMO:0000664 ! high throughput proteomic profiling
+is_a: MMO:0000664 ! high-throughput proteomic profiling
 created_by: jrsmith
 creation_date: 2018-05-28T19:02:46Z
 
@@ -7878,6 +7878,41 @@ xref: PMID:20200994
 is_a: MMO:0000591 ! activity monitoring apparatus method
 created_by: slaulederkind
 creation_date: 2025-06-10T17:21:09Z
+
+[Term]
+id: MMO:0000867
+name: DNA methylation assay
+def: "This is any method which assesses the extent of DNA methylation in cells or tissue. DNA methylation assays are molecular techniques used to detect, map, and quantify 5-methylcytosine (5mC) modifications in DNA, which regulate gene expression and serve as biomarkers for various diseases. There are many methods of DNA methylation assay that include bisulfite sequencing (single-base resolution), methylation-sensitive microarrays (high-throughput), and antibody-based enrichment (ELISA)." [PMID:26751487]
+is_a: MMO:0000639 ! molecular method
+created_by: slaulederkind
+creation_date: 2026-02-26T10:35:09Z
+
+[Term]
+id: MMO:0000868
+name: high-throughput DNA methylation profiling by array
+def: "This is any method which assesses the extent of DNA methylation in cells or tissue by use of a high throughput array. Methylation arrays enable quantitative interrogation of methylation sites in specific regions of the genome or genome wide assessment (Epigenome-Wide Association Studies [EWAS]). Array-based methylation studies can provide important information related to the regulation of gene expression." [https://www.illumina.com/techniques/microarrays/methylation-arrays.html, PMID:29566144]
+synonym: "DNA Methylation Array" EXACT []
+synonym: "Infinium Methylation Screening Array" NARROW []
+synonym: "methylation microarray" EXACT []
+synonym: "methylation screening array" NARROW []
+synonym: "MSA" NARROW []
+xref: https://genomics.umn.edu/service/illumina-methylation-microarrays
+xref: PMID:35145108
+is_a: MMO:0000867 ! DNA methylation assay
+created_by: slaulederkind
+creation_date: 2026-02-26T10:54:27Z
+
+[Term]
+id: MMO:0000869
+name: single nucleus RNA-seq assay
+def: "This is a method which assesses transcript expression and structure in cell nuclei. Following tissue processing and isolation of nuclei, sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed. Unlike single cell RNA-seq, this method does not require viable, intact cells and can be used on frozen or archived samples." [https://en.wikipedia.org/wiki/SnRNA-seq]
+synonym: "single nuclei RNA-seq assay" EXACT []
+synonym: "single nucleus RNA sequencing assay" EXACT []
+synonym: "snRNA-seq assay" EXACT []
+synonym: "sNuc-seq assay" EXACT []
+is_a: MMO:0000659 ! RNA-seq assay
+created_by: caripark
+creation_date: 2026-02-27T16:07:40Z
 
 [Typedef]
 id: OBO_REL:part_of
