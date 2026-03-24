@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.173
-date: 14:03:2026 20:13
+data-version: 2.171
+date: 28:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -7905,7 +7905,7 @@ creation_date: 2026-02-26T10:54:27Z
 [Term]
 id: MMO:0000869
 name: single nucleus RNA-seq assay
-def: "This is a method which assesses transcript expression and structure in single cell nuclei. Following tissue processing and isolation of nuclei, sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed. Unlike single cell RNA-seq, this method does not require viable, intact cells and can be used on frozen or archived samples." [https://en.wikipedia.org/wiki/SnRNA-seq]
+def: "This is a method which assesses transcript expression and structure in cell nuclei. Following tissue processing and isolation of nuclei, sample RNA is purified, fragmented, reverse transcribed to cDNA with the addition of sequencing primers, sequenced and analyzed. Unlike single cell RNA-seq, this method does not require viable, intact cells and can be used on frozen or archived samples." [https://en.wikipedia.org/wiki/SnRNA-seq]
 synonym: "single nuclei RNA-seq assay" EXACT []
 synonym: "single nucleus RNA sequencing assay" EXACT []
 synonym: "snRNA-seq assay" EXACT []
