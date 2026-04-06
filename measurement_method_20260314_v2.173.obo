@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.174
-date: 04:04:2026 20:13
+data-version: 2.173
+date: 14:03:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2458,7 +2458,6 @@ creation_date: 2012-08-27T12:25:46Z
 id: MMO:0000301
 name: two way shuttlebox apparatus method
 def: "A test using a box divided into two halves in which an experimental animal must move from one compartment to the other in order to gain their reward or to avoid an adverse stimulus. The shuttlebox is considered two way because the reward or adverse stimulus can be administered in either or both sides of the apparatus." [http://psychology.wikia.com/wiki/Shuttle_boxes "Website", http://www.springerlink.com/content/j8r4800u137n37gw/ "Web_article"]
-synonym: "Not4Curation" RELATED []
 synonym: "two way shuttle box apparatus method" EXACT []
 synonym: "two way shuttlebox test" RELATED []
 is_a: MMO:0000256 ! movement/behavior test enclosure method
@@ -7897,7 +7896,6 @@ synonym: "Infinium Methylation Screening Array" NARROW []
 synonym: "methylation microarray" EXACT []
 synonym: "methylation screening array" NARROW []
 synonym: "MSA" NARROW []
-xref: GEO:GPL28271
 xref: https://genomics.umn.edu/service/illumina-methylation-microarrays
 xref: PMID:35145108
 is_a: MMO:0000867 ! DNA methylation assay
