@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-05-30
-date: 30:05:2026 20:13
+data-version: releases/2026-05-06
+date: 06:05:2026 11:27
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: measurement_method_ontology
 ontology: mmo
@@ -11,7 +11,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-05-30" xsd:string
+property_value: owl:versionInfo "2026-05-06" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -5740,8 +5740,8 @@ name: reverse transcription polymerase chain reaction assay
 alt_id: MMO:0000461
 def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [https://en.wikipedia.org/wiki/Polymerase_chain_reaction "Wikipedia", https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction "Wikipedia"]
 synonym: "reverse transcription polymerase chain reaction" EXACT []
-synonym: "RT-PCR" RELATED []
 synonym: "RT-PCR" EXACT DISPLAY_SYNONYM []
+synonym: "RT-PCR" RELATED []
 xref: ECO:0000109
 xref: efo:EFO_0002943
 xref: OBI:0001170
