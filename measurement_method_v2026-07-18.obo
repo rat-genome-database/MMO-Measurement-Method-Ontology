@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-07-29
-date: 29:07:2026 15:47
+data-version: releases/2026-07-18
+date: 18:07:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: measurement_method_ontology
 ontology: mmo
@@ -11,7 +11,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-29" xsd:string
+property_value: owl:versionInfo "2026-07-18" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -5703,8 +5703,8 @@ id: MMO:0000652
 name: ribonuclease protection assay
 def: "A nuclease protection assay in which the probe is RNA and the nuclease is one or more ribonucleases which preferentially cleave single-stranded RNA." [https://en.wikipedia.org/wiki/Nuclease_protection_assay "Wikipedia", https://www.thermofisher.com/us/en/home/references/ambion-tech-support/ribonuclease-protection-assays/general-articles/the-basics-what-is-a-nuclease-protection-assay.html "Website"]
 synonym: "RNA protection assay" RELATED []
-synonym: "RNase protection" EXACT DISPLAY_SYNONYM []
 synonym: "RNase protection" RELATED []
+synonym: "RNase protection" EXACT DISPLAY_SYNONYM []
 synonym: "RPA" RELATED []
 xref: ECO:0000110
 xref: OBI:0001670
