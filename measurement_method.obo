@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-29
-date: 29:08:2026 20:13
+data-version: releases/2026-09-12
+date: 12:09:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -11,7 +11,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-29" xsd:string
+property_value: owl:versionInfo "2026-09-12" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -248,7 +248,7 @@ is_a: MMO:0000193 ! in vivo thermometry
 
 [Term]
 id: MMO:0000035
-name: digital scale
+name: obsolete digital scale
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-10-04T00:00:00Z
@@ -2788,8 +2788,8 @@ creation_date: 2013-02-12T21:19:37Z
 
 [Term]
 id: MMO:0000338
-name: western blot
-def: "A multistep process in which a mixture of proteins is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane, usually composed of nitrocellulose, nylon or polyvinylidene difluoride (PVDF) and detection of specific proteins by binding of tagged or labelled antibodies." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Western_blot "Wikipedia", ISBN:978-1416049982]
+name: obsolete western blot
+def: "OBSOLETE. A multistep process in which a mixture of proteins is separated by gel electrophoresis, that is, separation of ionic solutes based on differences in rate of migration in an applied electric field using a semisolid colloid such as agarose or acrylamide as the support medium, followed by transfer to a membrane, usually composed of nitrocellulose, nylon or polyvinylidene difluoride (PVDF) and detection of specific proteins by binding of tagged or labelled antibodies." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Western_blot "Wikipedia", ISBN:978-1416049982]
 comment: term merged into 'western blot assay' (MMO:0000669)
 is_obsolete: true
 created_by: jsmith
@@ -2988,8 +2988,8 @@ creation_date: 2013-02-21T15:00:19Z
 
 [Term]
 id: MMO:0000362
-name: treadmill method with electric shock source
-def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place, containing an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website"]
+name: obsolete treadmill method with electric shock source
+def: "OBSOLETE. A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place, containing an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website"]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2013-02-21T15:08:52Z
@@ -3191,8 +3191,8 @@ creation_date: 2013-02-27T15:23:04Z
 
 [Term]
 id: MMO:0000382
-name: treadmill method with electric shock source and automated tracking
-def: "A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and incorporating both an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt and a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+name: obsolete treadmill method with electric shock source and automated tracking
+def: "OBSOLETE. A method that utilizes a device consisting of a continuous moving belt which allows a subject to walk or run while physically remaining in one place and incorporating both an apparatus which delivers a relatively low voltage flow of electricity to the body if the subject leaves the belt and a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to record output such as distance, speed, time, etc." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://www.panlab.com/panlabWeb/Hardware/php/displayHard.php?nameHard=TREADMILL "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2013-02-27T15:38:16Z
@@ -3937,8 +3937,8 @@ creation_date: 2014-01-14T13:23:47Z
 
 [Term]
 id: MMO:0000461
-name: reverse transcription polymerase chain reaction
-def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [http://en.wikipedia.org/wiki/Polymerase_Chain_Reaction "Wikipedia"]
+name: obsolete reverse transcription polymerase chain reaction
+def: "OBSOLETE. A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [http://en.wikipedia.org/wiki/Polymerase_Chain_Reaction "Wikipedia"]
 synonym: "RT-PCR" EXACT []
 is_obsolete: true
 created_by: jsmith
@@ -3946,8 +3946,8 @@ creation_date: 2014-01-14T13:23:50Z
 
 [Term]
 id: MMO:0000462
-name: quantitative reverse transcription polymerase chain reaction
-def: "Real-time PCR in which a sample of RNA is first reverse transcribed to convert the RNA into complementary DNA (cDNA) and then a quantitative real-time PCR reaction is carried out on the resulting sample." [http://en.wikipedia.org/wiki/Polymerase_Chain_Reaction "Wikipedia"]
+name: obsolete quantitative reverse transcription polymerase chain reaction
+def: "OBSOLETE. Real-time PCR in which a sample of RNA is first reverse transcribed to convert the RNA into complementary DNA (cDNA) and then a quantitative real-time PCR reaction is carried out on the resulting sample." [http://en.wikipedia.org/wiki/Polymerase_Chain_Reaction "Wikipedia"]
 synonym: "qRT-PCR" EXACT DISPLAY_SYNONYM []
 synonym: "qRT-PCR" RELATED []
 synonym: "quantitative RT-PCR" RELATED []
@@ -3997,8 +3997,8 @@ creation_date: 2014-01-14T16:02:57Z
 
 [Term]
 id: MMO:0000467
-name: phospholipid analysis of serum lipoprotein fraction
-def: "A laboratory test which measures the level of one or more phospholipids, phosphorous-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule, in a lipoprotein fraction of serum. Serum lipoprotein fractions are samples resulting from the separation of the components of serum on the basis of density, such as by density gradient ultracentrifugation." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, PMID:8698878]
+name: obsolete phospholipid analysis of serum lipoprotein fraction
+def: "OBSOLETE. A laboratory test which measures the level of one or more phospholipids, phosphorous-containing lipids composed mainly of fatty acids, a phosphate group, and a simple organic molecule, in a lipoprotein fraction of serum. Serum lipoprotein fractions are samples resulting from the separation of the components of serum on the basis of density, such as by density gradient ultracentrifugation." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, PMID:8698878]
 synonym: "serum lipoprotein fraction phospholipid analysis" RELATED []
 synonym: "serum lipoprotein fraction phospholipid measurement test" RELATED []
 is_obsolete: true
@@ -4354,8 +4354,8 @@ creation_date: 2014-02-07T12:50:09Z
 
 [Term]
 id: MMO:0000506
-name: glove test with visual analysis of video recording
-def: "An experimental method in which an animal (for example, a rat) is placed in an experimental apparatus or test cage and subsequently presented with a gloved human hand, passively and/or with attempts to handle the animal and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived through the sense of sight by watching the stored sound- and image-based record of the organism." [PMID:18177873]
+name: obsolete glove test with visual analysis of video recording
+def: "OBSOLETE. An experimental method in which an animal (for example, a rat) is placed in an experimental apparatus or test cage and subsequently presented with a gloved human hand, passively and/or with attempts to handle the animal and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived through the sense of sight by watching the stored sound- and image-based record of the organism." [PMID:18177873]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2014-02-07T12:50:52Z
@@ -5740,8 +5740,8 @@ name: reverse transcription polymerase chain reaction assay
 alt_id: MMO:0000461
 def: "A method which assesses transcript expression by conversion of an RNA template into complementary DNA (cDNA) by reverse transcription. The cDNA is used as a template for exponential amplification by the polymerase chain reaction, a technique which produces a large number of copies of one or more specific DNA sequences via multiple rounds of thermal cycling where DNA is melted, annealed to oligonucleotide primers, and extended using a thermostable DNA polymerase." [https://en.wikipedia.org/wiki/Polymerase_chain_reaction "Wikipedia", https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction "Wikipedia"]
 synonym: "reverse transcription polymerase chain reaction" EXACT []
-synonym: "RT-PCR" RELATED []
 synonym: "RT-PCR" EXACT DISPLAY_SYNONYM []
+synonym: "RT-PCR" RELATED []
 xref: ECO:0000109
 xref: efo:EFO_0002943
 xref: OBI:0001170
@@ -6015,8 +6015,8 @@ creation_date: 2018-12-20T10:18:35Z
 
 [Term]
 id: MMO:0000681
-name: co-fractionation
-def: "A type of fractionation evidence resulting from a protein fractionated with other compounds, factors, or macromolecules." [ECO:0000102]
+name: obsolete co-fractionation
+def: "OBSOLETE. A type of fractionation evidence resulting from a protein fractionated with other compounds, factors, or macromolecules." [ECO:0000102]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-12-20T10:33:46Z
@@ -6134,8 +6134,8 @@ creation_date: 2019-01-02T14:33:45Z
 
 [Term]
 id: MMO:0000695
-name: optical coherence tomography
-def: "Optical coherence tomography (OCT) is an imaging technique that uses low-coherence light to capture micrometer-resolution, two- and three-dimensional images from within optical scattering media (e.g., biological tissue)." [PMID:3411196]
+name: obsolete optical coherence tomography
+def: "OBSOLETE. Optical coherence tomography (OCT) is an imaging technique that uses low-coherence light to capture micrometer-resolution, two- and three-dimensional images from within optical scattering media (e.g., biological tissue)." [PMID:3411196]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-03-19T16:51:24Z
@@ -6460,8 +6460,8 @@ creation_date: 2020-08-04T17:55:00Z
 
 [Term]
 id: MMO:0000731
-name: nociception measurement method
-def: "A nociception assay that evaluates the ability of an animal, usually a rodent, to detect a noxious stimulus such as the feeling of pain, caused by stimulation of nociceptors. These assays measure the existence of pain through behaviors such as withdrawal, licking, immobility, and vocalization." []
+name: obsolete nociception measurement method
+def: "OBSOLETE. A nociception assay that evaluates the ability of an animal, usually a rodent, to detect a noxious stimulus such as the feeling of pain, caused by stimulation of nociceptors. These assays measure the existence of pain through behaviors such as withdrawal, licking, immobility, and vocalization." []
 is_obsolete: true
 created_by: slaulede
 creation_date: 2020-09-25T12:22:24Z
@@ -6499,8 +6499,8 @@ creation_date: 2020-09-29T17:25:28Z
 
 [Term]
 id: MMO:0000735
-name: automated plasma glucose analysis
-def: "Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure glucose in plasma." [https://www.merriam-webster.com/]
+name: obsolete automated plasma glucose analysis
+def: "OBSOLETE. Method using a device designed to follow a predetermined sequence of individual operations repeatedly and essentially without external influence or control to measure glucose in plasma." [https://www.merriam-webster.com/]
 is_obsolete: true
 created_by: slaulede
 creation_date: 2020-09-29T17:34:41Z
@@ -6772,8 +6772,8 @@ creation_date: 2021-09-09T14:54:52Z
 
 [Term]
 id: MMO:0000761
-name: Morris water maze with computer analysis of video recording
-def: "This is an experimental method in which a subject is placed in an open pool of water with a submerged escape platform and the subject's movements are video recorded. These movements are then evaluated, appraised or perceived through computerized analysis." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+name: obsolete Morris water maze with computer analysis of video recording
+def: "OBSOLETE. This is an experimental method in which a subject is placed in an open pool of water with a submerged escape platform and the subject's movements are video recorded. These movements are then evaluated, appraised or perceived through computerized analysis." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "Morris water maze with computer tracking system" EXACT []
 xref: PMID:16837653
 is_obsolete: true
@@ -7852,16 +7852,16 @@ creation_date: 2023-10-02T15:31:20Z
 
 [Term]
 id: MMO:0000863
-name: open field test with visual assessment of in vivo video recording
-def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
+name: obsolete open field test with visual assessment of in vivo video recording
+def: "OBSOLETE. An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
 is_obsolete: true
 created_by: jrsjrs
 creation_date: 2024-09-04T15:57:45Z
 
 [Term]
 id: MMO:0000864
-name: elevated plus maze test with visual assessment of in vivo video recording
-def: "An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
+name: obsolete elevated plus maze test with visual assessment of in vivo video recording
+def: "OBSOLETE. An experimental method in which an animal (for example, a rat) is placed in an open field apparatus and the animal's reactions are recorded. These reactions are then evaluated, appraised or perceived by watching the stored sound- and image-based record of the organism." [PMID:9821556]
 synonym: "EPM test with visual assessment of in vivo video recording" RELATED []
 is_obsolete: true
 created_by: jrsjrs
